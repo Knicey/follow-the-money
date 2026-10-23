@@ -12,9 +12,9 @@ CREATE TABLE doctor (
     npi BIGINT PRIMARY KEY,
     last_name VARCHAR(100) NOT NULL,
     first_name VARCHAR(100),
-    city VARCHAR(100),
     specialty VARCHAR(150),
     primary_type VARCHAR(150),
+    city VARCHAR(100),
     state VARCHAR(50),
     address_line1 VARCHAR(255),
     address_line2 VARCHAR(255)
