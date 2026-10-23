@@ -1,0 +1,3160 @@
+drug_id,brand_name,generic_name
+1,Abrysvo,"Rsv Vacc, Pref A And Pref B/Pf"
+2,Boostrix Tdap,"Diphth,pertuss(Acell),tet Vac"
+3,Acetaminophen-Codeine,Acetaminophen With Codeine
+4,Amitriptyline Hcl,Amitriptyline Hcl
+5,Baclofen,Baclofen
+6,Belbuca,Buprenorphine Hcl
+7,Celecoxib,Celecoxib
+8,Cyclobenzaprine Hcl,Cyclobenzaprine Hcl
+9,Dantrolene Sodium,Dantrolene Sodium
+10,Diclofenac Sodium,Diclofenac Sodium
+11,Duloxetine Hcl,Duloxetine Hcl
+12,Gabapentin,Gabapentin
+13,Hydrocodone-Acetaminophen,Hydrocodone/Acetaminophen
+14,Lidocaine,Lidocaine
+15,Meloxicam,Meloxicam
+16,Methocarbamol,Methocarbamol
+17,Methylprednisolone,Methylprednisolone
+18,Morphine Sulfate Er,Morphine Sulfate
+19,Movantik,Naloxegol Oxalate
+20,Nortriptyline Hcl,Nortriptyline Hcl
+21,Oxycodone Hcl,Oxycodone Hcl
+22,Oxycodone-Acetaminophen,Oxycodone Hcl/Acetaminophen
+23,Pregabalin,Pregabalin
+24,Tizanidine Hcl,Tizanidine Hcl
+25,Tramadol Hcl,Tramadol Hcl
+26,Trazodone Hcl,Trazodone Hcl
+27,Amoxicillin,Amoxicillin
+28,Dexamethasone,Dexamethasone
+29,Clobetasol Propionate,Clobetasol Propionate
+30,Estradiol,Estradiol
+31,Nitrofurantoin Mono-Macro,Nitrofurantoin Monohyd/M-Cryst
+32,Omeprazole,Omeprazole
+33,Albuterol Sulfate Hfa,Albuterol Sulfate
+34,Alendronate Sodium,Alendronate Sodium
+35,Alfuzosin Hcl Er,Alfuzosin Hcl
+36,Allopurinol,Allopurinol
+37,Alprazolam,Alprazolam
+38,Amlodipine Besylate,Amlodipine Besylate
+39,Amoxicillin-Clavulanate Potass,Amoxicillin/Potassium Clav
+40,Aripiprazole,Aripiprazole
+41,Atenolol,Atenolol
+42,Atorvastatin Calcium,Atorvastatin Calcium
+43,Azelastine Hcl,Azelastine Hcl
+44,Basaglar Kwikpen U-100,"Insulin Glargine,hum.Rec.Anlog"
+45,Bupropion Hcl Sr,Bupropion Hcl
+46,Bupropion Xl,Bupropion Hcl
+47,Buspirone Hcl,Buspirone Hcl
+48,Butalbital-Acetaminophen-Caffe,Butalb/Acetaminophen/Caffeine
+49,Calcitriol,Calcitriol
+50,Carvedilol,Carvedilol
+51,Chlorhexidine Gluconate,Chlorhexidine Gluconate
+52,Citalopram Hbr,Citalopram Hydrobromide
+53,Clonazepam,Clonazepam
+54,Clonidine Hcl,Clonidine Hcl
+55,Clopidogrel,Clopidogrel Bisulfate
+56,Diazepam,Diazepam
+57,Dicyclomine Hcl,Dicyclomine Hcl
+58,Digoxin,Digoxin
+59,Diltiazem 24hr Er (Cd),Diltiazem Hcl
+60,Divalproex Sodium Er,Divalproex Sodium
+61,Dofetilide,Dofetilide
+62,Donepezil Hcl,Donepezil Hcl
+63,Doxazosin Mesylate,Doxazosin Mesylate
+64,Doxycycline Hyclate,Doxycycline Hyclate
+65,Eliquis,Apixaban
+66,Enalapril Maleate,Enalapril Maleate
+67,Escitalopram Oxalate,Escitalopram Oxalate
+68,Eszopiclone,Eszopiclone
+69,Ezetimibe,Ezetimibe
+70,Famotidine,Famotidine
+71,Fenofibrate,Fenofibrate
+72,Finasteride,Finasteride
+73,Fluticasone Propionate,Fluticasone Propionate
+74,Fluticasone-Salmeterol,Fluticasone Propion/Salmeterol
+75,Fosinopril Sodium,Fosinopril Sodium
+76,Furosemide,Furosemide
+77,Glimepiride,Glimepiride
+78,Glipizide,Glipizide
+79,Glycopyrrolate,Glycopyrrolate
+80,Hydrochlorothiazide,Hydrochlorothiazide
+81,Ipratropium Bromide,Ipratropium Bromide
+82,Irbesartan,Irbesartan
+83,Isosorbide Mononitrate Er,Isosorbide Mononitrate
+84,Januvia,Sitagliptin Phosphate
+85,Jardiance,Empagliflozin
+86,Klor-Con M20,Potassium Chloride
+87,Lamotrigine,Lamotrigine
+88,Levothyroxine Sodium,Levothyroxine Sodium
+89,Lisinopril,Lisinopril
+90,Lisinopril-Hydrochlorothiazide,Lisinopril/Hydrochlorothiazide
+91,Loperamide,Loperamide Hcl
+92,Lorazepam,Lorazepam
+93,Losartan Potassium,Losartan Potassium
+94,Meclizine Hcl,Meclizine Hcl
+95,Memantine Hcl,Memantine Hcl
+96,Metformin Hcl,Metformin Hcl
+97,Metformin Hcl Er,Metformin Hcl
+98,Metoprolol Succinate,Metoprolol Succinate
+99,Metoprolol Tartrate,Metoprolol Tartrate
+100,Mirtazapine,Mirtazapine
+101,Montelukast Sodium,Montelukast Sodium
+102,Myrbetriq,Mirabegron
+103,Nebivolol Hcl,Nebivolol Hcl
+104,Olmesartan Medoxomil,Olmesartan Medoxomil
+105,Ondansetron Odt,Ondansetron
+106,Oxybutynin Chloride Er,Oxybutynin Chloride
+107,Pantoprazole Sodium,Pantoprazole Sodium
+108,Paroxetine Hcl,Paroxetine Hcl
+109,Paxlovid,Nirmatrelvir/Ritonavir
+110,Potassium Chloride,Potassium Chloride
+111,Pramipexole Dihydrochloride,Pramipexole Di-Hcl
+112,Pravastatin Sodium,Pravastatin Sodium
+113,Prednisone,Prednisone
+114,Quetiapine Fumarate,Quetiapine Fumarate
+115,Ropinirole Hcl,Ropinirole Hcl
+116,Rosuvastatin Calcium,Rosuvastatin Calcium
+117,Rybelsus,Semaglutide
+118,Sertraline Hcl,Sertraline Hcl
+119,Simvastatin,Simvastatin
+120,Spiriva Handihaler,Tiotropium Bromide
+121,Spironolactone,Spironolactone
+122,Stiolto Respimat,Tiotropium Br/Olodaterol Hcl
+123,Sucralfate,Sucralfate
+124,Sulfamethoxazole-Trimethoprim,Sulfamethoxazole/Trimethoprim
+125,Symbicort,Budesonide/Formoterol Fumarate
+126,Synthroid,Levothyroxine Sodium
+127,Tamsulosin Hcl,Tamsulosin Hcl
+128,Topiramate,Topiramate
+129,Torsemide,Torsemide
+130,Tradjenta,Linagliptin
+131,Tramadol Hcl Er,Tramadol Hcl
+132,Tramadol Hcl-Acetaminophen,Tramadol Hcl/Acetaminophen
+133,Trelegy Ellipta,Fluticasone/Umeclidin/Vilanter
+134,Triamcinolone Acetonide,Triamcinolone Acetonide
+135,Ultra-Fine Mini Pen Needle,"Pen Needle, Diabetic"
+136,Valsartan,Valsartan
+137,Valsartan-Hydrochlorothiazide,Valsartan/Hydrochlorothiazide
+138,Venlafaxine Hcl,Venlafaxine Hcl
+139,Venlafaxine Hcl Er,Venlafaxine Hcl
+140,Warfarin Sodium,Warfarin Sodium
+141,Wixela Inhub,Fluticasone Propion/Salmeterol
+142,Xarelto,Rivaroxaban
+143,Zolpidem Tartrate,Zolpidem Tartrate
+144,Zolpidem Tartrate Er,Zolpidem Tartrate
+145,Cephalexin,Cephalexin
+146,Ciprofloxacin Hcl,Ciprofloxacin Hcl
+147,Gemtesa,Vibegron
+148,Orgovyx,Relugolix
+149,Oxybutynin Chloride,Oxybutynin Chloride
+150,Solifenacin Succinate,Solifenacin Succinate
+151,Shingrix,Varicella-Zoster Ge/As01b/Pf
+152,Acyclovir,Acyclovir
+153,Anoro Ellipta,Umeclidinium Brm/Vilanterol Tr
+154,Arnuity Ellipta,Fluticasone Furoate
+155,Azithromycin,Azithromycin
+156,Belsomra,Suvorexant
+157,Benazepril Hcl,Benazepril Hcl
+158,Breo Ellipta,Fluticasone/Vilanterol
+159,Breyna,Budesonide/Formoterol Fumarate
+160,Breztri Aerosphere,Budesonide/Glycopyr/Formoterol
+161,Budesonide-Formoterol Fumarate,Budesonide/Formoterol Fumarate
+162,Bumetanide,Bumetanide
+163,Chlorthalidone,Chlorthalidone
+164,Clotrimazole-Betamethasone,Clotrimazole/Betamethasone Dip
+165,Dextroamphetamine-Amphetamine,Dextroamphetamine/Amphetamine
+166,Esomeprazole Magnesium,Esomeprazole Magnesium
+167,Fenofibrate,Fenofibrate Nanocrystallized
+168,Fluconazole,Fluconazole
+169,Fluoxetine Hcl,Fluoxetine Hcl
+170,Glipizide Er,Glipizide
+171,Hydralazine Hcl,Hydralazine Hcl
+172,Hydroxyzine Hcl,Hydroxyzine Hcl
+173,Ibuprofen,Ibuprofen
+174,Janumet,Sitagliptin Phos/Metformin Hcl
+175,Lantus Solostar,"Insulin Glargine,hum.Rec.Anlog"
+176,Losartan-Hydrochlorothiazide,Losartan/Hydrochlorothiazide
+177,Lovastatin,Lovastatin
+178,Metoclopramide Hcl,Metoclopramide Hcl
+179,Morphine Sulfate,Morphine Sulfate
+180,Ondansetron Hcl,Ondansetron Hcl
+181,Ozempic,Semaglutide
+182,Propranolol Hcl,Propranolol Hcl
+183,Triamterene-Hydrochlorothiazid,Triamterene/Hydrochlorothiazid
+184,Trintellix,Vortioxetine Hydrobromide
+185,Valacyclovir,Valacyclovir Hcl
+186,Ventolin Hfa,Albuterol Sulfate
+187,Verapamil Er,Verapamil Hcl
+188,Zonisamide,Zonisamide
+189,Acetazolamide,Acetazolamide
+190,Amiodarone Hcl,Amiodarone Hcl
+191,Brilinta,Ticagrelor
+192,Entresto,Sacubitril/Valsartan
+193,Nexlizet,Bempedoic Acid/Ezetimibe
+194,Repatha Syringe,Evolocumab
+195,Pilocarpine Hcl,Pilocarpine Hcl
+196,Buprenorphine,Buprenorphine
+197,Buprenorphine-Naloxone,Buprenorphine Hcl/Naloxone Hcl
+198,Diclofenac Epolamine,Diclofenac Epolamine
+199,Emgality Pen,Galcanezumab-Gnlm
+200,Fentanyl,Fentanyl
+201,Hydromorphone Hcl,Hydromorphone Hcl
+202,Ibu,Ibuprofen
+203,Linzess,Linaclotide
+204,Lubiprostone,Lubiprostone
+205,Metaxalone,Metaxalone
+206,Methadone Hcl,Methadone Hcl
+207,Nabumetone,Nabumetone
+208,Naloxone Hcl,Naloxone Hcl
+209,Naproxen,Naproxen
+210,Oxycontin,Oxycodone Hcl
+211,Relistor,Methylnaltrexone Bromide
+212,Sumatriptan Succinate,Sumatriptan Succinate
+213,Xtampza Er,Oxycodone Myristate
+214,Gablofen,Baclofen
+215,Lidocaine Hcl Viscous,Lidocaine Hcl
+216,Silver Sulfadiazine,Silver Sulfadiazine
+217,Abacavir,Abacavir Sulfate
+218,Biktarvy,Bictegrav/Emtricit/Tenofov Ala
+219,Cefazolin Sodium,Cefazolin Sodium
+220,Cefepime Hcl,Cefepime Hcl
+221,Cefpodoxime Proxetil,Cefpodoxime Proxetil
+222,Descovy,Emtricitabine/Tenofov Alafenam
+223,Doxycycline Monohydrate,Doxycycline Monohydrate
+224,Ethambutol Hcl,Ethambutol Hcl
+225,Fosfomycin Tromethamine,Fosfomycin Tromethamine
+226,Genvoya,Elviteg/Cob/Emtri/Tenof Alafen
+227,Isoniazid,Isoniazid
+228,Lamivudine,Lamivudine
+229,Minocycline Hcl,Minocycline Hcl
+230,Rifampin,Rifampin
+231,Tivicay,Dolutegravir Sodium
+232,Vancomycin Hcl,Vancomycin Hcl
+233,Yuvafem,Estradiol
+234,Nystatin,Nystatin
+235,Nystatin-Triamcinolone,Nystatin/Triamcinolone Acet
+236,Progesterone,"Progesterone, Micronized"
+237,Droplet Pen Needle,"Pen Needle, Diabetic"
+238,Humalog Kwikpen U-100,Insulin Lispro
+239,Hydrocortisone,Hydrocortisone
+240,Insulin Lispro Kwikpen U-100,Insulin Lispro
+241,Lyumjev Kwikpen U-100,Insulin Lispro-Aabc
+242,Mounjaro,Tirzepatide
+243,Nano 2nd Gen Pen Needle,"Pen Needle, Diabetic"
+244,Novolog Flexpen,Insulin Aspart
+245,Pioglitazone Hcl,Pioglitazone Hcl
+246,Repaglinide,Repaglinide
+247,Toujeo Max Solostar,"Insulin Glargine,hum.Rec.Anlog"
+248,Toujeo Solostar,"Insulin Glargine,hum.Rec.Anlog"
+249,Tresiba Flextouch U-100,Insulin Degludec
+250,Tresiba Flextouch U-200,Insulin Degludec
+251,Trulicity,Dulaglutide
+252,Ultra-Fine Nano Pen Needle,"Pen Needle, Diabetic"
+253,Levofloxacin,Levofloxacin
+254,Methenamine Hippurate,Methenamine Hippurate
+255,Benztropine Mesylate,Benztropine Mesylate
+256,Buprenorphine Hcl,Buprenorphine Hcl
+257,Divalproex Sodium,Divalproex Sodium
+258,Doxepin Hcl,Doxepin Hcl
+259,Fluvoxamine Maleate,Fluvoxamine Maleate
+260,Lurasidone Hcl,Lurasidone Hcl
+261,Methylphenidate Hcl,Methylphenidate Hcl
+262,Naltrexone Hcl,Naltrexone Hcl
+263,Olanzapine,Olanzapine
+264,Oxcarbazepine,Oxcarbazepine
+265,Quetiapine Fumarate Er,Quetiapine Fumarate
+266,Rexulti,Brexpiprazole
+267,Risperidone,Risperidone
+268,Suboxone,Buprenorphine Hcl/Naloxone Hcl
+269,Temazepam,Temazepam
+270,Vraylar,Cariprazine Hcl
+271,Ziprasidone Hcl,Ziprasidone Hcl
+272,Cevimeline Hcl,Cevimeline Hcl
+273,Colchicine,Colchicine
+274,Creon,Lipase/Protease/Amylase
+275,Dextroamphetamine-Amphet Er,Dextroamphetamine/Amphetamine
+276,Enbrel Sureclick,Etanercept
+277,Febuxostat,Febuxostat
+278,Humira(Cf) Pen,Adalimumab
+279,Hydroxychloroquine Sulfate,Hydroxychloroquine Sulfate
+280,Methotrexate,Methotrexate Sodium
+281,Otrexup,Methotrexate/Pf
+282,Rinvoq,Upadacitinib
+283,Xeljanz Xr,Tofacitinib Citrate
+284,Clindamycin Hcl,Clindamycin Hcl
+285,Penicillin V Potassium,Penicillin V Potassium
+286,Levetiracetam,Levetiracetam
+287,Mometasone Furoate,Mometasone Furoate
+288,Acarbose,Acarbose
+289,Aliskiren,Aliskiren Hemifumarate
+290,Alphagan P,Brimonidine Tartrate
+291,Amlodipine Besylate-Benazepril,Amlodipine Besylate/Benazepril
+292,Ammonium Lactate,Ammonium Lactate
+293,Anastrozole,Anastrozole
+294,Atrovent Hfa,Ipratropium Bromide
+295,Benzonatate,Benzonatate
+296,Bicalutamide,Bicalutamide
+297,Brimonidine Tartrate,Brimonidine Tartrate
+298,Brimonidine Tartrate-Timolol,Brimonidine Tartrate/Timolol
+299,Bupropion Hcl,Bupropion Hcl
+300,Candesartan Cilexetil,Candesartan Cilexetil
+301,Carbidopa-Levodopa,Carbidopa/Levodopa
+302,Chlordiazepoxide Hcl,Chlordiazepoxide Hcl
+303,Cholestyramine Light,Cholestyramine
+304,Ciclopirox,Ciclopirox
+305,Ciclopirox,Ciclopirox Olamine
+306,Cilostazol,Cilostazol
+307,Clorazepate Dipotassium,Clorazepate Dipotassium
+308,Dabigatran Etexilate,Dabigatran Etexilate Mesylate
+309,Desonide,Desonide
+310,Diclofenac Potassium,Diclofenac Potassium
+311,Diltiazem 24hr Er,Diltiazem Hcl
+312,Diltiazem Hcl,Diltiazem Hcl
+313,Diovan Hct,Valsartan/Hydrochlorothiazide
+314,Dutasteride,Dutasteride
+315,Erythromycin,Erythromycin Base
+316,Estazolam,Estazolam
+317,Exemestane,Exemestane
+318,Farxiga,Dapagliflozin Propanediol
+319,Fenofibrate,"Fenofibrate,micronized"
+320,Folic Acid,Folic Acid
+321,Gentamicin Sulfate,Gentamicin Sulfate
+322,Glipizide-Metformin,Glipizide/Metformin Hcl
+323,Insulin Aspart Flexpen,Insulin Aspart
+324,Insulin Aspart Prot Mix 70-30,Insulin Aspart Prot/Insuln Asp
+325,Irbesartan-Hydrochlorothiazide,Irbesartan/Hydrochlorothiazide
+326,Isosorbide Dinitrate,Isosorbide Dinitrate
+327,Jentadueto,Linagliptin/Metformin Hcl
+328,Ketoconazole,Ketoconazole
+329,Lactulose,Lactulose
+330,Lansoprazole,Lansoprazole
+331,Lantus,"Insulin Glargine,hum.Rec.Anlog"
+332,Latanoprost,Latanoprost
+333,Methimazole,Methimazole
+334,Metronidazole,Metronidazole
+335,Mupirocin,Mupirocin
+336,Neomycin-Polymyxin-Hc,Neomycin/Polymyxin B/Hydrocort
+337,Nifedipine Er,Nifedipine
+338,Nitroglycerin,Nitroglycerin
+339,Novolog Mix 70-30 Flexpen,Insulin Aspart Prot/Insuln Asp
+340,Pentoxifylline,Pentoxifylline
+341,Primidone,Primidone
+342,Procto-Med Hc,Hydrocortisone
+343,Promethazine-Codeine,Promethazine Hcl/Codeine
+344,Propafenone Hcl,Propafenone Hcl
+345,Restasis,Cyclosporine
+346,Sevelamer Carbonate,Sevelamer Carbonate
+347,Sildenafil Citrate,Sildenafil Citrate
+348,Spiriva Respimat,Tiotropium Bromide
+349,Sps,Sodium Polystyrene Sulfon/Sorb
+350,Ssd,Silver Sulfadiazine
+351,Tadalafil,Tadalafil
+352,Telmisartan,Telmisartan
+353,Telmisartan-Hydrochlorothiazid,Telmisartan/Hydrochlorothiazid
+354,Terconazole,Terconazole
+355,Travoprost,Travoprost
+356,Trueplus Insulin Syringe,"Syringe-Needle,insulin,0.5 Ml"
+357,Unifine Pentips,"Pen Needle, Diabetic"
+358,Unithroid,Levothyroxine Sodium
+359,Zenpep,Lipase/Protease/Amylase
+360,Clindamycin Phosphate,Clindamycin Phosphate
+361,Fluorouracil,Fluorouracil
+362,Minoxidil,Minoxidil
+363,Auryxia,Ferric Citrate
+364,Calcium Acetate,Calcium Acetate
+365,Vitamin D2,Ergocalciferol (Vitamin D2)
+366,Cefdinir,Cefdinir
+367,Fenofibric Acid,Fenofibric Acid (Choline)
+368,Levocetirizine Dihydrochloride,Levocetirizine Dihydrochloride
+369,Omega-3 Acid Ethyl Esters,Omega-3 Acid Ethyl Esters
+370,Rabeprazole Sodium,Rabeprazole Sodium
+371,Desmopressin Acetate,Desmopressin Acetate
+372,Incontrol Pen Needle,"Pen Needle, Diabetic"
+373,Olmesartan-Hydrochlorothiazide,Olmesartan/Hydrochlorothiazide
+374,Ramipril,Ramipril
+375,Soliqua 100-33,Insulin Glargine/Lixisenatide
+376,Telmisartan-Amlodipine,Telmisartan/Amlodipine
+377,Terazosin Hcl,Terazosin Hcl
+378,Terbinafine Hcl,Terbinafine Hcl
+379,Testosterone,Testosterone
+380,Xigduo Xr,Dapaglifloz Propaned/Metformin
+381,Bimatoprost,Bimatoprost
+382,Brinzolamide,Brinzolamide
+383,Bromfenac Sodium,Bromfenac Sodium
+384,Cequa,Cyclosporine
+385,Combigan,Brimonidine Tartrate/Timolol
+386,Cyclosporine,Cyclosporine
+387,Dorzolamide Hcl,Dorzolamide Hcl
+388,Dorzolamide-Timolol,Dorzolamide Hcl/Timolol Maleat
+389,Dorzolamide-Timolol,Dorzolamide/Timolol/Pf
+390,Ilevro,Nepafenac
+391,Lotemax Sm,Loteprednol Etabonate
+392,Loteprednol Etabonate,Loteprednol Etabonate
+393,Lumigan,Bimatoprost
+394,Methazolamide,Methazolamide
+395,Moxifloxacin,Moxifloxacin Hcl
+396,Neomycin-Polymyxin-Dexameth,Neomycin/Polymyxin B/Dexametha
+397,Prednisolone Acetate,Prednisolone Acetate
+398,Prolensa,Bromfenac Sodium
+399,Rhopressa,Netarsudil Mesylate
+400,Rocklatan,Netarsudil Mesylat/Latanoprost
+401,Simbrinza,Brinzolamide/Brimonidine Tart
+402,Tafluprost,Tafluprost/Pf
+403,Timolol Maleate,Timolol Maleate
+404,Timolol Maleate,Timolol Maleate/Pf
+405,Tobradex,Tobramycin/Dexamethasone
+406,Tobramycin-Dexamethasone,Tobramycin/Dexamethasone
+407,Vyzulta,Latanoprostene Bunod
+408,Xiidra,Lifitegrast
+409,Ambrisentan,Ambrisentan
+410,Alvesco,Ciclesonide
+411,Humulin 70-30,Insulin Nph Hum/Reg Insulin Hm
+412,Humulin 70/30 Kwikpen,Insulin Nph Hum/Reg Insulin Hm
+413,Humulin N,Insulin Nph Human Isophane
+414,Humulin N Kwikpen,Insulin Nph Human Isophane
+415,Insulin Glargine-Yfgn,Insulin Glargine-Yfgn
+416,Pradaxa,Dabigatran Etexilate Mesylate
+417,Ultra-Fine Short Pen Needle,"Pen Needle, Diabetic"
+418,Bisoprolol Fumarate,Bisoprolol Fumarate
+419,Colestipol Hcl,Colestipol Hcl
+420,Diclofenac Sodium-Misoprostol,Diclofenac Sodium/Misoprostol
+421,Humalog Mix 75-25 Kwikpen,Insulin Lispro Protamin/Lispro
+422,Ciprofloxacin-Dexamethasone,Ciprofloxacin Hcl/Dexameth
+423,Fluocinolone Acetonide Oil,Fluocinolone Acetonide Oil
+424,Emflaza,Deflazacort
+425,Bydureon Bcise,Exenatide Microspheres
+426,Lacosamide,Lacosamide
+427,Aimovig Autoinjector,Erenumab-Aooe
+428,Ajovy Autoinjector,Fremanezumab-Vfrm
+429,Butalbital-Aspirin-Caffeine,Butalbital/Aspirin/Caffeine
+430,Ergotamine-Caffeine,Ergotamine Tartrate/Caffeine
+431,Nurtec Odt,Rimegepant Sulfate
+432,Qulipta,Atogepant
+433,Rizatriptan,Rizatriptan Benzoate
+434,Ubrelvy,Ubrogepant
+435,Cyproheptadine Hcl,Cyproheptadine Hcl
+436,Juluca,Dolutegravir/Rilpivirine
+437,Triumeq,Abacavir/Dolutegravir/Lamivudi
+438,Advair Hfa,Fluticasone Propion/Salmeterol
+439,Carbamazepine,Carbamazepine
+440,Cefuroxime,Cefuroxime Axetil
+441,Cyanocobalamin Injection,Cyanocobalamin (Vitamin B-12)
+442,Dropsafe Prep Pads,Alcohol Antiseptic Pads
+443,Fycompa,Perampanel
+444,Gemfibrozil,Gemfibrozil
+445,Ibandronate Sodium,Ibandronate Sodium
+446,Labetalol Hcl,Labetalol Hcl
+447,Memantine Hcl Er,Memantine Hcl
+448,Neomycin-Polymyxin-Hydrocort,Neomycin/Polymyxin B/Hydrocort
+449,Novolin 70-30,Insulin Nph Hum/Reg Insulin Hm
+450,Phenytoin Sodium Extended,Phenytoin Sodium Extended
+451,Testosterone Cypionate,Testosterone Cypionate
+452,Tobramycin,Tobramycin
+453,Trimethoprim,Trimethoprim
+454,Desloratadine,Desloratadine
+455,Dexlansoprazole Dr,Dexlansoprazole
+456,Norethindrone Acetate,Norethindrone Acetate
+457,Afrezza,"Insulin Regular, Human"
+458,Arexvy,Rsvpref3 Antigen/As01e/Pf
+459,Desvenlafaxine Succinate Er,Desvenlafaxine Succinate
+460,Edarbi,Azilsartan Medoxomil
+461,Fiasp Flextouch,Insulin Aspart (Niacinamide)
+462,Janumet Xr,Sitagliptin Phos/Metformin Hcl
+463,Kerendia,Finerenone
+464,Liothyronine Sodium,Liothyronine Sodium
+465,Lyumjev,Insulin Lispro-Aabc
+466,Prolia,Denosumab
+467,Repatha Sureclick,Evolocumab
+468,Synjardy Xr,Empagliflozin/Metformin Hcl
+469,Trijardy Xr,Empaglifloz/Linaglip/Metformin
+470,Vascepa,Icosapent Ethyl
+471,Xultophy 100-3.6,Insulin Degludec/Liraglutide
+472,Xyosted,Testosterone Enanthate
+473,Camzyos,Mavacamten
+474,Icosapent Ethyl,Icosapent Ethyl
+475,Midodrine Hcl,Midodrine Hcl
+476,Praluent Pen,Alirocumab
+477,Ranolazine Er,Ranolazine
+478,Amlodipine-Valsartan,Amlodipine Besylate/Valsartan
+479,Flecainide Acetate,Flecainide Acetate
+480,Nexletol,Bempedoic Acid
+481,Pacerone,Amiodarone Hcl
+482,Prasugrel Hcl,Prasugrel Hcl
+483,Cosentyx Sensoready (2 Pens),Secukinumab
+484,Dupixent Pen,Dupilumab
+485,Otezla,Apremilast
+486,Tacrolimus,Tacrolimus
+487,Adderall,Dextroamphetamine/Amphetamine
+488,Adzenys Xr-Odt,Amphetamine
+489,Atomoxetine Hcl,Atomoxetine Hcl
+490,Chlorpromazine Hcl,Chlorpromazine Hcl
+491,Clozapine,Clozapine
+492,Haloperidol,Haloperidol
+493,Haloperidol Decanoate,Haloperidol Decanoate
+494,Hydroxyzine Pamoate,Hydroxyzine Pamoate
+495,Invega Sustenna,Paliperidone Palmitate
+496,Lisdexamfetamine Dimesylate,Lisdexamfetamine Dimesylate
+497,Lithium Carbonate,Lithium Carbonate
+498,Lithium Carbonate Er,Lithium Carbonate
+499,Lybalvi,Olanzapine/Samidorphan Malate
+500,Methylphenidate Er,Methylphenidate Hcl
+501,Paliperidone Er,Paliperidone
+502,Prazosin Hcl,Prazosin Hcl
+503,Risperidone Odt,Risperidone
+504,Thiothixene,Thiothixene
+505,Vilazodone Hcl,Vilazodone Hcl
+506,Vyvanse,Lisdexamfetamine Dimesylate
+507,Clotrimazole,Clotrimazole
+508,Dulera,Mometasone/Formoterol
+509,Miebo,Perfluorohexyloctane/Pf
+510,Combivent Respimat,Ipratropium/Albuterol Sulfate
+511,Fluticasone-Vilanterol,Fluticasone/Vilanterol
+512,Levalbuterol Tartrate Hfa,Levalbuterol Tartrate
+513,Nucala,Mepolizumab
+514,Ofev,Nintedanib Esylate
+515,Pirfenidone,Pirfenidone
+516,Clonidine,Clonidine
+517,Multaq,Dronedarone Hcl
+518,Propranolol Hcl Er,Propranolol Hcl
+519,Sotalol,Sotalol Hcl
+520,Wegovy,Semaglutide
+521,Gavilyte-G,"Peg3350/Sod Sulf,bicarb,cl/Kcl"
+522,Mesalamine,Mesalamine
+523,Peg 3350-Electrolyte,Sodium Chloride/Nahco3/Kcl/Peg
+524,Peg-3350 And Electrolytes,"Peg3350/Sod Sulf,bicarb,cl/Kcl"
+525,Proctofoam-Hc,Hydrocortisone/Pramoxine
+526,Promethazine Hcl,Promethazine Hcl
+527,Trulance,Plecanatide
+528,Voquezna,Vonoprazan Fumarate
+529,Xifaxan,Rifaximin
+530,Estradiol (Twice Weekly),Estradiol
+531,Medroxyprogesterone Acetate,Medroxyprogesterone Acetate
+532,Veozah,Fezolinetant
+533,Adlarity,Donepezil Hcl
+534,Ajovy Syringe,Fremanezumab-Vfrm
+535,Amantadine,Amantadine Hcl
+536,Austedo,Deutetrabenazine
+537,Botox,Onabotulinumtoxina
+538,Briviact,Brivaracetam
+539,Carbatrol,Carbamazepine
+540,Carbidopa-Levodopa Er,Carbidopa/Levodopa
+541,Emgality Syringe,Galcanezumab-Gnlm
+542,Fludrocortisone Acetate,Fludrocortisone Acetate
+543,Galantamine Hbr,Galantamine Hbr
+544,Gammagard Liquid,Immun Glob G(Igg)/Gly/Iga Ov50
+545,Gamunex-C,Immune Globul G/Gly/Iga Avg 46
+546,Gocovri,Amantadine Hcl
+547,Hizentra,Immun Glob G(Igg)/Pro/Iga 0-50
+548,Mycophenolate Mofetil,Mycophenolate Mofetil
+549,Neupro,Rotigotine
+550,Nuedexta,Dextromethorphan Hbr/Quinidine
+551,Pyridostigmine Bromide,Pyridostigmine Bromide
+552,Rasagiline Mesylate,Rasagiline Mesylate
+553,Rivastigmine,Rivastigmine
+554,Rivastigmine,Rivastigmine Tartrate
+555,Rytary,Carbidopa/Levodopa
+556,Soliris,Eculizumab
+557,Xcopri,Cenobamate
+558,Cequr Simplicity,"Bolus Insulin Pump, 200 Unit"
+559,Gvoke Hypopen 1-Pack,Glucagon
+560,Gvoke Hypopen 2-Pack,Glucagon
+561,Humalog,Insulin Lispro
+562,Humalog Kwikpen U-200,Insulin Lispro
+563,Novolog,Insulin Aspart
+564,Omnipod 5 Dexg7g6 Pods (Gen 5),"Insulin Pump Cart,auto,bt,g6/7"
+565,V-Go 30,"Sub-Q Insulin Device, 30 Unit"
+566,Advair Diskus,Fluticasone Propion/Salmeterol
+567,Nitrofurantoin,Nitrofurantoin Macrocrystal
+568,Potassium Citrate Er,Potassium Citrate
+569,Silodosin,Silodosin
+570,Tolterodine Tartrate Er,Tolterodine Tartrate
+571,Calcipotriene,Calcipotriene
+572,Piroxicam,Piroxicam
+573,Betamethasone Valerate,Betamethasone Valerate
+574,Dextroamphetamine Sulfate Er,Dextroamphetamine Sulfate
+575,Insulin Syringe,"Syringe And Needle,insulin,1ml"
+576,Invokana,Canagliflozin
+577,Levemir Flexpen,Insulin Detemir
+578,Premarin,"Estrogens, Conjugated"
+579,Arcalyst,Rilonacept
+580,Nitroglycerin Patch,Nitroglycerin
+581,Verquvo,Vericiguat
+582,Cefadroxil,Cefadroxil
+583,Varenicline Tartrate,Varenicline Tartrate
+584,Scopolamine,Scopolamine
+585,Alclometasone Dipropionate,Alclometasone Dipropionate
+586,Azelaic Acid,Azelaic Acid
+587,Betamethasone Diprop Augmented,Betamethasone/Propylene Glyc
+588,Betamethasone Dipropionate,Betamethasone Dipropionate
+589,Fluocinonide,Fluocinonide
+590,Tretinoin,Tretinoin
+591,Armour Thyroid,"Thyroid,pork"
+592,Cimetidine,Cimetidine
+593,Nortrel,Norethindrone-Ethin. Estradiol
+594,Pramipexole Er,Pramipexole Di-Hcl
+595,Prevacid,Lansoprazole
+596,Trospium Chloride,Trospium Chloride
+597,Cabergoline,Cabergoline
+598,Cinacalcet Hcl,Cinacalcet Hcl
+599,Tirosint,Levothyroxine Sodium
+600,Trueplus Pen Needle,"Pen Needle, Diabetic"
+601,Admelog Solostar,Insulin Lispro
+602,Autoshield Duo Pen Needle,"Pen Needle,dual Safety,diabetc"
+603,Carbamazepine Er,Carbamazepine
+604,Ceftriaxone,Ceftriaxone Sodium
+605,Dapagliflozin,Dapagliflozin Propanediol
+606,Enoxaparin Sodium,Enoxaparin Sodium
+607,Eplerenone,Eplerenone
+608,Incruse Ellipta,Umeclidinium Bromide
+609,Ipratropium-Albuterol,Ipratropium/Albuterol Sulfate
+610,Lokelma,Sodium Zirconium Cyclosilicate
+611,Megestrol Acetate,Megestrol Acetate
+612,Renvela,Sevelamer Carbonate
+613,Santyl,Collagenase Clostridium Hist.
+614,Sodium Chloride,0.9 % Sodium Chloride
+615,Tetrabenazine,Tetrabenazine
+616,Valproic Acid,Valproic Acid
+617,Norethindron-Ethinyl Estradiol,Norethindrone Ac/Eth Estradiol
+618,Azathioprine,Azathioprine
+619,Balsalazide Disodium,Balsalazide Disodium
+620,Budesonide Dr,Budesonide
+621,Budesonide Ec,Budesonide
+622,Gavilyte-C,"Peg3350/Sod Sulf,bicarb,cl/Kcl"
+623,Gavilyte-N,Sodium Chloride/Nahco3/Kcl/Peg
+624,Sod Sulf-Potass Sulf-Mag Sulf,"Sodium, Potassium,mag Sulfates"
+625,Ursodiol,Ursodiol
+626,Darifenacin Er,Darifenacin Hydrobromide
+627,Savaysa,Edoxaban Tosylate
+628,Levoxyl,Levothyroxine Sodium
+629,Nateglinide,Nateglinide
+630,Victoza 3-Pak,Liraglutide
+631,Neomycin Sulfate,Neomycin Sulfate
+632,Cholestyramine,Cholestyramine (With Sugar)
+633,Remicade,Infliximab
+634,Peg3350-Sod Sul-Nacl-Kcl-Asb-C,Peg3350/Sod Sul/Nacl/Kcl/Asb/C
+635,Amlodipine-Olmesartan,Amlodipine Bes/Olmesartan Med
+636,Veltassa,Patiromer Calcium Sorbitex
+637,Mirabegron Er,Mirabegron
+638,Trospium Chloride Er,Trospium Chloride
+639,Diphenoxylate-Atropine,Diphenoxylate Hcl/Atropine
+640,Hydroxyurea,Hydroxyurea
+641,Letrozole,Letrozole
+642,Prochlorperazine Maleate,Prochlorperazine Maleate
+643,Albuterol Sulfate,Albuterol Sulfate
+644,Metolazone,Metolazone
+645,Riluzole,Riluzole
+646,Etodolac,Etodolac
+647,Loxapine,Loxapine Succinate
+648,Ofloxacin,Ofloxacin
+649,Estradiol (Once Weekly),Estradiol
+650,Thioridazine Hcl,Thioridazine Hcl
+651,Propafenone Hcl Er,Propafenone Hcl
+652,Abilify Maintena,Aripiprazole
+653,Fetzima,Levomilnacipran Hcl
+654,Modafinil,Modafinil
+655,Trifluoperazine Hcl,Trifluoperazine Hcl
+656,Trihexyphenidyl Hcl,Trihexyphenidyl Hcl
+657,Valproic Acid,Valproic Acid (As Sodium Salt)
+658,Depakote,Divalproex Sodium
+659,Epogen,Epoetin Alfa
+660,Ertapenem,Ertapenem Sodium
+661,Glucagon Emergency Kit,Glucagon Hcl
+662,Humulin R,"Insulin Regular, Human"
+663,Novolin R Flexpen,"Insulin Regular, Human"
+664,Nystop,Nystatin
+665,Perphenazine,Perphenazine
+666,Triazolam,Triazolam
+667,Raloxifene Hcl,Raloxifene Hcl
+668,Ampicillin Trihydrate,Ampicillin Trihydrate
+669,Ketorolac Tromethamine,Ketorolac Tromethamine
+670,Travatan Z,Travoprost
+671,Disulfiram,Disulfiram
+672,Carbidopa,Carbidopa
+673,Droxidopa,Droxidopa
+674,Ingrezza,Valbenazine Tosylate
+675,Nuplazid,Pimavanserin Tartrate
+676,Ongentys,Opicapone
+677,Ropinirole Er,Ropinirole Hcl
+678,Selegiline Hcl,Selegiline Hcl
+679,Comfort Ez Pen Needle,"Pen Needle, Diabetic"
+680,Desmopressin Acetate,Desmopressin (Nonrefrigerated)
+681,Easy Touch Alcohol Prep Pads,Alcohol Antiseptic Pads
+682,Easy Touch Pen Needle,"Pen Needle, Diabetic"
+683,Euthyrox,Levothyroxine Sodium
+684,Fiasp,Insulin Aspart (Niacinamide)
+685,Glucagon Emergency Kit,Glucagon
+686,Humulin R U-500 Kwikpen,"Insulin Regular, Human"
+687,Insulin Degludec Pen (U-100),Insulin Degludec
+688,Insulin Lispro,Insulin Lispro
+689,Insulin Syringe,"Syringe-Needle,insulin,0.5 Ml"
+690,Korlym,Mifepristone
+691,Omnipod 5 Dexg7g6 Intro(Gen 5),"Insulin Pmp Cart,aut,g6/7,cntr"
+692,Pen Needles,"Pen Needle, Diabetic"
+693,Single Use Swab,Alcohol Antiseptic Pads
+694,Sure Comfort,"Syringe And Needle,insulin,1ml"
+695,Ulticare Pen Needle,"Pen Needle, Diabetic"
+696,Ultra-Fine Micro Pen Needle,"Pen Needle, Diabetic"
+697,V-Go 20,"Sub-Q Insulin Device, 20 Unit"
+698,V-Go 40,"Sub-Q Insulin Device, 40 Unit"
+699,Dexmethylphenidate Hcl Er,Dexmethylphenidate Hcl
+700,Endocet,Oxycodone Hcl/Acetaminophen
+701,Konvomep,Omeprazole/Sodium Bicarbonate
+702,Carisoprodol,Carisoprodol
+703,Nucynta,Tapentadol Hcl
+704,Nucynta Er,Tapentadol Hcl
+705,Oxymorphone Hcl Er,Oxymorphone Hcl
+706,Difluprednate,Difluprednate
+707,Eysuvis,Loteprednol Etabonate
+708,Pen Needle,"Pen Needle, Diabetic"
+709,Trueplus Insulin Syringe,"Syringe And Needle,insulin,1ml"
+710,Unifine Pentips Plus,"Pen Needle, Diabetic"
+711,Acitretin,Acitretin
+712,Dupixent Syringe,Dupilumab
+713,Imiquimod,Imiquimod
+714,Ivermectin,Ivermectin
+715,Roflumilast,Roflumilast
+716,Dapsone,Dapsone
+717,Envarsus Xr,Tacrolimus
+718,Leflunomide,Leflunomide
+719,Mycophenolic Acid,Mycophenolate Sodium
+720,Valganciclovir Hcl,Valganciclovir Hcl
+721,Bisoprolol-Hydrochlorothiazide,Bisoprolol/Hydrochlorothiazide
+722,Adbry,Tralokinumab-Ldrm
+723,Cosentyx Unoready Pen,Secukinumab
+724,Skyrizi Pen,Risankizumab-Rzaa
+725,Stelara,Ustekinumab
+726,Xeljanz,Tofacitinib Citrate
+727,Lenalidomide,Lenalidomide
+728,Revlimid,Lenalidomide
+729,Tamoxifen Citrate,Tamoxifen Citrate
+730,Tasigna,Nilotinib Hcl
+731,Famciclovir,Famciclovir
+732,Restasis Multidose,Cyclosporine
+733,Amiloride Hcl,Amiloride Hcl
+734,Daptomycin,Daptomycin
+735,Meropenem,Meropenem
+736,Felodipine Er,Felodipine
+737,Levetiracetam Er,Levetiracetam
+738,Xdemvy,Lotilaner
+739,Lanthanum Carbonate,Lanthanum Carbonate
+740,Sodium Polystyrene Sulfonate,Sodium Polystyrene Sulfonate
+741,Calcitonin-Salmon,"Calcitonin,salmon,synthetic"
+742,Indomethacin,Indomethacin
+743,Fml Forte,Fluorometholone
+744,Sublocade,Buprenorphine
+745,Amoxapine,Amoxapine
+746,Guanfacine Hcl,Guanfacine Hcl
+747,Bacitracin-Polymyxin,Bacitracin/Polymyxin B Sulfate
+748,Fluorometholone,Fluorometholone
+749,Gatifloxacin,Gatifloxacin
+750,Polymyxin B Sul-Trimethoprim,Polymyxin B Sulf/Trimethoprim
+751,Sodium Fluoride,Fluoride (Sodium)
+752,Repatha Pushtronex,Evolocumab
+753,Besivance,Besifloxacin Hcl
+754,Bromsite,Bromfenac Sodium
+755,Epinastine Hcl,Epinastine Hcl
+756,Flarex,Fluorometholone Acetate
+757,Lotemax,Loteprednol Etabonate
+758,Adacel Tdap,"Diph,pertuss(Acell),tet Vac/Pf"
+759,Ezetimibe-Simvastatin,Ezetimibe/Simvastatin
+760,Paroxetine Er,Paroxetine Hcl
+761,Atropine Sulfate,Atropine Sulfate
+762,Donepezil Hcl Odt,Donepezil Hcl
+763,Klor-Con 10,Potassium Chloride
+764,Abiraterone Acetate,Abiraterone Acetate
+765,Lidocaine-Prilocaine,Lidocaine/Prilocaine
+766,Tagrisso,Osimertinib Mesylate
+767,Xtandi,Enzalutamide
+768,Forteo,Teriparatide
+769,Risedronate Sodium,Risedronate Sodium
+770,Teriparatide,Teriparatide
+771,Entacapone,Entacapone
+772,Phenobarbital,Phenobarbital
+773,Sunosi,Solriamfetol Hcl
+774,Prevident,Fluoride (Sodium)
+775,Dextroamphetamine Sulfate,Dextroamphetamine Sulfate
+776,Imatinib Mesylate,Imatinib Mesylate
+777,Nadolol,Nadolol
+778,Admelog,Insulin Lispro
+779,Sure Comfort Pen Needle,"Pen Needle, Diabetic"
+780,Epinephrine,Epinephrine
+781,Tezspire,Tezepelumab-Ekko
+782,Xhance,Fluticasone Propionate
+783,Zioptan,Tafluprost/Pf
+784,Nyamyc,Nystatin
+785,Estring,Estradiol
+786,Aubagio,Teriflunomide
+787,Avonex (4 Pack),Interferon Beta-1a
+788,Dalfampridine Er,Dalfampridine
+789,Glatiramer Acetate,Glatiramer Acetate
+790,Kesimpta Pen,Ofatumumab
+791,Teriflunomide,Teriflunomide
+792,Vumerity,Diroximel Fumarate
+793,Velphoro,Sucroferric Oxyhydroxide
+794,Lenvima,Lenvatinib Mesylate
+795,Lynparza,Olaparib
+796,Strensiq,Asfotase Alfa
+797,Atenolol-Chlorthalidone,Atenolol/Chlorthalidone
+798,Desipramine Hcl,Desipramine Hcl
+799,Diclofenac Sodium Er,Diclofenac Sodium
+800,Dotti,Estradiol
+801,Fesoterodine Fumarate Er,Fesoterodine Fumarate
+802,Imipramine Hcl,Imipramine Hcl
+803,Larin,Norethindrone Ac/Eth Estradiol
+804,Oseltamivir Phosphate,Oseltamivir Phosphate
+805,Ultra-Fine Original Pen Needle,"Pen Needle, Diabetic"
+806,Bevespi Aerosphere,Glycopyrrolate/Formoterol Fum
+807,Tiotropium Bromide,Tiotropium Bromide
+808,Xolair,Omalizumab
+809,Victoza 2-Pak,Liraglutide
+810,Cartia Xt,Diltiazem Hcl
+811,Nubeqa,Darolutamide
+812,Synjardy,Empagliflozin/Metformin Hcl
+813,Voriconazole,Voriconazole
+814,Azelastine-Fluticasone,Azelastine/Fluticasone
+815,Brukinsa,Zanubrutinib
+816,Calquence,Acalabrutinib Maleate
+817,Imbruvica,Ibrutinib
+818,Jakafi,Ruxolitinib Phosphate
+819,Jantoven,Warfarin Sodium
+820,Oxbryta,Voxelotor
+821,Pomalyst,Pomalidomide
+822,Venclexta,Venetoclax
+823,Levemir,Insulin Detemir
+824,Orphenadrine Citrate Er,Orphenadrine Citrate
+825,Gammaplex,Immun Glob G(Igg)/Gly/Iga 0-50
+826,Lamotrigine Er,Lamotrigine
+827,Privigen,Immun Glob G(Igg)/Pro/Iga 0-50
+828,Topiramate Er,Topiramate
+829,Valtoco,Diazepam
+830,Prolastin C,Alpha-1-Proteinase Inhibitor
+831,Linezolid,Linezolid
+832,Dilt-Xr,Diltiazem Hcl
+833,Diltiazem 12hr Er,Diltiazem Hcl
+834,Cabometyx,Cabozantinib S-Malate
+835,Erlotinib Hcl,Erlotinib Hcl
+836,Ibrance,Palbociclib
+837,Asmanex,Mometasone Furoate
+838,Moxifloxacin Hcl,Moxifloxacin Hcl
+839,Serevent Diskus,Salmeterol Xinafoate
+840,Econazole Nitrate,Econazole Nitrate
+841,Pimecrolimus,Pimecrolimus
+842,Maraviroc,Maraviroc
+843,Odefsey,Emtricitab/Rilpiviri/Tenof Ala
+844,Prezcobix,Darunavir/Cobicistat
+845,Rukobia,Fostemsavir Tromethamine
+846,Benazepril-Hydrochlorothiazide,Benazepril/Hydrochlorothiazide
+847,Indapamide,Indapamide
+848,Savella,Milnacipran Hcl
+849,Haloperidol Lactate,Haloperidol Lactate
+850,Diltiazem 24hr Er (La),Diltiazem Hcl
+851,Auvelity,Dextromethorphan Hbr/Bupropion
+852,Fluphenazine Hcl,Fluphenazine Hcl
+853,Constulose,Lactulose
+854,Verapamil Sr,Verapamil Hcl
+855,Austedo Xr,Deutetrabenazine
+856,Latuda,Lurasidone Hcl
+857,Tymlos,Abaloparatide
+858,Prempro,"Estrogen,con/M-Progest Acet"
+859,Dentagel,Fluoride (Sodium)
+860,Comfort Ez Insulin Syringe,"Syringe-Needle,insulin,0.5 Ml"
+861,Glyburide,Glyburide
+862,Livalo,Pitavastatin Calcium
+863,Niacin Er,Niacin
+864,Novolin R,"Insulin Regular, Human"
+865,Fluocinolone Acetonide,Fluocinolone/Shower Cap
+866,Halobetasol Propionate,Halobetasol Propionate
+867,Haloperidol Decanoate 100,Haloperidol Decanoate
+868,Risperdal Consta,Risperidone Microspheres
+869,Qvar Redihaler,Beclomethasone Dipropionate
+870,Levobunolol Hcl,Levobunolol Hcl
+871,Gattex,Teduglutide
+872,Clomipramine Hcl,Clomipramine Hcl
+873,Dayvigo,Lemborexant
+874,Gabapentin Er,Gabapentin
+875,Novofine 32,"Pen Needle, Diabetic"
+876,Corlanor,Ivabradine Hcl
+877,Gengraf,"Cyclosporine, Modified"
+878,Sirolimus,Sirolimus
+879,Actemra,Tocilizumab
+880,Humira(Cf),Adalimumab
+881,Simponi,Golimumab
+882,Sulfasalazine Dr,Sulfasalazine
+883,Taltz Autoinjector,Ixekizumab
+884,Taltz Syringe,Ixekizumab
+885,Aristada,Aripiprazole Lauroxil
+886,Vivitrol,Naltrexone Microspheres
+887,Sotyktu,Deucravacitinib
+888,Alcohol Prep Pads,Alcohol Antiseptic Pads
+889,Prosol,Parenteral Amino Acid 20% No.1
+890,Crestor,Rosuvastatin Calcium
+891,Clenpiq,Sod Picosulf/Mag Ox/Citric Ac
+892,Mesalamine Er,Mesalamine
+893,Armodafinil,Armodafinil
+894,Dilantin,Phenytoin Sodium Extended
+895,Naratriptan Hcl,Naratriptan Hcl
+896,Pitavastatin Calcium,Pitavastatin Calcium
+897,Colesevelam Hcl,Colesevelam Hcl
+898,Enbrel,Etanercept
+899,Clarithromycin,Clarithromycin
+900,Entecavir,Entecavir
+901,Fasenra Pen,Benralizumab
+902,Qnasl,Beclomethasone Dipropionate
+903,Bexarotene,Bexarotene
+904,Alcohol Swabs,Alcohol Antiseptic Pads
+905,Flunisolide,Flunisolide
+906,Tenivac,Tetanus-Diphtheria Toxoids/Pf
+907,Bepotastine Besilate,Bepotastine Besilate
+908,Cromolyn Sodium,Cromolyn Sodium
+909,Omnaris,Ciclesonide
+910,Pulmicort Flexhaler,Budesonide
+911,Acetic Acid,Acetic Acid
+912,Alcohol Swab,Alcohol Antiseptic Pads
+913,Sprintec,Norgestimate-Ethinyl Estradiol
+914,Novolin 70-30 Flexpen,Insulin Nph Hum/Reg Insulin Hm
+915,Enulose,Lactulose
+916,Risperidone Er,Risperidone Microspheres
+917,Tolvaptan,Tolvaptan
+918,Candesartan-Hydrochlorothiazid,Candesartan/Hydrochlorothiazid
+919,Vyndamax,Tafamidis
+920,Tolterodine Tartrate,Tolterodine Tartrate
+921,Opsumit,Macitentan
+922,Ramelteon,Ramelteon
+923,Zafirlukast,Zafirlukast
+924,Chlorzoxazone,Chlorzoxazone
+925,Sulfasalazine,Sulfasalazine
+926,Spironolactone-Hctz,Spironolact/Hydrochlorothiazid
+927,Erleada,Apalutamide
+928,Inqovi,Decitabine/Cedazuridine
+929,Lonsurf,Trifluridine/Tipiracil Hcl
+930,Pegasys,Peginterferon Alfa-2a
+931,Sprycel,Dasatinib
+932,Verzenio,Abemaciclib
+933,Procrit,Epoetin Alfa
+934,Rayaldee,Calcifediol
+935,Xphozah,Tenapanor Hcl
+936,Acthar,Corticotropin
+937,Betimol,Timolol
+938,Cortrophin,Corticotropin
+939,Cosopt Pf,Dorzolamide/Timolol/Pf
+940,Cyclophosphamide,Cyclophosphamide
+941,Cyclosporine Modified,"Cyclosporine, Modified"
+942,Flurbiprofen Sodium,Flurbiprofen Sodium
+943,Oxervate,Cenegermin-Bkbj
+944,Rituxan,Rituximab
+945,Tobradex St,Tobramycin/Dexamethasone
+946,Tyrvaya,Varenicline Tartrate
+947,Zirgan,Ganciclovir
+948,Alogliptin,Alogliptin Benzoate
+949,Asenapine Maleate,Asenapine Maleate
+950,Bethanechol Chloride,Bethanechol Chloride
+951,Bromocriptine Mesylate,Bromocriptine Mesylate
+952,Budesonide,Budesonide
+953,Dimethyl Fumarate,Dimethyl Fumarate
+954,Formoterol Fumarate,Formoterol Fumarate
+955,Insulin Aspart,Insulin Aspart
+956,Lidocaine Hcl,Lidocaine Hcl
+957,Lidocaine Hcl,Lidocaine Hcl/Pf
+958,Lorazepam Intensol,Lorazepam
+959,Norethindrone,Norethindrone
+960,Phenytoin,Phenytoin
+961,Sevelamer Hcl,Sevelamer Hcl
+962,Sodium Chloride,Sodium Chloride Irrig Solution
+963,Tresiba,Insulin Degludec
+964,Diflorasone Diacetate,Diflorasone Diacetate
+965,Omeprazole-Sodium Bicarbonate,Omeprazole/Sodium Bicarbonate
+966,Propylthiouracil,Propylthiouracil
+967,Prevident 5000 Sensitive,Sodium Fluoride/Potassium Nit
+968,Estradiol-Norethindrone Acetat,Estradiol/Norethindrone Acet
+969,Fluticasone Propionate Hfa,Fluticasone Propionate
+970,Olanzapine Odt,Olanzapine
+971,Semglee (Yfgn) Pen,Insulin Glargine-Yfgn
+972,Hydromorphone Er,Hydromorphone Hcl
+973,Lyrica,Pregabalin
+974,Dextrose 5%-0.45% Nacl,Dextrose 5 %-0.45 % Sod Chlord
+975,Kapspargo Sprinkle,Metoprolol Succinate
+976,Liraglutide,Liraglutide
+977,Metformin Er Osmotic,Metformin Hcl
+978,Sodium Chloride,Sodium Chloride 0.45 %
+979,Tirosint-Sol,Levothyroxine Sodium
+980,Junel,Norethindrone Ac/Eth Estradiol
+981,Posaconazole,Posaconazole
+982,Promacta,Eltrombopag Olamine
+983,Np Thyroid,"Thyroid,pork"
+984,Olmesartan-Amlodipine-Hctz,Olmesartan/Amlodipin/Hcthiazid
+985,Verapamil Er Pm,Verapamil Hcl
+986,Benlysta,Belimumab
+987,Humira Pen,Adalimumab
+988,Orencia Clickject,Abatacept
+989,Durezol,Difluprednate
+990,Carbidopa-Levodopa-Entacapone,Carbidopa/Levodopa/Entacapone
+991,Levalbuterol Hcl,Levalbuterol Hcl
+992,Tiadylt Er,Diltiazem Hcl
+993,Clobazam,Clobazam
+994,Tiagabine Hcl,Tiagabine Hcl
+995,Verapamil Hcl,Verapamil Hcl
+996,Zolmitriptan Odt,Zolmitriptan
+997,Mercaptopurine,Mercaptopurine
+998,Motegrity,Prucalopride Succinate
+999,Phenytek,Phenytoin Sodium Extended
+1000,Motofen,Difenoxin Hcl/Atropine Sulfate
+1001,Niva Thyroid,"Thyroid,pork"
+1002,Hydrocortisone Valerate,Hydrocortisone Valerate
+1003,Amjevita(Cf) Autoinjector,Adalimumab-Atto
+1004,Retin-A,Tretinoin
+1005,Wellbutrin Sr,Bupropion Hcl
+1006,Leucovorin Calcium,Leucovorin Calcium
+1007,Nourianz,Istradefylline
+1008,Pregabalin Er,Pregabalin
+1009,Xadago,Safinamide Mesylate
+1010,Zaleplon,Zaleplon
+1011,Cytomel,Liothyronine Sodium
+1012,Divigel,Estradiol
+1013,Elmiron,Pentosan Polysulfate Sodium
+1014,Depakote Er,Divalproex Sodium
+1015,Epidiolex,Cannabidiol (Cbd)
+1016,Lamotrigine Odt,Lamotrigine
+1017,Levocarnitine,Levocarnitine
+1018,Levocarnitine,Levocarnitine (With Sugar)
+1019,Nayzilam,Midazolam
+1020,Guanfacine Hcl Er,Guanfacine Hcl
+1021,Easy Comfort Pen Needles,"Pen Needle, Diabetic"
+1022,Caplyta,Lumateperone Tosylate
+1023,Concerta,Methylphenidate Hcl
+1024,Sodium Oxybate,Sodium Oxybate
+1025,Everolimus,Everolimus
+1026,Dexilant,Dexlansoprazole
+1027,Plenvu,Peg3350/Sod Sul/Nacl/Kcl/Asb/C
+1028,Suflave,"Peg 3350/Sod Sulf,chlr/Pot/Mag"
+1029,Sutab,Sod Sulf/Pot Chloride/Mag Sulf
+1030,Sotalol Af,Sotalol Hcl
+1031,Zubsolv,Buprenorphine Hcl/Naloxone Hcl
+1032,Alosetron Hcl,Alosetron Hcl
+1033,Humira,Adalimumab
+1034,Veo Insulin Syringe,"Syringe-Needle,insulin,0.5 Ml"
+1035,Brixadi,Buprenorphine
+1036,Misoprostol,Misoprostol
+1037,K-Phos Original,"Potassium Phosphate,monobasic"
+1038,Inflectra,Infliximab-Dyyb
+1039,Alcohol Pads,Alcohol Antiseptic Pads
+1040,Semglee (Yfgn),Insulin Glargine-Yfgn
+1041,Theophylline Er,Theophylline Anhydrous
+1042,Glydo,Lidocaine Hcl
+1043,Dovato,Dolutegravir Sodium/Lamivudine
+1044,Mytesi,Crofelemer
+1045,Pifeltro,Doravirine
+1046,Serostim,Somatropin
+1047,Symtuza,Darunavir/Cob/Emtri/Tenof Alaf
+1048,Crexont,Carbidopa/Levodopa
+1049,Bacitracin,Bacitracin
+1050,Dexamethasone Sodium Phosphate,Dexamethasone Sodium Phosphate
+1051,Vevye,Cyclosporine
+1052,Cresemba,Isavuconazonium Sulfate
+1053,Golytely,"Peg3350/Sod Sulf,bicarb,cl/Kcl"
+1054,Metoprolol-Hydrochlorothiazide,Metoprolol/Hydrochlorothiazide
+1055,Sulindac,Sulindac
+1056,Nexium,Esomeprazole Magnesium
+1057,Fluocinolone Acetonide,Fluocinolone Acetonide
+1058,Klor-Con M10,Potassium Chloride
+1059,Vimpat,Lacosamide
+1060,Doxycycline Ir-Dr,Doxycycline Monohydrate
+1061,Reyvow,Lasmiditan Succinate
+1062,Rufinamide,Rufinamide
+1063,Tegretol,Carbamazepine
+1064,Tegretol Xr,Carbamazepine
+1065,Zeposia,Ozanimod Hydrochloride
+1066,Amlodipine-Atorvastatin,Amlodipine/Atorvastatin
+1067,Acetazolamide Er,Acetazolamide
+1068,Ampyra,Dalfampridine
+1069,Butalbital-Acetaminophen,Butalbital/Acetaminophen
+1070,Copaxone,Glatiramer Acetate
+1071,Fingolimod,Fingolimod Hcl
+1072,Galantamine Er,Galantamine Hbr
+1073,Gammaked,Immune Globul G/Gly/Iga Avg 46
+1074,Tecfidera,Dimethyl Fumarate
+1075,Zolmitriptan,Zolmitriptan
+1076,Pro Comfort Alcohol Pads,Alcohol Antiseptic Pads
+1077,Lupron Depot,Leuprolide Acetate
+1078,Carvedilol Er,Carvedilol Phosphate
+1079,Spravato,Esketamine Hcl
+1080,Prevident 5000 Plus,Fluoride (Sodium)
+1081,Sodium Fluoride Sensitive,Sodium Fluoride/Potassium Nit
+1082,Aprepitant,Aprepitant
+1083,Diphenhydramine Hcl,Diphenhydramine Hcl
+1084,Opzelura,Ruxolitinib Phosphate
+1085,Tranexamic Acid,Tranexamic Acid
+1086,Tremfya,Guselkumab
+1087,Odomzo,Sonidegib Phosphate
+1088,Kisqali,Ribociclib Succinate
+1089,Paxlovid (Eua),Nirmatrelvir/Ritonavir
+1090,Isosorbide Dinit-Hydralazine,Isosorbide Dinit/Hydralazine
+1091,Aptiom,Eslicarbazepine Acetate
+1092,Bosulif,Bosutinib
+1093,Idhifa,Enasidenib Mesylate
+1094,Onureg,Azacitidine
+1095,Rezurock,Belumosudil Mesylate
+1096,Comfort Ez Pro Safety Pen Ndl,"Pen Needle, Diabetic, Safety"
+1097,Atovaquone-Proguanil Hcl,Atovaquone/Proguanil Hcl
+1098,Glyxambi,Empagliflozin/Linagliptin
+1099,Novolog Mix 70-30,Insulin Aspart Prot/Insuln Asp
+1100,Arformoterol Tartrate,Arformoterol Tartrate
+1101,Etravirine,Etravirine
+1102,Isentress,Raltegravir Potassium
+1103,Fanapt,Iloperidone
+1104,Fluphenazine Decanoate,Fluphenazine Decanoate
+1105,Retacrit,Epoetin Alfa-Epbx
+1106,Inbrija,Levodopa
+1107,Binosto,Alendronate Sodium
+1108,Permethrin,Permethrin
+1109,Selenium Sulfide,Selenium Sulfide
+1110,Isosorbide Mononitrate,Isosorbide Mononitrate
+1111,Namzaric,Memantine Hcl/Donepezil Hcl
+1112,Alecensa,Alectinib Hcl
+1113,Pazopanib Hcl,Pazopanib Hcl
+1114,Yondelis,Trabectedin
+1115,Butorphanol Tartrate,Butorphanol Tartrate
+1116,Sumatriptan,Sumatriptan
+1117,Orserdu,Elacestrant Hcl
+1118,Entyvio,Vedolizumab
+1119,Diltiazem 24hr Er (Xr),Diltiazem Hcl
+1120,Methotrexate Sodium,Methotrexate Sodium/Pf
+1121,Cimzia (2 Pack),Certolizumab Pegol
+1122,Cosentyx Sensoready Pen,Secukinumab
+1123,Kevzara,Sarilumab
+1124,Mitigare,Colchicine
+1125,Acetylcysteine,Acetylcysteine
+1126,Demeclocycline Hcl,Demeclocycline Hcl
+1127,Sodium Bicarbonate,Sodium Bicarbonate
+1128,Emtricitabine-Tenofovir Disop,Emtricitabine/Tenofovir (Tdf)
+1129,Isentress Hd,Raltegravir Potassium
+1130,Klayesta,Nystatin
+1131,Benicar,Olmesartan Medoxomil
+1132,Disopyramide Phosphate,Disopyramide Phosphate
+1133,Edarbyclor,Azilsartan Med/Chlorthalidone
+1134,Olopatadine Hcl,Olopatadine Hcl
+1135,Trueplus Insulin Syringe,"Syring-Needl,disp,insul,0.3 Ml"
+1136,Avonex Pen (4 Pack),Interferon Beta-1a
+1137,Plegridy Pen,Peginterferon Beta-1a
+1138,Paricalcitol,Paricalcitol
+1139,Mesalamine Dr,Mesalamine
+1140,Deferoxamine Mesylate,Deferoxamine Mesylate
+1141,Estrace,Estradiol
+1142,Vandazole,Metronidazole
+1143,Invega,Paliperidone
+1144,Letairis,Ambrisentan
+1145,Techlite Pen Needle,"Pen Needle, Diabetic"
+1146,Wellbutrin Xl,Bupropion Hcl
+1147,Cefprozil,Cefprozil
+1148,Neulasta,Pegfilgrastim
+1149,Nyvepria,Pegfilgrastim-Apgf
+1150,Ojjaara,Momelotinib Dihydrochloride
+1151,Iyuzeh,Latanoprost/Pf
+1152,Solu-Cortef,Hydrocortisone Sodium Succ/Pf
+1153,Lagevrio (Eua),Molnupiravir
+1154,Gardasil 9,Hpv Vaccine 9-Valent/Pf
+1155,Havrix,Hepatitis A Virus Vaccine/Pf
+1156,Heplisav-B,Hepatitis B Vaccine/Cpg1018/Pf
+1157,Ipol,"Poliomyelitis Vaccine, Killed"
+1158,M-M-R Ii Vaccine,"Measles,mumps,rubella Vacc/Pf"
+1159,Priorix,"Measles,mumps,rubella Vacc/Pf"
+1160,Twinrix,Hepatitis A And B Vaccine/Pf
+1161,Typhim Vi,Typhoid Vi Polysacch Vaccine
+1162,Varivax Vaccine,Varicella Vaccine Live/Pf
+1163,Yf-Vax,Yellow Fever Vaccine Live/Pf
+1164,Striverdi Respimat,Olodaterol Hcl
+1165,Water,"Water For Irrigation,sterile"
+1166,Lyumjev Kwikpen U-200,Insulin Lispro-Aabc
+1167,Anagrelide Hcl,Anagrelide Hcl
+1168,Ayvakit,Avapritinib
+1169,Deferasirox,Deferasirox
+1170,Jadenu,Deferasirox
+1171,Jaypirca,Pirtobrutinib
+1172,Insulin Lispro Protamine Mix,Insulin Lispro Protamin/Lispro
+1173,Xermelo,Telotristat Etiprate
+1174,Sulfacetamide Sodium,Sulfacetamide Sodium
+1175,Quviviq,Daridorexant Hcl
+1176,Eletriptan Hbr,Eletriptan Hydrobromide
+1177,Hysingla Er,Hydrocodone Bitartrate
+1178,Unifine Safecontrol Pen Needle,"Pen Needle,dual Safety,diabetc"
+1179,Lexapro,Escitalopram Oxalate
+1180,Neurontin,Gabapentin
+1181,Percocet,Oxycodone Hcl/Acetaminophen
+1182,Arikayce,Amikacin Liposomal/Neb.Accessr
+1183,Ceftazidime,Ceftazidime
+1184,Dalvance,Dalbavancin Hcl
+1185,Nuzyra,Omadacycline Tosylate
+1186,Sirturo,Bedaquiline Fumarate
+1187,Prevident 5000 Dry Mouth,Fluoride (Sodium)
+1188,Vienva,Levonorgestrel/Ethin.Estradiol
+1189,Tepezza,Teprotumumab-Trbw
+1190,Sympazan,Clobazam
+1191,Cosentyx Syringe,Secukinumab
+1192,Orencia,Abatacept
+1193,Rasuvo,Methotrexate/Pf
+1194,Kineret,Anakinra
+1195,Naftifine Hcl,Naftifine Hcl
+1196,Lo Loestrin Fe,Norethindrone-E.Estradiol-Iron
+1197,Odactra,"Mite,d.Farinae-D.Pteronyssinus"
+1198,Hyoscyamine Sulfate,Hyoscyamine Sulfate
+1199,Zonisade,Zonisamide
+1200,Naproxen Sodium,Naproxen Sodium
+1201,Pure Comfort Alcohol Pad,Alcohol Antiseptic Pads
+1202,True Comfort Pro Alcohol Pads,Alcohol Antiseptic Pads
+1203,Omnipod Dash Pods (Gen 4),"Insulin Pump Cart,cont Inf,bt"
+1204,Prevymis,Letermovir
+1205,Hydrocortisone-Acetic Acid,Hydrocortisone/Acetic Acid
+1206,Atovaquone,Atovaquone
+1207,Ocaliva,Obeticholic Acid
+1208,Zortress,Everolimus
+1209,Paroxetine Cr,Paroxetine Hcl
+1210,Cyclobenzaprine Hcl Er,Cyclobenzaprine Hcl
+1211,Ztlido,Lidocaine
+1212,M-Natal Plus,"Pnv,calcium 72/Iron/Folic Acid"
+1213,Glyburide-Metformin Hcl,Glyburide/Metformin Hcl
+1214,Oxtellar Xr,Oxcarbazepine
+1215,Alprazolam Er,Alprazolam
+1216,Invega Trinza,Paliperidone Palmitate
+1217,Methylphenidate Er (La),Methylphenidate Hcl
+1218,Remeron,Mirtazapine
+1219,Uzedy,Risperidone
+1220,Copiktra,Duvelisib
+1221,Insulin Degludec Pen (U-200),Insulin Degludec
+1222,Theo-24,Theophylline Anhydrous
+1223,Uptravi,Selexipag
+1224,Kurvelo,Levonorgestrel/Ethin.Estradiol
+1225,Acamprosate Calcium,Acamprosate Calcium
+1226,Adempas,Riociguat
+1227,Tyvaso Dpi,Treprostinil
+1228,Terbutaline Sulfate,Terbutaline Sulfate
+1229,Cibinqo,Abrocitinib
+1230,Clobetasol Emollient,Clobetasol Propionate/Emoll
+1231,Litfulo,Ritlecitinib Tosylate
+1232,Zoryve,Roflumilast
+1233,Gefitinib,Gefitinib
+1234,Ninlaro,Ixazomib Citrate
+1235,Apidra Solostar,Insulin Glulisine
+1236,Baqsimi,Glucagon
+1237,Cycloset,Bromocriptine Mesylate
+1238,Easy Comfort Pen Needle,"Pen Needle, Diabetic"
+1239,Evenity (2 Syringes),Romosozumab-Aqqg
+1240,Metformin Er Gastric,Metformin Hcl
+1241,Novolin N,Insulin Nph Human Isophane
+1242,Pentips Pen Needle,"Pen Needle, Diabetic"
+1243,Evista,Raloxifene Hcl
+1244,Zejula,Niraparib Tosylate
+1245,Neoral,"Cyclosporine, Modified"
+1246,Caspofungin Acetate,Caspofungin Acetate
+1247,Ertaczo,Sertaconazole Nitrate
+1248,Jublia,Efinaconazole
+1249,Oxiconazole Nitrate,Oxiconazole Nitrate
+1250,Tavaborole,Tavaborole
+1251,Methylphenidate Hcl Er (Cd),Methylphenidate Hcl
+1252,Lorbrena,Lorlatinib
+1253,Somavert,Pegvisomant
+1254,Aspirin-Dipyridamole Er,Aspirin/Dipyridamole
+1255,Granix,Tbo-Filgrastim
+1256,Felbamate,Felbamate
+1257,Vancomycin Hcl-0.9% Nacl,Vancomycin/0.9 % Sod Chloride
+1258,Doptelet,Avatrombopag Maleate
+1259,Dutasteride-Tamsulosin,Dutasteride/Tamsulosin Hcl
+1260,Fluvastatin Sodium,Fluvastatin Sodium
+1261,Quinidine Gluconate,Quinidine Gluconate
+1262,Menostar,Estradiol
+1263,Turqoz,Norgestrel-Ethinyl Estradiol
+1264,Ampicillin-Sulbactam,Ampicillin Sod/Sulbactam Sod
+1265,Lumakras,Sotorasib
+1266,Tabrecta,Capmatinib Hydrochloride
+1267,Glatopa,Glatiramer Acetate
+1268,Prozac,Fluoxetine Hcl
+1269,Qelbree,Viloxazine Hcl
+1270,Klor-Con 8,Potassium Chloride
+1271,Amikacin Sulfate,Amikacin Sulfate
+1272,Azopt,Brinzolamide
+1273,Betaxolol Hcl,Betaxolol Hcl
+1274,Phospholine Iodide,Echothiophate Iodide
+1275,Mayzent,Siponimod
+1276,Amiloride-Hydrochlorothiazide,Amiloride/Hydrochlorothiazide
+1277,Sure Comfort Alcohol,Alcohol Antiseptic Pads
+1278,Mupirocin,Mupirocin Calcium
+1279,Tdvax,"Tetanus, Diphtheria Tox,adult"
+1280,Aplenzin,Bupropion Hbr
+1281,Amphetamine Sulfate,Amphetamine Sulfate
+1282,Erythromycin,Erythromycin Base In Ethanol
+1283,Lamictal,Lamotrigine
+1284,Estradiol Valerate,Estradiol Valerate
+1285,Levorphanol Tartrate,Levorphanol Tartrate
+1286,Sucraid,Sacrosidase
+1287,Griseofulvin Ultramicrosize,Griseofulvin Ultramicrosize
+1288,Proctozone-Hc,Hydrocortisone
+1289,Tenofovir Disoproxil Fumarate,Tenofovir Disoproxil Fumarate
+1290,Vemlidy,Tenofovir Alafenamide
+1291,Meloxicam,"Meloxicam, Submicronized"
+1292,Phenazopyridine Hcl,Phenazopyridine Hcl
+1293,Norethindrone-E.Estradiol-Iron,Norethindrone-E.Estradiol-Iron
+1294,Veo Insulin Syringe,"Syringe And Needle,insulin,1ml"
+1295,Toprol Xl,Metoprolol Succinate
+1296,Paroxetine Mesylate,Paroxetine Mesylate
+1297,Lytgobi,Futibatinib
+1298,Pemazyre,Pemigatinib
+1299,Adderall Xr,Dextroamphetamine/Amphetamine
+1300,Ambien,Zolpidem Tartrate
+1301,Humalog Junior Kwikpen,Insulin Lispro
+1302,Sapropterin Dihydrochloride,Sapropterin Dihydrochloride
+1303,Clozapine Odt,Clozapine
+1304,Carteolol Hcl,Carteolol Hcl
+1305,Gleostine,Lomustine
+1306,Koselugo,Selumetinib Sulfate
+1307,Welireg,Belzutifan
+1308,Advocate Syringes,"Syringe And Needle,insulin,1ml"
+1309,Advocate Syringes,"Syringe-Needle,insulin,0.5 Ml"
+1310,Probenecid-Colchicine,Probenecid/Colchicine
+1311,Inlyta,Axitinib
+1312,Tavneos,Avacopan
+1313,Securesafe Pen Needle,"Pen Needle, Diabetic, Safety"
+1314,Novolin N Flexpen,Insulin Nph Human Isophane
+1315,Efavirenz,Efavirenz
+1316,Lamivudine-Zidovudine,Lamivudine/Zidovudine
+1317,Captopril,Captopril
+1318,Novofine Autocover,"Pen Needle, Diabetic, Safety"
+1319,Ulticare Safety Pen Needle,"Pen Needle, Diabetic, Safety"
+1320,Pimozide,Pimozide
+1321,Prenatal Vitamin Plus Low Iron,"Pnv,calcium 72/Iron/Folic Acid"
+1322,Cabenuva,Cabotegravir/Rilpivirine
+1323,Emtricitabine,Emtricitabine
+1324,Nivestym,Filgrastim-Aafi
+1325,Udenyca,Pegfilgrastim-Cbqv
+1326,Zileuton Er,Zileuton
+1327,Lipitor,Atorvastatin Calcium
+1328,Saxagliptin Hcl,Saxagliptin Hcl
+1329,Ibsrela,Tenapanor Hcl
+1330,Xylocaine-Mpf,Lidocaine Hcl/Pf
+1331,Levonorgestrel-Eth Estradiol,Levonorgestrel/Ethin.Estradiol
+1332,Sodium Fluoride 5000 Plus,Fluoride (Sodium)
+1333,Zypitamag,Pitavastatin Magnesium
+1334,Fosrenol,Lanthanum Carbonate
+1335,Alprazolam Xr,Alprazolam
+1336,Epclusa,Sofosbuvir/Velpatasvir
+1337,Bystolic,Nebivolol Hcl
+1338,Infliximab,Infliximab
+1339,Adefovir Dipivoxil,Adefovir Dipivoxil
+1340,Comfort Ez Insulin Syringe,"Syringe And Needle,insulin,1ml"
+1341,Dapagliflozin-Metformin Er,Dapaglifloz Propaned/Metformin
+1342,Insulin Glargine Solostar,"Insulin Glargine,hum.Rec.Anlog"
+1343,Piperacillin-Tazobactam,Piperacillin Sodium/Tazobactam
+1344,Tobramycin Sulfate,Tobramycin Sulfate
+1345,Clindamycin-Benzoyl Peroxide,Clindamycin Phos/Benzoyl Perox
+1346,Intrarosa,Prasterone (Dhea)
+1347,Recorlev,Levoketoconazole
+1348,Sandostatin Lar Depot,"Octreotide Acetate,mi-Spheres"
+1349,Droplet Insulin Syringe,"Syrge-Ndl,ins 0.5 Ml Half Mark"
+1350,Nicotrol Ns,Nicotine
+1351,Atazanavir Sulfate,Atazanavir Sulfate
+1352,Edurant,Rilpivirine Hcl
+1353,Efavirenz-Emtric-Tenofov Disop,Efavirenz/Emtricit/Tenofovr Df
+1354,Lamivudine Hbv,Lamivudine
+1355,Lopinavir-Ritonavir,Lopinavir/Ritonavir
+1356,Actemra Actpen,Tocilizumab
+1357,Cordran,Flurandrenolide
+1358,Tazarotene,Tazarotene
+1359,Buphenyl,Sodium Phenylbutyrate
+1360,Mini Ultra-Thin Ii,"Pen Needle, Diabetic"
+1361,Qtern,Dapagliflozin/Saxagliptin Hcl
+1362,Ultra Thin,"Pen Needle, Diabetic"
+1363,Ultra-Thin Ii,"Syring-Needl,disp,insul,0.3 Ml"
+1364,Prezista,Darunavir
+1365,Prednisolone Sodium Phosphate,Prednisolone Sodium Phosphate
+1366,Sprix,Ketorolac Tromethamine
+1367,Fluvoxamine Maleate Er,Fluvoxamine Maleate
+1368,Steglatro,Ertugliflozin Pidolate
+1369,Compro,Prochlorperazine
+1370,Abilify Asimtufii,Aripiprazole
+1371,Humulin R U-500,"Insulin Regular, Human"
+1372,Darunavir,Darunavir
+1373,Octreotide Acetate,Octreotide Acetate
+1374,Mexiletine Hcl,Mexiletine Hcl
+1375,Drospirenone-Ethinyl Estradiol,Ethinyl Estradiol/Drospirenone
+1376,Vancomycin Hcl,Vancomycin/Water For Inj (Peg)
+1377,Dysport,Abobotulinumtoxina
+1378,Adrenalin,Epinephrine
+1379,Octagam,Immun Globg(Igg)/Malt/Iga Ov50
+1380,Ondansetron Hcl,Ondansetron Hcl/Pf
+1381,Prochlorperazine Edisylate,Prochlorperazine Edisylate
+1382,Radicava Ors,Edaravone
+1383,Rystiggo,Rozanolixizumab-Noli
+1384,Vyvgart,Efgartigimod Alfa-Fcab
+1385,Vyvgart Hytrulo,Efgartigimod-Hyaluronidas-Qvfc
+1386,Klor-Con,Potassium Chloride
+1387,Evotaz,Atazanavir Sulfate/Cobicistat
+1388,Crysvita,Burosumab-Twza
+1389,Microgestin,Norethindrone Ac/Eth Estradiol
+1390,Diovan,Valsartan
+1391,Xiaflex,Collagenase Clostridium Hist.
+1392,Pro Comfort Pen Needle,"Pen Needle, Diabetic"
+1393,True Comfort Safety Pen Needle,"Pen Needle, Diabetic, Safety"
+1394,Desvenlafaxine Er,Desvenlafaxine
+1395,Zyprexa,Olanzapine
+1396,Imitrex,Sumatriptan Succinate
+1397,Acebutolol Hcl,Acebutolol Hcl
+1398,Ibuprofen-Famotidine,Ibuprofen/Famotidine
+1399,Soltamox,Tamoxifen Citrate
+1400,Mekinist,Trametinib Dimethyl Sulfoxide
+1401,Retevmo,Selpercatinib
+1402,Tafinlar,Dabrafenib Mesylate
+1403,Lactated Ringers,"Ringer's Solution,lactated"
+1404,Magnesium Sulfate,Magnesium Sulfate
+1405,Alvaiz,Eltrombopag Choline
+1406,Zelboraf,Vemurafenib
+1407,Ampicillin Sodium,Ampicillin Sodium
+1408,Sivextro,Tedizolid Phosphate
+1409,Ultiguard Safepack-Pen Needle,"Pen Needle, Diabetic,disp Unit"
+1410,Cinqair,Reslizumab
+1411,Famotidine,Famotidine/Pf
+1412,Kadcyla,Ado-Trastuzumab Emtansine
+1413,Zarxio,Filgrastim-Sndz
+1414,Zoledronic Acid,Zoledronic Ac/Mannitol/0.9nacl
+1415,Timoptic Ocudose,Timolol Maleate/Pf
+1416,Westab Plus,"Pnv,calcium 72/Iron/Folic Acid"
+1417,Effexor Xr,Venlafaxine Hcl
+1418,Dipentum,Olsalazine Sodium
+1419,Skyrizi On-Body,Risankizumab-Rzaa
+1420,Combipatch,Estradiol/Norethindrone Acet
+1421,Betoptic S,Betaxolol Hcl
+1422,Heparin Sodium,"Heparin Sodium,porcine"
+1423,Besremi,Ropeginterferon Alfa-2b-Njft
+1424,Danazol,Danazol
+1425,Tibsovo,Ivosidenib
+1426,Xospata,Gilteritinib Fumarate
+1427,Roxybond,Oxycodone Hcl
+1428,Dicloxacillin Sodium,Dicloxacillin Sodium
+1429,Sitagliptin,Sitagliptin
+1430,Pyridostigmine Bromide Er,Pyridostigmine Bromide
+1431,Relyvrio,Sod Phenylbutyrat/Taurursodiol
+1432,Fotivda,Tivozanib Hcl
+1433,Micafungin,Micafungin Sodium
+1434,Denta 5000 Plus,Fluoride (Sodium)
+1435,Sf 5000 Plus,Fluoride (Sodium)
+1436,Humalog Tempo Pen U-100,Insulin Lispro
+1437,Budesonide Er,Budesonide
+1438,Itraconazole,Itraconazole
+1439,Perseris,Risperidone
+1440,Cosentyx (2 Syringes),Secukinumab
+1441,Rifabutin,Rifabutin
+1442,Gvoke Pfs 1-Pack Syringe,Glucagon
+1443,Fluoridex,Fluoride (Sodium)
+1444,Suprep,"Sodium, Potassium,mag Sulfates"
+1445,Viberzi,Eluxadoline
+1446,Abacavir-Lamivudine,Abacavir Sulfate/Lamivudine
+1447,Frovatriptan Succinate,Frovatriptan Succinate
+1448,Genotropin,Somatropin
+1449,Cuvitru,Immun Glob G(Igg)/Gly/Iga Ov50
+1450,Seroquel,Quetiapine Fumarate
+1451,Promethegan,Promethazine Hcl
+1452,Solu-Medrol,Methylprednisolone Sod Succ/Pf
+1453,Erythromycin-Benzoyl Peroxide,Erythromycin/Benzoyl Peroxide
+1454,Tri-Estarylla,Norgestimate-Ethinyl Estradiol
+1455,Nevanac,Nepafenac
+1456,Fluocinonide-E,Fluocinonide/Emollient Base
+1457,Cymbalta,Duloxetine Hcl
+1458,Saxagliptin-Metformin Er,Saxagliptin Hcl/Metformin Hcl
+1459,Dropsafe Pen Needle,"Pen Needle, Diabetic, Safety"
+1460,Haegarda,C1 Esterase Inhibitor
+1461,Xywav,"Sodium,calcium,mag,pot Oxybate"
+1462,Humalog Mix 75-25,Insulin Lispro Protamin/Lispro
+1463,Butrans,Buprenorphine
+1464,Amzeeq,Minocycline Hcl
+1465,Lunesta,Eszopiclone
+1466,Indomethacin Er,Indomethacin
+1467,Zilretta,Triamcinolone Acetonide
+1468,Desoximetasone,Desoximetasone
+1469,Risedronate Sodium Dr,Risedronate Sodium
+1470,Xanax,Alprazolam
+1471,Tudorza Pressair,Aclidinium Bromide
+1472,Mresvia,"Rsv Vaccine, Pref, Mrna/Pf"
+1473,Zenzedi,Dextroamphetamine Sulfate
+1474,Topamax,Topiramate
+1475,Dronabinol,Dronabinol
+1476,Junel Fe,Norethindrone-E.Estradiol-Iron
+1477,Celebrex,Celecoxib
+1478,Piqray,Alpelisib
+1479,Daptacel Dtap,"Diph,pertuss(Acell),tet Ped/Pf"
+1480,Pedvaxhib,Haemph B Polysac Conj-Menin/Pf
+1481,Viibryd,Vilazodone Hcl
+1482,Adcirca,Tadalafil
+1483,Protonix,Pantoprazole Sodium
+1484,Firdapse,Amifampridine Phosphate
+1485,Hydromorphone Hcl,Hydromorphone Hcl/Pf
+1486,Vyjuvek,Beremagene Geperpavec-Svdt
+1487,Hydrocodone-Ibuprofen,Hydrocodone/Ibuprofen
+1488,Afinitor Disperz,Everolimus
+1489,Bcg (Tice Strain),Bcg Live
+1490,Cialis,Tadalafil
+1491,Docetaxel,Docetaxel
+1492,Eligard,Leuprolide Acetate
+1493,Gemcitabine Hcl,Gemcitabine Hcl
+1494,Jatenzo,Testosterone Undecanoate
+1495,Proscar,Finasteride
+1496,Renacidin,Citric Ac/Gluconolact/Mag Carb
+1497,Cetirizine Hcl,Cetirizine Hcl
+1498,Clonidine Hcl Er,Clonidine Hcl
+1499,Dilantin,Phenytoin
+1500,Equetro,Carbamazepine
+1501,Betaseron,Interferon Beta-1b
+1502,Rebif,Interferon Beta-1a/Albumin
+1503,Ritalin,Methylphenidate Hcl
+1504,Xgeva,Denosumab
+1505,Rezdiffra,Resmetirom
+1506,Fluticasone-Salmeterol Hfa,Fluticasone Propion/Salmeterol
+1507,Delstrigo,Doravirine/Lamivu/Tenofov Diso
+1508,Proair Respiclick,Albuterol Sulfate
+1509,Ethosuximide,Ethosuximide
+1510,Talzenna,Talazoparib Tosylate
+1511,Trexall,Methotrexate Sodium
+1512,Methylprednisolone Sodium Succ,Methylprednisolone Sod Succ
+1513,Skyclarys,Omaveloxolone
+1514,Ritonavir,Ritonavir
+1515,Norpace Cr,Disopyramide Phosphate
+1516,Olanzapine-Fluoxetine Hcl,Olanzapine/Fluoxetine Hcl
+1517,Oxazepam,Oxazepam
+1518,Enbrel Mini,Etanercept
+1519,Advocate Pen Needles,"Pen Needle, Diabetic"
+1520,Gleevec,Imatinib Mesylate
+1521,Easy Touch Safety Pen Needle,"Pen Needle, Diabetic, Safety"
+1522,Prevalite,Cholestyramine
+1523,Invokamet Xr,Canagliflozin/Metformin Hcl
+1524,Humalog Mix 50-50 Kwikpen,Insulin Lispro Protamin/Lispro
+1525,Zembrace Symtouch,Sumatriptan Succinate
+1526,Vyndaqel,Tafamidis Meglumine
+1527,Naproxen-Esomeprazole Mag,Naproxen/Esomeprazole Mag
+1528,Pentazocine-Naloxone Hcl,Pentazocine Hcl/Naloxone Hcl
+1529,Dexmethylphenidate Hcl,Dexmethylphenidate Hcl
+1530,Focalin Xr,Dexmethylphenidate Hcl
+1531,Embrace Pen Needle,"Pen Needle, Diabetic"
+1532,Airsupra,Albuterol Sulfate/Budesonide
+1533,Vitrakvi,Larotrectinib Sulfate
+1534,Pentasa,Mesalamine
+1535,Low-Ogestrel,Norgestrel-Ethinyl Estradiol
+1536,Sofosbuvir-Velpatasvir,Sofosbuvir/Velpatasvir
+1537,Flurbiprofen,Flurbiprofen
+1538,Transderm-Scop,Scopolamine
+1539,Larin Fe,Norethindrone-E.Estradiol-Iron
+1540,Granisetron Hcl,Granisetron Hcl
+1541,Fondaparinux Sodium,Fondaparinux Sodium
+1542,Droxia,Hydroxyurea
+1543,Loryna,Ethinyl Estradiol/Drospirenone
+1544,Eluryng,Etonogestrel/Ethinyl Estradiol
+1545,Norgestimate-Ethinyl Estradiol,Norgestimate-Ethinyl Estradiol
+1546,Horizant,Gabapentin Enacarbil
+1547,Esbriet,Pirfenidone
+1548,Mepron,Atovaquone
+1549,Cryselle,Norgestrel-Ethinyl Estradiol
+1550,Butalb-Acetaminoph-Caff-Codein,Butalbit/Acetamin/Caff/Codeine
+1551,Lamictal Odt,Lamotrigine
+1552,Azasite,Azithromycin
+1553,Ivabradine Hcl,Ivabradine Hcl
+1554,Estarylla,Norgestimate-Ethinyl Estradiol
+1555,Efavirenz-Lamivu-Tenofov Disop,Efavirenz/Lamivu/Tenofov Disop
+1556,Zidovudine,Zidovudine
+1557,Xyrem,Sodium Oxybate
+1558,Exelon,Rivastigmine
+1559,Daliresp,Roflumilast
+1560,Braftovi,Encorafenib
+1561,Gilotrif,Afatinib Dimaleate
+1562,Mektovi,Binimetinib
+1563,Scemblix,Asciminib Hydrochloride
+1564,Sunitinib Malate,Sunitinib Malate
+1565,Leukeran,Chlorambucil
+1566,Fluvastatin Er,Fluvastatin Sodium
+1567,Imvexxy,Estradiol
+1568,Chlordiazepoxide-Clidinium,Chlordiazepoxide/Clidinium Br
+1569,Sure Comfort,"Syringe-Needle,insulin,0.5 Ml"
+1570,Orphenadrine Citrate,Orphenadrine Citrate
+1571,Probenecid,Probenecid
+1572,Osphena,Ospemifene
+1573,Ceftriaxone,Ceftriaxone In Is-Osm Dextrose
+1574,Adakveo,Crizanlizumab-Tmca
+1575,Fulvestrant,Fulvestrant
+1576,Iclusig,Ponatinib Hcl
+1577,Keytruda,Pembrolizumab
+1578,Opdivo,Nivolumab
+1579,Zoladex,Goserelin Acetate
+1580,Lanoxin,Digoxin
+1581,Lialda,Mesalamine
+1582,Jentadueto Xr,Linagliptin/Metformin Hcl
+1583,Nylia,Norethindrone-Ethin. Estradiol
+1584,Flavoxate Hcl,Flavoxate Hcl
+1585,Icatibant,Icatibant Acetate
+1586,Keppra,Levetiracetam
+1587,Tysabri,Natalizumab
+1588,Pindolol,Pindolol
+1589,Isradipine,Isradipine
+1590,Dihydroergotamine Mesylate,Dihydroergotamine Mesylate
+1591,Hetlioz,Tasimelteon
+1592,Panzyga,Immun Glob G(Igg)-Ifas/Glycine
+1593,Clinolipid,Fat Emulsion/Olive/Soy/Phospho
+1594,Ethacrynic Acid,Ethacrynic Acid
+1595,Filspari,Sparsentan
+1596,Hyqvia,"Igg/Hyaluronidase,recombinant"
+1597,Alogliptin-Metformin,Alogliptin Benz/Metformin Hcl
+1598,Clemastine Fumarate,Clemastine Fumarate
+1599,Comfort Touch Pen Needle,"Pen Needle, Diabetic"
+1600,Easy Comfort Alcohol Pad,Alcohol Antiseptic Pads
+1601,Vtama,Tapinarof
+1602,Trandolapril,Trandolapril
+1603,Meropenem-0.9% Nacl,Meropenem-0.9% Sodium Chloride
+1604,Focalin,Dexmethylphenidate Hcl
+1605,Mydayis,Dextroamphetamine/Amphetamine
+1606,Tri-Sprintec,Norgestimate-Ethinyl Estradiol
+1607,Eylea,Aflibercept
+1608,Lucentis,Ranibizumab
+1609,Vabysmo,Faricimab-Svoa
+1610,Pristiq,Desvenlafaxine Succinate
+1611,Acthar Selfject,Corticotropin
+1612,Glassia,Alpha-1-Proteinase Inhibitor
+1613,Zemaira,Alpha-1-Proteinase Inhibitor
+1614,Kionex,Sodium Polystyrene Sulfon/Sorb
+1615,Jynarque,Tolvaptan
+1616,Fentanyl Citrate,Fentanyl Citrate/Pf
+1617,Midazolam Hcl,Midazolam Hcl
+1618,Midazolam Hcl,Midazolam Hcl/Pf
+1619,Vagifem,Estradiol
+1620,Insulin Syringe,"Syring-Needl,disp,insul,0.3 Ml"
+1621,Tretinoin Microsphere,Tretinoin Microspheres
+1622,Zylet,Tobramycin/Lotepred Etab
+1623,Betamethasone Diprop Augmented,Betamethasone Dipropionate
+1624,Gilenya,Fingolimod Hcl
+1625,Hydrocodone Bitartrate Er,Hydrocodone Bitartrate
+1626,Symproic,Naldemedine Tosylate
+1627,Keppra Xr,Levetiracetam
+1628,Plegridy,Peginterferon Beta-1a
+1629,Trileptal,Oxcarbazepine
+1630,Perphenazine-Amitriptyline,Perphenazine/Amitriptyline Hcl
+1631,Fosamax Plus D,Alendronate Sodium/Vitamin D3
+1632,Truqap,Capivasertib
+1633,Lamictal Xr,Lamotrigine
+1634,Onfi,Clobazam
+1635,Rozerem,Ramelteon
+1636,Dipyridamole,Dipyridamole
+1637,Pioglitazone-Metformin,Pioglitazone Hcl/Metformin Hcl
+1638,Thyroid,"Thyroid,pork"
+1639,Prednisolone Sodium Phos Odt,Prednisolone Sodium Phosphate
+1640,Trokendi Xr,Topiramate
+1641,Tigecycline,Tigecycline
+1642,Tarpeyo,Budesonide
+1643,Inderal La,Propranolol Hcl
+1644,Olumiant,Baricitinib
+1645,Aranesp,Darbepoetin Alfa In Polysorbat
+1646,Darzalex Faspro,Daratumumab-Hyaluronidase-Fihj
+1647,Veo Insulin Syringe,"Syrge-Ndl,ins 0.3 Ml Half Mark"
+1648,Viokace,Lipase/Protease/Amylase
+1649,Apriso,Mesalamine
+1650,Zyflo,Zileuton
+1651,Isturisa,Osilodrostat Phosphate
+1652,Paxil,Paroxetine Hcl
+1653,Apraclonidine Hcl,Apraclonidine Hcl
+1654,Welchol,Colesevelam Hcl
+1655,Insupen Pen Needle,"Pen Needle, Diabetic"
+1656,Lyllana,Estradiol
+1657,Zerviate,Cetirizine Hcl
+1658,Wakix,Pitolisant Hcl
+1659,Methylprednisolone Acetate,Methylprednisolone Acetate
+1660,Bexsero,"Meningococcal B Vaccine,4-Comp"
+1661,Engerix-B Adult,Hepatitis B Virus Vaccine/Pf
+1662,Ixiaro,Japanese Encephalitis Vacc/Pf
+1663,Jynneos,Smallpox And Mpox Live Vacc/Pf
+1664,Menquadfi,"Mening Vac A,c,y,w135,c-Tet/Pf"
+1665,Menveo A-C-Y-W-135-Dip,"Mening Vac A,c,y,w-135 Dip/Pf"
+1666,Vaqta,Hepatitis A Virus Vaccine/Pf
+1667,Aripiprazole Odt,Aripiprazole
+1668,Risperdal,Risperidone
+1669,Enalapril-Hydrochlorothiazide,Enalapril/Hydrochlorothiazide
+1670,Rapaflo,Silodosin
+1671,Singulair,Montelukast Sodium
+1672,Uloric,Febuxostat
+1673,Bosentan,Bosentan
+1674,Ascomp With Codeine,Codeine/Butalbital/Asa/Caffein
+1675,Norvasc,Amlodipine Besylate
+1676,Silenor,Doxepin Hcl
+1677,Ocrevus,Ocrelizumab
+1678,Lithostat,Acetohydroxamic Acid
+1679,Vuity,Pilocarpine Hcl
+1680,Hiberix,Haemoph B Poly Conj-Tet Tox/Pf
+1681,Fintepla,Fenfluramine Hcl
+1682,Rebif Rebidose,Interferon Beta-1a/Albumin
+1683,Imipenem-Cilastatin Sodium,Imipenem/Cilastatin Sodium
+1684,Theophylline,Theophylline Anhydrous
+1685,Takhzyro,Lanadelumab-Flyo
+1686,Matzim La,Diltiazem Hcl
+1687,Perindopril Erbumine,Perindopril Erbumine
+1688,Cyltezo(Cf) Pen,Adalimumab-Adbm
+1689,Omnitrope,Somatropin
+1690,Mono-Linyah,Norgestimate-Ethinyl Estradiol
+1691,Asa-Butalb-Caffeine-Codeine,Codeine/Butalbital/Asa/Caffein
+1692,Zetia,Ezetimibe
+1693,Complera,Emtricita/Rilpivirine/Tenof Df
+1694,Fosamprenavir Calcium,Fosamprenavir Calcium
+1695,Dextrose In Water,Dextrose 5 % In Water
+1696,Tukysa,Tucatinib
+1697,Egrifta Sv,Tesamorelin Acetate
+1698,Klonopin,Clonazepam
+1699,Valtrex,Valacyclovir Hcl
+1700,Vytorin,Ezetimibe/Simvastatin
+1701,Fabrazyme,Agalsidase Beta
+1702,Yupelri,Revefenacin
+1703,Ultracare Pen Needle,"Pen Needle, Diabetic"
+1704,Dextrose 5%-0.2% Nacl,Dextrose 5 %-0.2 % Sod Chlorid
+1705,Tavalisse,Fostamatinib Disodium
+1706,Maxalt Mlt,Rizatriptan Benzoate
+1707,Zestoretic,Lisinopril/Hydrochlorothiazide
+1708,Steglujan,Ertugliflozin/Sitagliptin Phos
+1709,Flovent Hfa,Fluticasone Propionate
+1710,Orladeyo,Berotralstat Hydrochloride
+1711,Oxytrol,Oxybutynin
+1712,Orenitram Er,Treprostinil Diolamine
+1713,Adalimumab-Adaz(Cf) Pen,Adalimumab-Adaz
+1714,Opium Tincture,Opium Tincture
+1715,Ciprofloxacin-D5w,Ciprofloxacin In 5 % Dextrose
+1716,Somatuline Depot,Lanreotide Acetate
+1717,Avalide,Irbesartan/Hydrochlorothiazide
+1718,Benicar Hct,Olmesartan/Hydrochlorothiazide
+1719,Banzel,Rufinamide
+1720,Oxymorphone Hcl,Oxymorphone Hcl
+1721,Truxima,Rituximab-Abbs
+1722,Nisoldipine,Nisoldipine
+1723,Lo-Zumandimine,Ethinyl Estradiol/Drospirenone
+1724,Kyprolis,Carfilzomib
+1725,Plavix,Clopidogrel Bisulfate
+1726,Eucrisa,Crisaborole
+1727,Testosterone Enanthate,Testosterone Enanthate
+1728,Viracept,Nelfinavir Mesylate
+1729,Trikafta,Elexacaftor/Tezacaftor/Ivacaft
+1730,Erivedge,Vismodegib
+1731,Levora-28,Levonorgestrel/Ethin.Estradiol
+1732,Byetta,Exenatide
+1733,Levo-T,Levothyroxine Sodium
+1734,Climara Pro,Estradiol/Levonorgestrel
+1735,Oxaprozin,Oxaprozin
+1736,Actos,Pioglitazone Hcl
+1737,Tranylcypromine Sulfate,Tranylcypromine Sulfate
+1738,Chlordiazepoxide-Amitriptyline,Amitriptyline/Chlordiazepoxide
+1739,Valium,Diazepam
+1740,Tetracycline Hcl,Tetracycline Hcl
+1741,Tekturna,Aliskiren Hemifumarate
+1742,Asmanex Hfa,Mometasone Furoate
+1743,Fiasp Penfill,Insulin Aspart (Niacinamide)
+1744,Lupkynis,Voclosporin
+1745,Nuvigil,Armodafinil
+1746,Fosinopril-Hydrochlorothiazide,Fosinopril/Hydrochlorothiazide
+1747,Fasenra,Benralizumab
+1748,Firazyr,Icatibant Acetate
+1749,Calcipotriene-Betamethasone,Calcipotriene/Betamethasone
+1750,Glucagen,Glucagon
+1751,Alrex,Loteprednol Etabonate
+1752,Cefaclor,Cefaclor
+1753,Orencia,Abatacept/Maltose
+1754,Inrebic,Fedratinib Dihydrochloride
+1755,Xulane,Norelgestromin/Ethin.Estradiol
+1756,Zyprexa Zydis,Olanzapine
+1757,Etodolac Er,Etodolac
+1758,Entyvio Pen,Vedolizumab
+1759,Sure Comfort,"Syring-Needl,disp,insul,0.3 Ml"
+1760,Valchlor,Mechlorethamine Hcl
+1761,Erythromycin Ethylsuccinate,Erythromycin Ethylsuccinate
+1762,Safetyglide Insulin Syringe,"Syringe-Needle,insulin,0.5 Ml"
+1763,Vivelle-Dot,Estradiol
+1764,Droplet Insulin Syringe,"Syringe And Needle,insulin,1ml"
+1765,Gimoti,Metoclopramide Hcl
+1766,Flector,Diclofenac Epolamine
+1767,Inpefa,Sotagliflozin
+1768,Leqvio,Inclisiran Sodium
+1769,Mestinon,Pyridostigmine Bromide
+1770,Bicillin L-A,Penicillin G Benzathine
+1771,Aurovela Fe,Norethindrone-E.Estradiol-Iron
+1772,Griseofulvin,"Griseofulvin, Microsize"
+1773,Qbrexza,Glycopyrronium Tosylate
+1774,Colistimethate,Colistin (Colistimethate Na)
+1775,Vectical,Calcitriol
+1776,Kaitlib Fe,Noreth-Ethinyl Estradiol/Iron
+1777,Xalatan,Latanoprost
+1778,Geodon,Ziprasidone Hcl
+1779,Safetyglide Insulin Syringe,"Syringe And Needle,insulin,1ml"
+1780,Neulasta Onpro,Pegfilgrastim
+1781,Ontruzant,Trastuzumab-Dttb
+1782,Trodelvy,Sacituzumab Govitecan-Hziy
+1783,Zoloft,Sertraline Hcl
+1784,Kristalose,Lactulose
+1785,Invega Hafyera,Paliperidone Palmitate
+1786,Codeine Sulfate,Codeine Sulfate
+1787,Methylphenidate,Methylphenidate
+1788,Zyprexa Relprevv,Olanzapine Pamoate
+1789,Flumazenil,Flumazenil
+1790,Meperidine Hcl,Meperidine Hcl/Pf
+1791,Sodium Fluoride Enamel Protect,Sodium Fluoride/Potassium Nit
+1792,Emsam,Selegiline
+1793,Hadlima Pushtouch,Adalimumab-Bwwd
+1794,Stribild,Elviteg/Cob/Emtri/Tenofo Disop
+1795,Ec-Naproxen,Naproxen
+1796,Meperidine Hcl,Meperidine Hcl
+1797,Glipizide Xl,Glipizide
+1798,Cyclopentolate Hcl,Cyclopentolate Hcl
+1799,Nefazodone Hcl,Nefazodone Hcl
+1800,Toremifene Citrate,Toremifene Citrate
+1801,Cerdelga,Eliglustat Tartrate
+1802,Lumizyme,Alglucosidase Alfa
+1803,Secuado,Asenapine
+1804,Crotan,Crotamiton
+1805,Finacea,Azelaic Acid
+1806,Clozaril,Clozapine
+1807,Methenamine Mandelate,Methenamine Mandelate
+1808,Moexipril Hcl,Moexipril Hcl
+1809,Nafcillin Sodium,Nafcillin Sodium
+1810,Krystexxa,Pegloticase
+1811,Revcovi,Elapegademase-Lvlr
+1812,Apokyn,Apomorphine Hcl
+1813,Cortef,Hydrocortisone
+1814,Varubi,Rolapitant Hcl
+1815,Atacand,Candesartan Cilexetil
+1816,Tykerb,Lapatinib Ditosylate
+1817,Vesicare,Solifenacin Succinate
+1818,Ilaris,Canakinumab/Pf
+1819,Carbinoxamine Maleate,Carbinoxamine Maleate
+1820,Meprobamate,Meprobamate
+1821,Tobi Podhaler,Tobramycin
+1822,Tazicef,Ceftazidime
+1823,Loreev Xr,Lorazepam
+1824,Balziva,Norethindrone-Ethin. Estradiol
+1825,Alprazolam Odt,Alprazolam
+1826,Testopel,Testosterone
+1827,Depo-Estradiol,Estradiol Cypionate
+1828,Duavee,"Estrogens,conj/Bazedoxifene"
+1829,Depakote Sprinkle,Divalproex Sodium
+1830,Celexa,Citalopram Hydrobromide
+1831,Sure Comfort,"Pen Needle, Diabetic"
+1832,Aptensio Xr,Methylphenidate Hcl
+1833,Galafold,Migalastat Hcl
+1834,Hemady,Dexamethasone
+1835,Clinisol,Parenteral Amino Acid 15% No.5
+1836,Dyanavel Xr,Amphetamine
+1837,Prednisolone,Prednisolone
+1838,Rayos,Prednisone
+1839,Saphris,Asenapine Maleate
+1840,Rubraca,Rucaparib Camsylate
+1841,Insulin Glargine,"Insulin Glargine,hum.Rec.Anlog"
+1842,Clarinex-D 12 Hour,Desloratadine/Pseudoephedrine
+1843,Signifor Lar,Pasireotide Pamoate
+1844,Solu-Cortef,Hydrocortisone Sod Succinate
+1845,Gralise,Gabapentin
+1846,Nerlynx,Neratinib Maleate
+1847,Bivigam,Immun Glob G(Igg)/Gly/Iga Ov50
+1848,Prolate,Oxycodone Hcl/Acetaminophen
+1849,Micardis Hct,Telmisartan/Hydrochlorothiazid
+1850,Advocate Syringes,"Syring-Needl,disp,insul,0.3 Ml"
+1851,Thiola Ec,Tiopronin
+1852,Clinpro 5000,Fluoride (Sodium)
+1853,Priftin,Rifapentine
+1854,Bortezomib,Bortezomib
+1855,Nplate,Romiplostim
+1856,Oxaliplatin,Oxaliplatin
+1857,Palonosetron Hcl,Palonosetron Hcl
+1858,Sorafenib,Sorafenib Tosylate
+1859,Udenyca Autoinjector,Pegfilgrastim-Cbqv
+1860,Zirabev,Bevacizumab-Bvzr
+1861,Zytiga,Abiraterone Acetate
+1862,Yusimry(Cf) Pen,Adalimumab-Aqvh
+1863,Cambia,Diclofenac Potassium
+1864,Qudexy Xr,Topiramate
+1865,Easy Touch,"Syringe-Needle,insulin,0.5 Ml"
+1866,Fluoxetine Dr,Fluoxetine Hcl
+1867,Deferiprone (3 Times A Day),Deferiprone
+1868,Winrevair,Sotatercept-Csrk
+1869,Nevirapine Er,Nevirapine
+1870,Errin,Norethindrone
+1871,Femring,Estradiol Acetate
+1872,Heather,Norethindrone
+1873,Minivelle,Estradiol
+1874,Salsalate,Salsalate
+1875,Ery,Erythromycin Base In Ethanol
+1876,Zonegran,Zonisamide
+1877,Valproate Sodium,Valproic Acid (As Sodium Salt)
+1878,Altace,Ramipril
+1879,Xembify,"Immune Globulin,gamma(Igg)klhw"
+1880,Trelstar,Triptorelin Pamoate
+1881,Azor,Amlodipine Bes/Olmesartan Med
+1882,Lovaza,Omega-3 Acid Ethyl Esters
+1883,Edluar,Zolpidem Tartrate
+1884,Relpax,Eletriptan Hydrobromide
+1885,Amjevita(Cf),Adalimumab-Atto
+1886,Toviaz,Fesoterodine Fumarate
+1887,Incassia,Norethindrone
+1888,Gavreto,Pralsetinib
+1889,Rozlytrek,Entrectinib
+1890,Hadlima(Cf) Pushtouch,Adalimumab-Bwwd
+1891,Safetyglide Insulin Syringe,"Syringe,needle,insuln,safe,1ml"
+1892,Mycapssa,Octreotide Acetate
+1893,Ddavp,Desmopressin Acetate
+1894,Diazoxide,Diazoxide
+1895,Imuran,Azathioprine
+1896,Ativan,Lorazepam
+1897,Cefazolin Sodium-Dextrose,"Cefazolin Sodium/Dextrose,iso"
+1898,Onpattro,"Patisiran Sodium,lipid Complex"
+1899,Radicava,Edaravone
+1900,Krazati,Adagrasib
+1901,Qutenza,Capsaicin/Skin Cleanser
+1902,Evenity,Romosozumab-Aqqg
+1903,Evrysdi,Risdiplam
+1904,Xpovio,Selinexor
+1905,Promethazine-Dm,Promethazine/Dextromethorphan
+1906,Phenelzine Sulfate,Phenelzine Sulfate
+1907,Sogroya,Somapacitan-Beco
+1908,Renflexis,Infliximab-Abda
+1909,Saphnelo,Anifrolumab-Fnia
+1910,Simponi Aria,Golimumab
+1911,Nifedipine,Nifedipine
+1912,Apretude,Cabotegravir
+1913,Podofilox,Podofilox
+1914,Cimduo,Lamivudine/Tenofovir Disop Fum
+1915,Zerbaxa,Ceftolozane/Tazobactam
+1916,Ambien Cr,Zolpidem Tartrate
+1917,Prevident 5000 Enamel Protect,Sodium Fluoride/Potassium Nit
+1918,Soaanz,Torsemide
+1919,Kloxxado,Naloxone Hcl
+1920,Lyvispah,Baclofen
+1921,Tazverik,Tazemetostat Hydrobromide
+1922,Katerzia,Amlodipine Benzoate
+1923,Alunbrig,Brigatinib
+1924,Carboplatin,Carboplatin
+1925,Cisplatin,Cisplatin
+1926,Cyramza,Ramucirumab
+1927,Enhertu,Fam-Trastuzumab Deruxtecn-Nxki
+1928,Firmagon,Degarelix Acetate
+1929,Herzuma,Trastuzumab-Pkrb
+1930,Imfinzi,Durvalumab
+1931,Irinotecan Hcl,Irinotecan Hcl
+1932,Lanreotide Acetate,Lanreotide Acetate
+1933,Libtayo,Cemiplimab-Rwlc
+1934,Mvasi,Bevacizumab-Awwb
+1935,Paclitaxel,Paclitaxel
+1936,Paclitaxel Protein-Bound,Paclitaxel Protein-Bound
+1937,Pemetrexed Disodium,Pemetrexed Disodium
+1938,Perjeta,Pertuzumab
+1939,Reblozyl,Luspatercept-Aamt
+1940,Tecentriq,Atezolizumab
+1941,Tepmetko,Tepotinib Hcl
+1942,Trazimera,Trastuzumab-Qyyp
+1943,Vinorelbine Tartrate,Vinorelbine Tartrate
+1944,Yervoy,Ipilimumab
+1945,Zepzelca,Lurbinectedin
+1946,Droplet Insulin Syringe,"Syring-Needl,disp,insul,0.3 Ml"
+1947,Nulojix,Belatacept
+1948,Xalkori,Crizotinib
+1949,Easy Touch,"Syring-Needl,disp,insul,0.3 Ml"
+1950,Monoject Insulin Syringe,"Syring-Needl,disp,insul,0.3 Ml"
+1951,Daytrana,Methylphenidate
+1952,Viread,Tenofovir Disoproxil Fumarate
+1953,Cozaar,Losartan Potassium
+1954,Methscopolamine Bromide,Methscopolamine Bromide
+1955,Amethyst,Levonorgestrel/Ethin.Estradiol
+1956,Fruzaqla,Fruquintinib
+1957,Glyburide Micronized,"Glyburide,micronized"
+1958,Protriptyline Hcl,Protriptyline Hcl
+1959,Humatrope,Somatropin
+1960,Elinest,Norgestrel-Ethinyl Estradiol
+1961,Ryaltris,Olopatadine Hcl/Mometasone
+1962,Urea,Urea
+1963,Dermacinrx Lidocan,Lidocaine
+1964,Lofena,Diclofenac Potassium
+1965,Tolectin 600,Tolmetin Sodium
+1966,Ulticare Insulin Syringe,"Syringe-Needle,insulin,0.5 Ml"
+1967,Azstarys,Serdexmethylphen/Dexmethylphen
+1968,Vardenafil Hcl,Vardenafil Hcl
+1969,Imipramine Pamoate,Imipramine Pamoate
+1970,Chloroquine Phosphate,Chloroquine Phosphate
+1971,Avapro,Irbesartan
+1972,Pred Mild,Prednisolone Acetate
+1973,Stalevo 100,Carbidopa/Levodopa/Entacapone
+1974,Sinemet,Carbidopa/Levodopa
+1975,Rezvoglar Kwikpen,Insulin Glargine-Aglr
+1976,Versacloz,Clozapine
+1977,Endari,Glutamine
+1978,Felbatol,Felbamate
+1979,Inveltys,Loteprednol Etabonate
+1980,Remodulin,Treprostinil Sodium
+1981,Tyblume,Levonorgestrel/Ethin.Estradiol
+1982,Insulin Lispro Junior Kwikpen,Insulin Lispro
+1983,Prograf,Tacrolimus
+1984,Skyrizi,Risankizumab-Rzaa
+1985,Betaine Anhydrous,Betaine
+1986,Seroquel Xr,Quetiapine Fumarate
+1987,Jornay Pm,Methylphenidate Hcl
+1988,Premphase,"Estrogen,con/M-Progest Acet"
+1989,Tri-Linyah,Norgestimate-Ethinyl Estradiol
+1990,Thalitone,Chlorthalidone
+1991,Invokamet,Canagliflozin/Metformin Hcl
+1992,Quinidine Sulfate,Quinidine Sulfate
+1993,Zoledronic Acid,Zoledronic Acid
+1994,Amlodipine-Valsartan-Hctz,Amlodipine/Valsartan/Hcthiazid
+1995,Minocycline Hcl Er,Minocycline Hcl
+1996,Ziprasidone Mesylate,Ziprasidone Mesylate
+1997,Tinidazole,Tinidazole
+1998,Triamterene,Triamterene
+1999,Cotempla Xr-Odt,Methylphenidate
+2000,Dexamethasone Sodium Phosphate,Dexamethasone Sodium Phosp/Pf
+2001,Cerezyme,Imiglucerase
+2002,Proctosol-Hc,Hydrocortisone
+2003,Hailey Fe,Norethindrone-E.Estradiol-Iron
+2004,Tasimelteon,Tasimelteon
+2005,Sodium Fluoride 5000 Dry Mouth,Fluoride (Sodium)
+2006,Loestrin Fe,Norethindrone-E.Estradiol-Iron
+2007,Qinlock,Ripretinib
+2008,Philith,Norethindrone-Ethin. Estradiol
+2009,Enspryng,Satralizumab-Mwge
+2010,Abraxane,Paclitaxel Protein-Bound
+2011,Avastin,Bevacizumab
+2012,Doxorubicin Hcl,Doxorubicin Hcl
+2013,Etoposide,Etoposide
+2014,Riabni,Rituximab-Arrx
+2015,Ruxience,Rituximab-Pvvr
+2016,Sustol,Granisetron
+2017,Siliq,Brodalumab
+2018,Kariva,Desog-E.Estradiol/E.Estradiol
+2019,Climara,Estradiol
+2020,Apri,Desogestrel-Ethinyl Estradiol
+2021,Jencycla,Norethindrone
+2022,Quinine Sulfate,Quinine Sulfate
+2023,Idacio(Cf) Pen (2 Pack),Adalimumab-Aacf
+2024,Testim,Testosterone
+2025,Amitiza,Lubiprostone
+2026,Fentanyl Citrate,Fentanyl Citrate
+2027,Sancuso,Granisetron
+2028,Nicardipine Hcl,Nicardipine Hcl
+2029,Aralast Np,Alpha-1-Proteinase Inhibitor
+2030,Almotriptan Malate,Almotriptan Malate
+2031,Nocdurna,Desmopressin Acetate
+2032,Evkeeza,Evinacumab-Dgnb
+2033,Zontivity,Vorapaxar Sulfate
+2034,Abilify,Aripiprazole
+2035,Angeliq,Drospirenone/Estradiol
+2036,Estrogel,Estradiol
+2037,Azacitidine,Azacitidine
+2038,Clomid,Clomiphene Citrate
+2039,Wainua,Eplontersen Sodium
+2040,Zestril,Lisinopril
+2041,Soma,Carisoprodol
+2042,Thalomid,Thalidomide
+2043,Androgel,Testosterone
+2044,Bimzelx Autoinjector,Bimekizumab-Bkzx
+2045,Teflaro,Ceftaroline Fosamil Acetate
+2046,Actonel,Risedronate Sodium
+2047,Norgesic Forte,Orphenadrine/Aspirin/Caffeine
+2048,Innopran Xl,Propranolol Hcl
+2049,Zykadia,Ceritinib
+2050,Herceptin,Trastuzumab
+2051,Opdualag,Nivolumab-Relatlimab-Rmbw
+2052,Flucytosine,Flucytosine
+2053,Tarina Fe 1-20 Eq,Norethindrone-E.Estradiol-Iron
+2054,Techlite Insulin Syringe,"Syrge-Ndl,ins 0.3 Ml Half Mark"
+2055,Exforge,Amlodipine Besylate/Valsartan
+2056,Enstilar,Calcipotriene/Betamethasone
+2057,Nitro-Dur,Nitroglycerin
+2058,Menest,"Estrogens,esterified"
+2059,Lasix,Furosemide
+2060,Coreg Cr,Carvedilol Phosphate
+2061,Enskyce,Desogestrel-Ethinyl Estradiol
+2062,Pancreaze,Lipase/Protease/Amylase
+2063,Falmina,Levonorgestrel/Ethin.Estradiol
+2064,Leukine,Sargramostim
+2065,Rimantadine Hcl,Rimantadine Hcl
+2066,Spritam,Levetiracetam
+2067,Revatio,Sildenafil Citrate
+2068,Nevirapine,Nevirapine
+2069,Vigabatrin,Vigabatrin
+2070,Neomycin-Polymyxin-Gramicidin,Neomycin/Polymyxn B/Gramicidin
+2071,Zoledronic Acid,Zoledronic Acid/Mannitol-Water
+2072,Provigil,Modafinil
+2073,Aricept,Donepezil Hcl
+2074,Monoject Insulin Syringe,"Syringe-Needle,insulin,0.5 Ml"
+2075,Nalbuphine Hcl,Nalbuphine Hcl
+2076,Arimidex,Anastrozole
+2077,Etonogestrel-Ethinyl Estradiol,Etonogestrel/Ethinyl Estradiol
+2078,Hydrocortisone Butyrate,Hydrocortisone Butyrate
+2079,Fioricet,Butalb/Acetaminophen/Caffeine
+2080,Cefixime,Cefixime
+2081,Klor-Con M15,Potassium Chloride
+2082,Plaquenil,Hydroxychloroquine Sulfate
+2083,Furoscix,Furosemide
+2084,Eylea Hd,Aflibercept
+2085,Dasetta,Norethindrone-Ethin. Estradiol
+2086,Ms Contin,Morphine Sulfate
+2087,Fyavolv,Norethindrone Ac/Eth Estradiol
+2088,Mavenclad,Cladribine
+2089,Flurazepam Hcl,Flurazepam Hcl
+2090,Pred Forte,Prednisolone Acetate
+2091,Licart,Diclofenac Epolamine
+2092,Zavzpret,Zavegepant Hcl
+2093,Nitro-Bid,Nitroglycerin
+2094,Viorele,Desog-E.Estradiol/E.Estradiol
+2095,Procysbi,Cysteamine Bitartrate
+2096,Adapalene,Adapalene
+2097,Veo Insulin Syringe,"Syring-Needl,disp,insul,0.3 Ml"
+2098,Votrient,Pazopanib Hcl
+2099,Orilissa,Elagolix Sodium
+2100,Daptomycin-0.9% Nacl,Daptomycin In 0.9 % Sod Chlor
+2101,Drizalma Sprinkle,Duloxetine Hcl
+2102,Clindamycin (Pediatric),Clindamycin Palmitate Hcl
+2103,Paxil Cr,Paroxetine Hcl
+2104,Xofluza,Baloxavir Marboxil
+2105,Acthib,Haemoph B Poly Conj-Tet Tox/Pf
+2106,Aviane,Levonorgestrel/Ethin.Estradiol
+2107,Diflunisal,Diflunisal
+2108,Avodart,Dutasteride
+2109,Granisetron Hcl,Granisetron Hcl/Pf
+2110,Neupogen,Filgrastim
+2111,Lescol Xl,Fluvastatin Sodium
+2112,Me-Naphos-Mb-Hyo 1,Methenam/Sod Phos/Mblue/Hyoscy
+2113,Norditropin Flexpro,Somatropin
+2114,Xopenex Hfa,Levalbuterol Tartrate
+2115,Milrinone In 5% Dextrose,Milrinone Lactate/D5w
+2116,Alyacen,Norethindrone-Ethin. Estradiol
+2117,Nizatidine,Nizatidine
+2118,Beovu,Brolucizumab-Dbll
+2119,Syfovre,Pegcetacoplan/Pf
+2120,Lessina,Levonorgestrel/Ethin.Estradiol
+2121,Northera,Droxidopa
+2122,Hyrimoz(Cf) Pen,Adalimumab-Adaz
+2123,Yonsa,"Abiraterone Acet,submicronized"
+2124,Dojolvi,Triheptanoin
+2125,Gvoke Pfs 2-Pack Syringe,Glucagon
+2126,Insulin Syringe,"Syrge-Ndl,ins 0.3 Ml Half Mark"
+2127,Empaveli,Pegcetacoplan
+2128,Insulin Pen Needle,"Pen Needle, Diabetic"
+2129,Lutera,Levonorgestrel/Ethin.Estradiol
+2130,Velivet,Desogestrel-Ethinyl Estradiol
+2131,Adapalene-Benzoyl Peroxide,Adapalene/Benzoyl Peroxide
+2132,Vonjo,Pacritinib Citrate
+2133,Zolinza,Vorinostat
+2134,Tobrex,Tobramycin
+2135,Effer-K,Potassium Bicarbonate/Cit Ac
+2136,Zocor,Simvastatin
+2137,Ixchiq,"Chikungunya Vaccine, Live/Pf"
+2138,Lipofen,Fenofibrate
+2139,Mili,Norgestimate-Ethinyl Estradiol
+2140,Adalimumab-Aacf(Cf) Pen (2 Pk),Adalimumab-Aacf
+2141,Slynd,Drospirenone
+2142,Avycaz,Ceftazidime/Avibactam
+2143,Fetroja,Cefiderocol Sulfate Tosylate
+2144,Generlac,Lactulose
+2145,Sumatriptan Succ-Naproxen Sod,Sumatriptan Succ/Naproxen Sod
+2146,Myfortic,Mycophenolate Sodium
+2147,Isotretinoin,Isotretinoin
+2148,Chenodal,Chenodiol
+2149,Vpriv,Velaglucerase Alfa
+2150,Levocarnitine Sf,Levocarnitine
+2151,Kombiglyze Xr,Saxagliptin Hcl/Metformin Hcl
+2152,Micardis,Telmisartan
+2153,Miglitol,Miglitol
+2154,Safetyglide Insulin Syringe,"Syringe,needle,insuln,sf,0.3ml"
+2155,Xerava,Eravacycline Di-Hydrochloride
+2156,Mefloquine Hcl,Mefloquine Hcl
+2157,Crinone,"Progesterone, Micronized"
+2158,Glumetza,Metformin Hcl
+2159,Doxercalciferol,Doxercalciferol
+2160,Cystadane,Betaine
+2161,Oracea,Doxycycline Monohydrate
+2162,Methsuximide,Methsuximide
+2163,Penciclovir,Penciclovir
+2164,Hydrocortisone-Pramoxine,Hydrocortisone/Pramoxine
+2165,Reclipsen,Desogestrel-Ethinyl Estradiol
+2166,Ravicti,Glycerol Phenylbutyrate
+2167,Cefoxitin Sodium,"Cefoxitin Sodium/Dextrose,iso"
+2168,Segluromet,Ertugliflozin/Metformin
+2169,Kuvan,Sapropterin Dihydrochloride
+2170,Palynziq,Pegvaliase-Pqpz
+2171,Tribenzor,Olmesartan/Amlodipin/Hcthiazid
+2172,Thiola,Tiopronin
+2173,Zafemy,Norelgestromin/Ethin.Estradiol
+2174,Comfort Ez Insulin Syringe,"Syring-Needl,disp,insul,0.3 Ml"
+2175,Seglentis,Tramadol Hcl/Celecoxib
+2176,Givlaari,Givosiran Sodium
+2177,Hydrocodone-Homatropine Mbr,Hydrocodone Bit/Homatrop Me-Br
+2178,Cardizem Cd,Diltiazem Hcl
+2179,Xeomin,Incobotulinumtoxina
+2180,Nikki,Ethinyl Estradiol/Drospirenone
+2181,Cometriq,Cabozantinib S-Malate
+2182,Tyenne Autoinjector,Tocilizumab-Aazg
+2183,Altavera,Levonorgestrel/Ethin.Estradiol
+2184,Yuflyma(Cf) Autoinject (2 Pck),Adalimumab-Aaty
+2185,Linezolid-D5w,Linezolid In Dextrose 5%
+2186,Norvir,Ritonavir
+2187,Cefepime,Cefepime In Iso-Osm Dextrose
+2188,Methadone Intensol,Methadone Hcl
+2189,Alyq,Tadalafil
+2190,Neomycin-Bacitracin-Poly-Hc,Neomycin/Bacit/P-Myx/Hydrocort
+2191,Trogarzo,Ibalizumab-Uiyk
+2192,Trinatal Rx 1,"Prenatal Vit27,calcium/Iron/Fa"
+2193,Truvada,Emtricitabine/Tenofovir (Tdf)
+2194,Methylphenidate Hcl Cd,Methylphenidate Hcl
+2195,Erbitux,Cetuximab
+2196,Gazyva,Obinutuzumab
+2197,Sarclisa,Isatuximab-Irfc
+2198,Menactra,"Mening Vac A,c,y,w-135 Dip/Pf"
+2199,Durysta,Bimatoprost
+2200,Ferriprox (2 Times A Day),Deferiprone
+2201,Amcinonide,Amcinonide
+2202,Lapatinib,Lapatinib Ditosylate
+2203,Novolog Penfill,Insulin Aspart
+2204,Neomycin-Bacitracin-Polymyxin,Neomycin/Bacitracin/Polymyxinb
+2205,Fulphila,Pegfilgrastim-Jmdb
+2206,Stivarga,Regorafenib
+2207,Tri-Lo-Mili,Norgestimate-Ethinyl Estradiol
+2208,Alcohol Wipes,Alcohol Antiseptic Pads
+2209,Dermacinrx Lidogel,Lidocaine Hcl
+2210,Duobrii,Halobetasol Propion/Tazarotene
+2211,Kalydeco,Ivacaftor
+2212,Pulmozyme,Dornase Alfa
+2213,Novofine Plus,"Pen Needle, Diabetic"
+2214,Volnea,Desog-E.Estradiol/E.Estradiol
+2215,Ritalin La,Methylphenidate Hcl
+2216,Quillichew Er,Methylphenidate Hcl
+2217,Zanaflex,Tizanidine Hcl
+2218,Advocate Pen Needle,"Pen Needle, Diabetic"
+2219,Hadlima(Cf),Adalimumab-Bwwd
+2220,Onzetra Xsail,Sumatriptan Succinate
+2221,Lithobid,Lithium Carbonate
+2222,Diuril,Chlorothiazide
+2223,Pyrazinamide,Pyrazinamide
+2224,Trandolapril-Verapamil Er,Trandolapril/Verapamil Hcl
+2225,Darzalex,Daratumumab
+2226,Regranex,Becaplermin
+2227,Selzentry,Maraviroc
+2228,Anafranil,Clomipramine Hcl
+2229,Strattera,Atomoxetine Hcl
+2230,Se-Natal 19,Pnv 119/Iron Fum/Folic Acid
+2231,Aurovela 24 Fe,Norethindrone-E.Estradiol-Iron
+2232,Lithium Citrate,Lithium Citrate
+2233,Symlinpen 60,Pramlintide Acetate
+2234,Kelnor 1-35,Ethynodiol D-Ethinyl Estradiol
+2235,Isibloom,Desogestrel-Ethinyl Estradiol
+2236,Levonest,Levonorgestrel/Ethin.Estradiol
+2237,Tri-Lo-Estarylla,Norgestimate-Ethinyl Estradiol
+2238,Nilutamide,Nilutamide
+2239,Dobutamine Hcl-D5w,Dobutamine Hcl In Dextrose 5 %
+2240,Trifluridine,Trifluridine
+2241,Nutropin Aq Nuspin,Somatropin
+2242,Mysoline,Primidone
+2243,Samsca,Tolvaptan
+2244,Zithromax,Azithromycin
+2245,Vyepti,Eptinezumab-Jjmr
+2246,Amoxicillin-Clavulanate Pot Er,Amoxicillin/Potassium Clav
+2247,Phenylephrine Hcl,Phenylephrine Hcl
+2248,Nitrostat,Nitroglycerin
+2249,Taltz Autoinjector (2 Pack),Ixekizumab
+2250,Lotrel,Amlodipine Besylate/Benazepril
+2251,Hyzaar,Losartan/Hydrochlorothiazide
+2252,Lidocan Iii,Lidocaine
+2253,Naproxen Sodium Er,Naproxen Sodium
+2254,Myfembree,Relugolix/Estradiol/Norethindr
+2255,Forfivo Xl,Bupropion Hcl
+2256,Ultomiris,Ravulizumab-Cwvz
+2257,Siklos,Hydroxyurea
+2258,Gentamicin Sulfate,Gentamicin Sulfate/Pf
+2259,Brompheniramine-Pseudoephed-Dm,Brompheniramine/Pseudoephed/Dm
+2260,Lysodren,Mitotane
+2261,Flomax,Tamsulosin Hcl
+2262,Intuniv,Guanfacine Hcl
+2263,Ketoprofen,Ketoprofen
+2264,Penicillamine,Penicillamine
+2265,Levemir Flextouch,Insulin Detemir
+2266,Ultra Comfort,"Syringe And Needle,insulin,1ml"
+2267,Diacomit,Stiripentol
+2268,Oxcarbazepine Er,Oxcarbazepine
+2269,Amvuttra,Vutrisiran Sodium
+2270,Se-Natal 19,Pnv No.118/Iron Fumarate/Fa
+2271,Xenazine,Tetrabenazine
+2272,Padcev,Enfortumab Vedotin-Ejfv
+2273,Velcade,Bortezomib
+2274,Narcan,Naloxone Hcl
+2275,Cardura Xl,Doxazosin Mesylate
+2276,Pfizerpen,Penicillin G Potassium
+2277,Sunlenca,Lenacapavir Sodium
+2278,Amphotericin B Liposome,Amphotericin B Liposome
+2279,Flovent Diskus,Fluticasone Propionate
+2280,Teglutik,Riluzole
+2281,Ponvory,Ponesimod
+2282,Norliqva,Amlodipine Besylate
+2283,Sodium Phosphate,"Sod Phosphate,monobasic-Dibas"
+2284,Actimmune,"Interferon Gamma-1b,recomb."
+2285,Sabril,Vigabatrin
+2286,Sodium Acetate,Sodium Acetate
+2287,Trivora-28,Levonorgestrel/Ethin.Estradiol
+2288,Prilosec,Omeprazole Magnesium
+2289,Roxicodone,Oxycodone Hcl
+2290,Duexis,Ibuprofen/Famotidine
+2291,Layolis Fe,Noreth-Ethinyl Estradiol/Iron
+2292,Subvenite,Lamotrigine
+2293,Trimipramine Maleate,Trimipramine Maleate
+2294,Magnesium Sulfate,Magnesium Sulfate In Water
+2295,Bupivacaine Hcl,Bupivacaine Hcl
+2296,Periogard,Chlorhexidine Gluconate
+2297,Tropicamide,Tropicamide
+2298,Albendazole,Albendazole
+2299,Easy Comfort Insulin Syringe,"Syringe-Needle,insulin,0.5 Ml"
+2300,Jevtana,Cabazitaxel
+2301,Blisovi Fe,Norethindrone-E.Estradiol-Iron
+2302,Alomide,Lodoxamide Tromethamine
+2303,Rolvedon,Eflapegrastim-Xnst
+2304,Udenyca Onbody,Pegfilgrastim-Cbqv
+2305,Cefepime-Dextrose,Cefepime Hcl In Dextrose 5 %
+2306,Avsola,Infliximab-Axxq
+2307,Cellcept,Mycophenolate Mofetil
+2308,Ozurdex,Dexamethasone
+2309,Fosaprepitant Dimeglumine,Fosaprepitant Dimeglumine
+2310,Exforge Hct,Amlodipine/Valsartan/Hcthiazid
+2311,Marlissa,Levonorgestrel/Ethin.Estradiol
+2312,Clindamycin Phos-Benzoyl Perox,Clindamycin Phos/Benzoyl Perox
+2313,Bepreve,Bepotastine Besilate
+2314,Methylergonovine Maleate,Methylergonovine Maleate
+2315,Aciphex,Rabeprazole Sodium
+2316,Bupivacaine Hcl,Bupivacaine Hcl/Pf
+2317,Pyrimethamine,Pyrimethamine
+2318,Edecrin,Ethacrynic Acid
+2319,Sronyx,Levonorgestrel/Ethin.Estradiol
+2320,Potassium Citrate-Citric Acid,Potassium Citrate/Citric Acid
+2321,Zomig,Zolmitriptan
+2322,Easy Comfort Insulin Syringe,"Syringe And Needle,insulin,1ml"
+2323,Releuko,Filgrastim-Ayow
+2324,Tikosyn,Dofetilide
+2325,Deblitane,Norethindrone
+2326,Cyltezo(Cf),Adalimumab-Adbm
+2327,Zilbrysq,Zilucoplan Sodium
+2328,Mavyret,Glecaprevir/Pibrentasvir
+2329,Tracleer,Bosentan
+2330,Nuvessa,Metronidazole
+2331,Cayston,Aztreonam Lysine
+2332,K-Phos No.2,"Sod Phos,m-B/K Phos,monob"
+2333,Carnitor,Levocarnitine (With Sugar)
+2334,Cystaran,Cysteamine Hcl
+2335,Spinosad,Spinosad
+2336,Akynzeo,Fosnetupitant/Palonosetron
+2337,Claravis,Isotretinoin
+2338,Intelence,Etravirine
+2339,Naproxen Sodium Cr,Naproxen Sodium
+2340,Kalbitor,Ecallantide
+2341,Ruconest,"C1 Esterase Inhibitor, Recomb"
+2342,Safetyglide Insulin Syringe,"Syringe,needle,insuln,sf 0.5ml"
+2343,Tazorac,Tazarotene
+2344,Tyvaso Refill Kit,Treprostinil/Neb Accessories
+2345,Keveyis,Dichlorphenamide
+2346,Webcol,Alcohol Antiseptic Pads
+2347,Desogestr-Eth Estrad Eth Estra,Desog-E.Estradiol/E.Estradiol
+2348,Dextrose 5%-0.9% Nacl,Dextrose 5 % And 0.9 % Nacl
+2349,Elyxyb,Celecoxib
+2350,Tosymra,Sumatriptan
+2351,Easy Touch Insulin Syringe,"Syringe-Needle,insulin,0.5 Ml"
+2352,Yuflyma(Cf) Autoinjector,Adalimumab-Aaty
+2353,Kaletra,Lopinavir/Ritonavir
+2354,Rectiv,Nitroglycerin
+2355,Evamist,Estradiol
+2356,Portia,Levonorgestrel/Ethin.Estradiol
+2357,Sodium Phenylbutyrate,Sodium Phenylbutyrate
+2358,Firvanq,Vancomycin Hcl
+2359,Daybue,Trofinetide
+2360,Deferiprone,Deferiprone
+2361,Nicotrol,Nicotine
+2362,Prenatal Plus,"Pnv,calcium 72/Iron/Folic Acid"
+2363,Ketodan,Ketoconazole
+2364,Alogliptin-Pioglitazone,Alogliptin Benz/Pioglitazone
+2365,Rabavert,Rabies Vaccine (Pcec)/Pf
+2366,Trumenba,"N.Meningitidis B,lipid Fhbp Rc"
+2367,Enjaymo,Sutimlimab-Jome
+2368,Namenda Xr,Memantine Hcl
+2369,Enpresse,Levonorgestrel/Ethin.Estradiol
+2370,Symfi,Efavirenz/Lamivu/Tenofov Disop
+2371,Librax,Chlordiazepoxide/Clidinium Br
+2372,Easy-Touch Insulin Syringe,"Syringe And Needle,insulin,1ml"
+2373,Baraclude,Entecavir
+2374,Azilect,Rasagiline Mesylate
+2375,Trientine Hcl,Trientine Hcl
+2376,Jinteli,Norethindrone Ac/Eth Estradiol
+2377,Milrinone Lactate,Milrinone Lactate
+2378,Norethin-Eth Estra-Ferrous Fum,Noreth-Ethinyl Estradiol/Iron
+2379,Orkambi,Lumacaftor/Ivacaftor
+2380,Balversa,Erdafitinib
+2381,Venlafaxine Besylate Er,Venlafaxine Besylate
+2382,Sodium Chloride,Sodium Chloride 3 %
+2383,Zetonna,Ciclesonide
+2384,Lioresal Intrathecal,Baclofen
+2385,Microgestin Fe,Norethindrone-E.Estradiol-Iron
+2386,Aveed,Testosterone Undecanoate
+2387,Reyataz,Atazanavir Sulfate
+2388,Ulticare,"Syringe And Needle,insulin,1ml"
+2389,Kanjinti,Trastuzumab-Anns
+2390,Uceris,Budesonide
+2391,Pioglitazone-Glimepiride,Pioglitazone Hcl/Glimepiride
+2392,Ridaura,Auranofin
+2393,Cardizem La,Diltiazem Hcl
+2394,Fosamax,Alendronate Sodium
+2395,Relafen Ds,Nabumetone
+2396,Zosyn,"Piperacillin-Tazo-Dextrose,iso"
+2397,Malathion,Malathion
+2398,Afinitor,Everolimus
+2399,Hyftor,Sirolimus
+2400,Vimizim,Elosulfase Alfa
+2401,Urocit-K,Potassium Citrate
+2402,Aromasin,Exemestane
+2403,Aptivus,Tipranavir
+2404,Javygtor,Sapropterin Dihydrochloride
+2405,Nexviazyme,Avalglucosidase Alfa-Ngpt
+2406,Arava,Leflunomide
+2407,Rezlidhia,Olutasidenib
+2408,Ogsiveo,Nirogacestat Hydrobromide
+2409,Phenoxybenzamine Hcl,Phenoxybenzamine Hcl
+2410,Twyneo,Tretinoin/Benzoyl Peroxide
+2411,Altoprev,Lovastatin
+2412,Decitabine,Decitabine
+2413,Xelstrym,Dextroamphetamine
+2414,Doxy 100,Doxycycline Hyclate
+2415,Opsynvi,Macitentan/Tadalafil
+2416,Oxacillin Sodium,Oxacillin Sodium
+2417,Pulmicort,Budesonide
+2418,Vincristine Sulfate,Vincristine Sulfate
+2419,Natesto,Testosterone
+2420,Marplan,Isocarboxazid
+2421,Easy Glide Insulin Syringe,"Syringe-Needle,insulin,0.5 Ml"
+2422,Gentamicin Sulfate In Ns,"Gentamicin In Nacl, Iso-Osm"
+2423,Aztreonam,Aztreonam
+2424,Dextrose In Lactated Ringers,Dextrose 5%-Lactated Ringers
+2425,Epivir,Lamivudine
+2426,Prochlorperazine,Prochlorperazine
+2427,Mimvey,Estradiol/Norethindrone Acet
+2428,Zenatane,Isotretinoin
+2429,Klor-Con-Ef,Potassium Bicarbonate/Cit Ac
+2430,Fabhalta,Iptacopan Hcl
+2431,Ultra Flo Pen Needle,"Pen Needle, Diabetic"
+2432,Viltepso,Viltolarsen
+2433,Symlinpen 120,Pramlintide Acetate
+2434,Penicillin G Potassium,Penicillin G Potassium
+2435,Sodium Chloride,Sodium Chloride
+2436,Detrol La,Tolterodine Tartrate
+2437,Tecvayli,Teclistamab-Cqyv
+2438,Parnate,Tranylcypromine Sulfate
+2439,Azesco,Prenatal 147/Iron/Folic Acid
+2440,Pamidronate Disodium,Pamidronate Disodium
+2441,Lumryz,Sodium Oxybate
+2442,Syeda,Ethinyl Estradiol/Drospirenone
+2443,Tri-Mili,Norgestimate-Ethinyl Estradiol
+2444,Bavencio,Avelumab
+2445,Phesgo,Pertuzumab-Trastuzumab-Hy-Zzxf
+2446,Vectibix,Panitumumab
+2447,Calquence,Acalabrutinib
+2448,Reclast,Zoledronic Acid/Mannitol-Water
+2449,Berinert,C1 Esterase Inhibitor
+2450,Sporanox,Itraconazole
+2451,Bd Insulin Syringe Ult-Fine Ii,"Syring-Needl,disp,insul,0.3 Ml"
+2452,Nitazoxanide,Nitazoxanide
+2453,Coreg,Carvedilol
+2454,Inspra,Eplerenone
+2455,Alimta,Pemetrexed Disodium
+2456,Nexavar,Sorafenib Tosylate
+2457,Talicia,Omeprazole/Amoxicill/Rifabutin
+2458,Eprontia,Topiramate
+2459,Cytarabine,Cytarabine/Pf
+2460,Eraxis,Anidulafungin
+2461,Aranelle,Norethindrone-Ethin. Estradiol
+2462,Hailey 24 Fe,Norethindrone-E.Estradiol-Iron
+2463,Azurette,Desog-E.Estradiol/E.Estradiol
+2464,Cobenfy,Xanomeline Tart/Trospium Chlor
+2465,Maxalt,Rizatriptan Benzoate
+2466,Levofloxacin-D5w,Levofloxacin In Dextrose 5 %
+2467,Phentermine Hcl,Phentermine Hcl
+2468,Ferriprox,Deferiprone
+2469,Cotellic,Cobimetinib Fumarate
+2470,Junel Fe 24,Norethindrone-E.Estradiol-Iron
+2471,Rena-Vite Rx,Vit B Comp No.3/Folic/C/Biotin
+2472,Omnipod Classic Pods (Gen 3),"Insulin Pump Cart,cont Inf,rf"
+2473,Celontin,Methsuximide
+2474,Canasa,Mesalamine
+2475,Easy Touch,"Syringe And Needle,insulin,1ml"
+2476,Hydrea,Hydroxyurea
+2477,Nitrofurantoin,Nitrofurantoin
+2478,Tlando,Testosterone Undecanoate
+2479,Dyrenium,Triamterene
+2480,Carafate,Sucralfate
+2481,Bd Insulin Syringe Ultra-Fine,"Syringe-Needle,insulin,0.5 Ml"
+2482,Insulin Degludec,Insulin Degludec
+2483,Elestrin,Estradiol
+2484,Casodex,Bicalutamide
+2485,Insulin Syringe U-500,"Syringe,insul U-500,ndl,0.5ml"
+2486,Migergot,Ergotamine Tartrate/Caffeine
+2487,Sutent,Sunitinib Malate
+2488,Noritate,Metronidazole
+2489,Uroxatral,Alfuzosin Hcl
+2490,Clarithromycin Er,Clarithromycin
+2491,Cutaquig,Immun Glob G(Igg)-Hipp/Maltose
+2492,Nora-Be,Norethindrone
+2493,Myalept,Metreleptin
+2494,Clindamycin Phosphate-D5w,Clindamycin Phosphate/D5w
+2495,Bafiertam,Monomethyl Fumarate
+2496,1st Tier Unifine Pentips Plus,"Pen Needle, Diabetic"
+2497,Tiazac,Diltiazem Hcl
+2498,Ergomar,Ergotamine Tartrate
+2499,Orphenadrine-Aspirin-Caffeine,Orphenadrine/Aspirin/Caffeine
+2500,Rifadin,Rifampin
+2501,True Comfort Alcohol Pads,Alcohol Antiseptic Pads
+2502,Kimyrsa,Oritavancin Diphosphate
+2503,Exondys-51,Eteplirsen
+2504,Fragmin,"Dalteparin Sodium,porcine"
+2505,Yuflyma(Cf) (2 Pack),Adalimumab-Aaty
+2506,Agamree,Vamorolone
+2507,Zelapar,Selegiline Hcl
+2508,Bijuva,Estradiol/Progesterone
+2509,Safetyglide Syringe,"Syringe And Needle,insulin,1ml"
+2510,Vijoice,Alpelisib
+2511,Plenamine,Parenteral Amino Acid 15% No.6
+2512,Dextrose 10%-0.45% Nacl,Dextrose 10 % And 0.45 % Nacl
+2513,Depo-Testosterone,Testosterone Cypionate
+2514,Gvoke,Glucagon
+2515,Tyenne,Tocilizumab-Aazg
+2516,Livtencity,Maribavir
+2517,Proparacaine Hcl,Proparacaine Hcl
+2518,Hyoscyamine Sulfate Er,Hyoscyamine Sulfate
+2519,Arazlo,Tazarotene
+2520,Cabtreo,Adapalene/Benzoyl/Clindamycin
+2521,Winlevi,Clascoterone
+2522,Tascenso Odt,Fingolimod Lauryl Sulfate
+2523,Denavir,Penciclovir
+2524,Izervay,Avacincaptad Pegol Sodium/Pf
+2525,Dexrazoxane,Dexrazoxane Hcl
+2526,Natroba,Spinosad
+2527,Calcium Gluconate,Calcium Gluconate
+2528,Gammagard S-D,Immun Glob G/Gly/Gluc/Iga 0-50
+2529,Omvoh Pen,Mirikizumab-Mrkz
+2530,Elelyso,Taliglucerase Alfa
+2531,Easy Comfort Safety Pen Needle,"Pen Needle, Diabetic, Safety"
+2532,Myobloc,Rimabotulinumtoxinb
+2533,Juxtapid,Lomitapide Mesylate
+2534,Migranal,Dihydroergotamine Mesylate
+2535,Kisqali Femara Co-Pack,Ribociclib Succinate/Letrozole
+2536,Vanflyta,Quizartinib Dihydrochloride
+2537,Vasotec,Enalapril Maleate
+2538,Potassium Chloride-0.9% Nacl,Potassium Chloride In 0.9%nacl
+2539,Insulin Aspart Penfill,Insulin Aspart
+2540,Caduet,Amlodipine/Atorvastatin
+2541,Streptomycin Sulfate,Streptomycin Sulfate
+2542,Potassium Phosphate,"Potassium Phos,m-Basic-D-Basic"
+2543,Aminocaproic Acid,Aminocaproic Acid
+2544,Vitamin B-1,Thiamine Hcl
+2545,Ilumya,Tildrakizumab-Asmn
+2546,Taztia Xt,Diltiazem Hcl
+2547,Epitol,Carbamazepine
+2548,Lopressor,Metoprolol Tartrate
+2549,Bidil,Isosorbide Dinit/Hydralazine
+2550,Zipsor,Diclofenac Potassium
+2551,Bactrim Ds,Sulfamethoxazole/Trimethoprim
+2552,Astagraf Xl,Tacrolimus
+2553,Rydapt,Midostaurin
+2554,Unasyn,Ampicillin Sod/Sulbactam Sod
+2555,Tygacil,Tigecycline
+2556,Esgic,Butalb/Acetaminophen/Caffeine
+2557,Lyrica Cr,Pregabalin
+2558,Monoject Insulin Syringe,"Syringe And Needle,insulin,1ml"
+2559,Oscimin Sl,Hyoscyamine Sulfate
+2560,Betamethasone Sod Phos-Acetate,"Betamethasone Acetate,sod Phos"
+2561,Hailey,Norethindrone Ac/Eth Estradiol
+2562,Arthrotec 75,Diclofenac Sodium/Misoprostol
+2563,Lite Touch,"Pen Needle, Diabetic"
+2564,Tolcapone,Tolcapone
+2565,Wera,Norethindrone-Ethin. Estradiol
+2566,Tybost,Cobicistat
+2567,Cinvanti,Aprepitant
+2568,Onglyza,Saxagliptin Hcl
+2569,Pentacel,"Dipht,pert(A),tet-Polio/Hib/Pf"
+2570,Kcl-D5w-0.45% Nacl,Potassium Chloride/D5-0.45nacl
+2571,Aldurazyme,Laronidase
+2572,Oralone,Triamcinolone Acetonide
+2573,Oxistat,Oxiconazole Nitrate
+2574,Bensal Hp,Salicylic Acid
+2575,Flurandrenolide,Flurandrenolide
+2576,Vesicare Ls,Solifenacin Succinate
+2577,Harvoni,Ledipasvir/Sofosbuvir
+2578,Restoril,Temazepam
+2579,Pertzye,Lipase/Protease/Amylase
+2580,Droplet Micron Pen Needle,"Pen Needle, Diabetic"
+2581,Dobutamine Hcl,Dobutamine Hcl
+2582,Zavesca,Miglustat
+2583,Enbrace Hr,Multivit41/Iron/Folate8/Ps-Dha
+2584,Cosopt,Dorzolamide Hcl/Timolol Maleat
+2585,Kelnor 1-50,Ethynodiol D-Ethinyl Estradiol
+2586,Neomycin-Polymyxin B,Neomycin Sulf/Polymyxin B Sulf
+2587,Contrave,Naltrexone Hcl/Bupropion Hcl
+2588,Sandimmune,Cyclosporine
+2589,Istalol,Timolol Maleate
+2590,Zegerid,Omeprazole/Sodium Bicarbonate
+2591,Symdeko,Tezacaftor/Ivacaftor
+2592,Niacin,Niacin
+2593,Ethynodiol-Ethinyl Estradiol,Ethynodiol D-Ethinyl Estradiol
+2594,Ribavirin,Ribavirin
+2595,Pregnyl,"Chorionic Gonadotropin, Human"
+2596,Lodoco,Colchicine
+2597,Easy Touch Insulin Syringe,"Syring-Needl,disp,insul,0.3 Ml"
+2598,Methoxsalen,Methoxsalen
+2599,Dolobid,Diflunisal
+2600,Cefoxitin,Cefoxitin Sodium
+2601,Adcetris,Brentuximab Vedotin
+2602,Pediarix,Hep B Vaccine/Dp(A)t-Polio/Pf
+2603,Venclexta Starting Pack,Venetoclax
+2604,Tenormin,Atenolol
+2605,Dymista,Azelastine/Fluticasone
+2606,Dificid,Fidaxomicin
+2607,Cardura,Doxazosin Mesylate
+2608,Leqembi,Lecanemab-Irmb
+2609,Pennsaid,Diclofenac Sodium
+2610,Tamiflu,Oseltamivir Phosphate
+2611,Mesnex,Mesna
+2612,Tiopronin,Tiopronin
+2613,Atorvaliq,Atorvastatin Calcium
+2614,Pamelor,Nortriptyline Hcl
+2615,Camila,Norethindrone
+2616,Naftin,Naftifine Hcl
+2617,Trilipix,Fenofibric Acid (Choline)
+2618,Cystadrops,Cysteamine Hcl
+2619,Polymyxin B Sulfate,Polymyxin B Sulfate
+2620,Epaned,Enalapril Maleate
+2621,Thyquidity,Levothyroxine Sodium
+2622,Lotensin Hct,Benazepril/Hydrochlorothiazide
+2623,Verelan Pm,Verapamil Hcl
+2624,Treximet,Sumatriptan Succ/Naproxen Sod
+2625,Acetaminophen,Acetaminophen
+2626,Halcinonide,Halcinonide
+2627,Empliciti,Elotuzumab
+2628,Apidra,Insulin Glulisine
+2629,Carnitor,Levocarnitine
+2630,Monoject Insulin Safety Syrng,"Syringe With Needle, Insulin"
+2631,Livdelzi,Seladelpar Lysine
+2632,Salagen,Pilocarpine Hcl
+2633,Nemluvio,Nemolizumab-Ilto
+2634,Dhivy,Carbidopa/Levodopa
+2635,Dilantin-125,Phenytoin
+2636,Adthyza,"Thyroid,pork"
+2637,Atacand Hct,Candesartan/Hydrochlorothiazid
+2638,Perforomist,Formoterol Fumarate
+2639,Imovax Rabies Vaccine,"Rabies Vacc, Human Diploid/Pf"
+2640,Emtriva,Emtricitabine
+2641,Tri-Lo-Marzia,Norgestimate-Ethinyl Estradiol
+2642,Sodium Citrate-Citric Acid,Citric Acid/Sodium Citrate
+2643,Fluconazole-Nacl,"Fluconazole In Nacl,iso-Osm"
+2644,Glucotrol Xl,Glipizide
+2645,Minocin,Minocycline Hcl
+2646,Elaprase,Idursulfase
+2647,Trudhesa,Dihydroergotamine Mesylate
+2648,Klisyri,Tirbanibulin
+2649,Zovia 1-35,Ethynodiol D-Ethinyl Estradiol
+2650,Grastek,"Grass Pollen-Timothy, Standard"
+2651,Onexton,Clindamycin Phos/Benzoyl Perox
+2652,Qnasl Children,Beclomethasone Dipropionate
+2653,Ryclora,Dexchlorpheniramine Maleate
+2654,Femara,Letrozole
+2655,Qbrelis,Lisinopril
+2656,Gauze Pad,Gauze Bandage
+2657,Orphengesic Forte,Orphenadrine/Aspirin/Caffeine
+2658,Carnitor Sf,Levocarnitine
+2659,Iqirvo,Elafibranor
+2660,Ultra-Thin Ii,"Syringe And Needle,insulin,1ml"
+2661,Pentamidine Isethionate,Pentamidine Isethionate
+2662,Trimethobenzamide Hcl,Trimethobenzamide Hcl
+2663,Nalocet,Oxycodone Hcl/Acetaminophen
+2664,Natacyn,Natamycin
+2665,Vancomycin Hcl,Vancomycin Hcl In 5 % Dextrose
+2666,Juleber,Desogestrel-Ethinyl Estradiol
+2667,Clobetasol Emulsion,Clobetasol Propionate/Emoll
+2668,Evoxac,Cevimeline Hcl
+2669,Sular,Nisoldipine
+2670,Easy Glide Pen Needle,"Pen Needle, Diabetic"
+2671,Tolmetin Sodium,Tolmetin Sodium
+2672,Bimzelx,Bimekizumab-Bkzx
+2673,Sf,Fluoride (Sodium)
+2674,Delestrogen,Estradiol Valerate
+2675,True Comfort Pro Pen Needle,"Pen Needle, Diabetic"
+2676,Fenoprofen Calcium,Fenoprofen Calcium
+2677,Maxidex,Dexamethasone
+2678,Plerixafor,Plerixafor
+2679,Prodigy Insulin Syringe,"Syringe-Needle,insulin,0.5 Ml"
+2680,Luliconazole,Luliconazole
+2681,Vancomycin,Vancomycin Hcl In 5 % Dextrose
+2682,Larin 24 Fe,Norethindrone-E.Estradiol-Iron
+2683,Safyral,Drospir/Eth Estra/Levomefol Ca
+2684,Heparin Sodium,"Heparin Sodium,porcine/Pf"
+2685,Enilloring,Etonogestrel/Ethinyl Estradiol
+2686,Adalimumab-Adaz(Cf),Adalimumab-Adaz
+2687,Treanda,Bendamustine Hcl
+2688,Tobramycin,Tobramycin In 0.225% Sod Chlor
+2689,Alymsys,Bevacizumab-Maly
+2690,Easy Touch Insulin Safety,"Syringe,needle,insuln,sf 0.5ml"
+2691,Simpesse,L-Norgest/E.Estradiol-E.Estrad
+2692,Ztalmy,Ganaxolone
+2693,Aldactone,Spironolactone
+2694,Prometrium,"Progesterone, Micronized"
+2695,Voranigo,Vorasidenib Citrate
+2696,Azelex,Azelaic Acid
+2697,Seysara,Sarecycline Hcl
+2698,Gastrocrom,Cromolyn Sodium
+2699,Sajazir,Icatibant Acetate
+2700,Akynzeo,Netupitant/Palonosetron Hcl
+2701,Dasatinib,Dasatinib
+2702,Winrevair (2 Pack),Sotatercept-Csrk
+2703,Pyrukynd,Mitapivat Sulfate
+2704,Fioricet With Codeine,Butalbit/Acetamin/Caff/Codeine
+2705,Unifine Ultra Pen Needle,"Pen Needle, Diabetic"
+2706,Geodon,Ziprasidone Mesylate
+2707,Methadose,Methadone Hcl
+2708,Aubra Eq,Levonorgestrel/Ethin.Estradiol
+2709,Iressa,Gefitinib
+2710,Insulin Glargine Max Solostar,"Insulin Glargine,hum.Rec.Anlog"
+2711,Cortifoam,Hydrocortisone Acetate
+2712,Airduo Respiclick,Fluticasone Propion/Salmeterol
+2713,Mitomycin,Mitomycin
+2714,Tri-Legest Fe,Norethindrone-E.Estradiol-Iron
+2715,Metyrosine,Metyrosine
+2716,Aristada Initio,"Aripiprazole Lauroxil,submicr."
+2717,Magellan Insulin Safety Syrng,"Syringe,needle,insuln,safe,1ml"
+2718,Magnesium Sulfate-D5w,Magnesium Sulfate/D5w
+2719,Duopa,Carbidopa/Levodopa
+2720,Dilaudid,Hydromorphone Hcl
+2721,Vibativ,Telavancin Hcl
+2722,Dolishale,Levonorgestrel/Ethin.Estradiol
+2723,Carbaglu,Carglumic Acid
+2724,Amrix,Cyclobenzaprine Hcl
+2725,Mibelas 24 Fe,Norethindrone-E.Estradiol-Iron
+2726,Sharobel,Norethindrone
+2727,Vimovo,Naproxen/Esomeprazole Mag
+2728,Metronidazole,Metronidazole/Sodium Chloride
+2729,Targretin,Bexarotene
+2730,Sandostatin,Octreotide Acetate
+2731,Ulticare Insulin Syringe,"Syring-Needl,disp,insul,0.3 Ml"
+2732,Detrol,Tolterodine Tartrate
+2733,Coartem,Artemether/Lumefantrine
+2734,Ryvent,Carbinoxamine Maleate
+2735,Natazia,Estradiol Valerate/Dienogest
+2736,Velsipity,Etrasimod Arginine
+2737,Effient,Prasugrel Hcl
+2738,Lotronex,Alosetron Hcl
+2739,Primaquine,Primaquine Phosphate
+2740,Dextrose In Water,Dextrose 70 % In Water
+2741,Intralipid,Fat Emulsions
+2742,Premasol,Parenteral Amino Acid 10% No.7
+2743,Fluoride,Fluoride (Sodium)
+2744,Azulfidine,Sulfasalazine
+2745,Freestyle Libre 3 Sensor,Blood-Glucose Sensor
+2746,Clinimix,Aa 4.25 % No.1/Dextrose 5 %
+2747,Erythrocin Lactobionate,Erythromycin Lactobionate
+2748,Pure Comfort Pen Needle,"Pen Needle, Diabetic"
+2749,Adalimumab-Fkjp(Cf),Adalimumab-Fkjp
+2750,Sulfacetamide-Prednisolone,Sulfacetamide/Prednisolone Sp
+2751,Betapace,Sotalol Hcl
+2752,Lovenox,Enoxaparin Sodium
+2753,Clarinex,Desloratadine
+2754,Zumandimine,Ethinyl Estradiol/Drospirenone
+2755,Cipro Hc,Ciprofloxacin/Hydrocortisone
+2756,Adbry Autoinjector,Tralokinumab-Ldrm
+2757,Briellyn,Norethindrone-Ethin. Estradiol
+2758,Mefenamic Acid,Mefenamic Acid
+2759,Sotylize,Sotalol Hcl
+2760,Bd Insulin Syringe Ult-Fine Ii,"Syringe-Needle,insulin,0.5 Ml"
+2761,Ferriprox (3 Times A Day),Deferiprone
+2762,Metopirone,Metyrapone
+2763,Sovaldi,Sofosbuvir
+2764,Galantamine Hydrobromide,Galantamine Hbr
+2765,Yaz,Ethinyl Estradiol/Drospirenone
+2766,Eryped 400,Erythromycin Ethylsuccinate
+2767,Ciloxan,Ciprofloxacin Hcl
+2768,Miconazole-Zinc Oxide-Petroltm,Miconazole Nitrate/Zinc Ox/Pet
+2769,Vigamox,Moxifloxacin Hcl
+2770,Opfolda,Miglustat
+2771,Pombiliti,Cipaglucosidase Alfa-Atga
+2772,Hadlima,Adalimumab-Bwwd
+2773,Kenalog-10,Triamcinolone Acetonide
+2774,Clocortolone Pivalate,Clocortolone Pivalate
+2775,Deflazacort,Deflazacort
+2776,Nimodipine,Nimodipine
+2777,Betapace Af,Sotalol Hcl
+2778,Vizimpro,Dacomitinib
+2779,Ganciclovir Sodium,Ganciclovir Sodium
+2780,Recarbrio,Imipenem/Cilastatin/Relebactam
+2781,Solu-Medrol,Methylprednisolone Sod Succ
+2782,Ambisome,Amphotericin B Liposome
+2783,Cinryze,C1 Esterase Inhibitor
+2784,Faslodex,Fulvestrant
+2785,Asceniv,"Immune Globulin,gamma(Igg)slra"
+2786,Travasol,Parenteral Amino Acid 10% No.6
+2787,Elfabrio,Pegunigalsidase Alfa-Iwxj
+2788,Cosentyx,Secukinumab
+2789,Pnv-Omega,Mv-Mins 71/Iron/Folic No.1/Dha
+2790,Augtyro,Repotrectinib
+2791,Depo-Medrol,Methylprednisolone Acetate
+2792,Ephedrine Sulfate,Ephedrine Sulfate
+2793,Zydelig,Idelalisib
+2794,Herceptin Hylecta,Trastuzumab-Hyaluronidase-Oysk
+2795,Halcion,Triazolam
+2796,Ziphex,Prenatal 147/Iron/Folic Acid
+2797,Ulticare,"Syringe-Needle,insulin,0.5 Ml"
+2798,Smoflipid,Fat Emul/Soy/Mct/Oliv/Fish Oil
+2799,Rybrevant,Amivantamab-Vmjw
+2800,Vusion,Miconazole Nitrate/Zinc Ox/Pet
+2801,Arestin,Minocycline Hcl Microspheres
+2802,Pimtrea,Desog-E.Estradiol/E.Estradiol
+2803,Zovirax,Acyclovir
+2804,Exjade,Deferasirox
+2805,Oriahnn,Elagolix/Estradiol/Norethindrn
+2806,Cuvrior,Trientine Tetrahydrochloride
+2807,Zarontin,Ethosuximide
+2808,Prednisone Intensol,Prednisone
+2809,Easy Glide Insulin Syringe,"Syringe And Needle,insulin,1ml"
+2810,Depo-Subq Provera 104,Medroxyprogesterone Acetate
+2811,Rituxan Hycela,"Rituximab/Hyaluronidase,human"
+2812,Nardil,Phenelzine Sulfate
+2813,Amnesteem,Isotretinoin
+2814,Taytulla,Norethindrone-E.Estradiol-Iron
+2815,Infanrix Dtap,"Diph,pertuss(Acell),tet Ped/Pf"
+2816,Maxicomfort Ii Pen Needle,"Pen Needle, Diabetic"
+2817,Prenate Mini,Prenatal Vit 87/Iron/Folic/Dha
+2818,Prenate Pixie,Prenatal Vit 85/Iron/Fa 1/Dha
+2819,Ocella,Ethinyl Estradiol/Drospirenone
+2820,Cuprimine,Penicillamine
+2821,Nilandron,Nilutamide
+2822,Lucemyra,Lofexidine Hcl
+2823,Jemperli,Dostarlimab-Gxly
+2824,Inderal Xl,Propranolol Hcl
+2825,Levalbuterol Concentrate,Levalbuterol Hcl
+2826,Temozolomide,Temozolomide
+2827,Drospirenone-Eth Estra-Levomef,Drospir/Eth Estra/Levomefol Ca
+2828,Atropine Sulfate,Atropine Sulfate/Pf
+2829,Quillivant Xr,Methylphenidate Hcl
+2830,Reltone,Ursodiol
+2831,Gemmily,Norethindrone-E.Estradiol-Iron
+2832,Vabomere,Meropenem/Vaborbactam
+2833,Ogivri,Trastuzumab-Dkst
+2834,Alprazolam Intensol,Alprazolam
+2835,Assure Id Pen Needle,"Pen Needle, Diabetic, Safety"
+2836,Xanax Xr,Alprazolam
+2837,Soolantra,Ivermectin
+2838,Bismuth-Metronidazole-Tetracyc,Bismuth/Metronid/Tetracycline
+2839,Fleqsuvy,Baclofen
+2840,Onivyde,Irinotecan Liposomal
+2841,Aklief,Trifarotene
+2842,Cablivi,Caplacizumab-Yhdp
+2843,Protonix Iv,Pantoprazole Sodium
+2844,Desferal Mesylate,Deferoxamine Mesylate
+2845,Mini Pen Needle,"Pen Needle, Diabetic"
+2846,Reglan,Metoclopramide Hcl
+2847,Quinapril Hcl,Quinapril Hcl
+2848,Chorionic Gonadotropin,"Chorionic Gonadotropin, Human"
+2849,Macrobid,Nitrofurantoin Monohyd/M-Cryst
+2850,Codeine-Guaifenesin,Codeine Phosphate/Guaifenesin
+2851,1st Tier Unifine Pentips,"Pen Needle, Diabetic"
+2852,Igalmi,Dexmedetomidine Hcl
+2853,Ragwitek,Weed Pollen-Short Ragweed
+2854,Tolsura,Itraconazole
+2855,Mesalamine,Mesalamine W/Cleansing Wipes
+2856,Diphtheria-Tetanus Toxoids-Ped,"Tetanus,diphtheria Toxd Ped/Pf"
+2857,Frova,Frovatriptan Succinate
+2858,Pure Comfort Safety Pen Needle,"Pen Needle, Diabetic, Safety"
+2859,Easy Touch Insulin Syringe,"Syringe And Needle,insulin,1ml"
+2860,Panretin,Alitretinoin
+2861,Cipro,Ciprofloxacin
+2862,Miglustat,Miglustat
+2863,Techlite Insulin Syringe,"Syrge-Ndl,ins 0.5 Ml Half Mark"
+2864,Chateal Eq,Levonorgestrel/Ethin.Estradiol
+2865,Voydeya,Danicopan
+2866,Atelvia,Risedronate Sodium
+2867,Altreno,Tretinoin
+2868,Tricor,Fenofibrate Nanocrystallized
+2869,Veletri,Epoprostenol Sodium
+2870,Fuzeon,Enfuvirtide
+2871,Carospir,Spironolactone
+2872,Clindagel,Clindamycin Phosphate
+2873,Proair Digihaler,Albuterol Sulfate
+2874,Insupen,"Pen Needle, Diabetic"
+2875,Matulane,Procarbazine Hcl
+2876,Unifine Safecontrol Pen Needle,"Pen Needle, Diabetic"
+2877,Nabi-Hb,Hepatitis B Immune Globulin
+2878,Lopid,Gemfibrozil
+2879,Tenoretic 50,Atenolol/Chlorthalidone
+2880,Diskets,Methadone Hcl
+2881,Basaglar Tempo Pen U-100,"Insulin Glargine,hum.Rec.Anlog"
+2882,Motpoly Xr,Lacosamide
+2883,Acular Ls,Ketorolac Tromethamine
+2884,Gamastan,Immune Globul G (Igg)/Glycine
+2885,L-Glutamine,Glutamine
+2886,Tivdak,Tisotumab Vedotin-Tftv
+2887,Monoject,"Syringe-Needle,insulin,0.5 Ml"
+2888,Moxifloxacin,Moxifloxacin-Sod.Chloride(Iso)
+2889,Veklury,Remdesivir
+2890,Medrol,Methylprednisolone
+2891,Simlandi(Cf) Autoinjector,Adalimumab-Ryvk
+2892,Levetiracetam-Nacl,Levetiracetam In Nacl (Iso-Os)
+2893,Captopril-Hydrochlorothiazide,Captopril/Hydrochlorothiazide
+2894,Caprelsa,Vandetanib
+2895,Syprine,Trientine Hcl
+2896,Norpace,Disopyramide Phosphate
+2897,Famotidine,"Famotidine In Nacl,iso-Osm/Pf"
+2898,Monjuvi,Tafasitamab-Cxix
+2899,Bendamustine Hcl,Bendamustine Hcl
+2900,Nuvaring,Etonogestrel/Ethinyl Estradiol
+2901,Sure Comfort Safety Pen Needle,"Pen Needle, Diabetic, Safety"
+2902,Miacalcin,"Calcitonin,salmon,synthetic"
+2903,Rhofade,Oxymetazoline Hcl
+2904,Zilxi,Minocycline Hcl
+2905,Techlite Insulin Syringe,"Syringe And Needle,insulin,1ml"
+2906,Vyondys-53,Golodirsen
+2907,Ultracare Insulin Syringe,"Syringe And Needle,insulin,1ml"
+2908,Vosevi,Sofosbuvir/Velpatas/Voxilaprev
+2909,Vancomycin Hcl-D5w,Vancomycin Hcl In 5 % Dextrose
+2910,Ulticare Insulin Syringe,"Syringe And Needle,insulin,1ml"
+2911,Brovana,Arformoterol Tartrate
+2912,Plasma-Lyte A Ph 7.4,Electrolyte-A Solution
+2913,Insumed,"Syring-Needl,disp,insul,0.3 Ml"
+2914,Molindone Hcl,Molindone Hcl
+2915,Adalimumab-Fkjp(Cf) Pen,Adalimumab-Fkjp
+2916,Emverm,Mebendazole
+2917,Pramosone,Hydrocortisone/Pramoxine
+2918,Esomeprazole Sodium,Esomeprazole Sodium
+2919,Praziquantel,Praziquantel
+2920,Retin-A Micro Pump,Tretinoin Microspheres
+2921,Clindacin P,Clindamycin Phosphate
+2922,Clinimix E,Amino Ac 8 %/D14w/Electrolytes
+2923,Cystagon,Cysteamine Bitartrate
+2924,Eohilia,Budesonide
+2925,Doxorubicin Hcl Liposome,Doxorubicin Hcl Peg-Liposomal
+2926,Cuvposa,Glycopyrrolate
+2927,Carefine Pen Needle,"Pen Needle, Diabetic"
+2928,Multivitamin With Fluoride,Pedi Multivit No.17 W-Fluoride
+2929,Taclonex,Calcipotriene/Betamethasone
+2930,Amondys-45,Casimersen
+2931,Joyeaux,Levonorgest/Eth.Estradiol/Iron
+2932,Dodex,Cyanocobalamin (Vitamin B-12)
+2933,Cerebyx,Fosphenytoin Sodium
+2934,Delzicol,Mesalamine
+2935,Emend,Aprepitant
+2936,Tadliq,Tadalafil
+2937,Zegalogue Autoinjector,Dasiglucagon Hcl
+2938,Clindacin,Clindamycin Phosphate
+2939,Texacort,Hydrocortisone
+2940,Gammaplex,Immun Glob G/Sorb/Gly/Iga 0-50
+2941,Clinimix E,Aa 5 % No.6/D20w/Lytes No.23
+2942,Mycamine,Micafungin Sodium
+2943,Signifor,Pasireotide Diaspartate
+2944,Actoplus Met,Pioglitazone Hcl/Metformin Hcl
+2945,Bylvay,Odevixibat
+2946,Ultra-Thin Ii,"Syringe-Needle,insulin,0.5 Ml"
+2947,Tri-Vylibra,Norgestimate-Ethinyl Estradiol
+2948,Phenytoin Sodium,Phenytoin Sodium
+2949,Albuked-25,Albumin Human
+2950,Lidoderm,Lidocaine
+2951,Tigan,Trimethobenzamide Hcl
+2952,Verkazia,Cyclosporine
+2953,Humira(Cf) Pen Psor-Uv-Adol Hs,Adalimumab
+2954,Levulan,Aminolevulinic Acid Hcl
+2955,Quzyttir,Cetirizine Hcl
+2956,Treprostinil,Treprostinil Sodium
+2957,Joenja,Leniolisib Phosphate
+2958,Clinimix,Amino Acid 8 % In D14w
+2959,Viagra,Sildenafil Citrate
+2960,Lupron Depot-Ped,Leuprolide Acetate
+2961,Miconazole 3,Miconazole Nitrate
+2962,Ziextenzo,Pegfilgrastim-Bmez
+2963,Procardia Xl,Nifedipine
+2964,Setlakin,Levonorgestrel/Ethin.Estradiol
+2965,Progesterone,Progesterone
+2966,Tri-Vylibra Lo,Norgestimate-Ethinyl Estradiol
+2967,Xenpozyme,Olipudase Alfa-Rpcp
+2968,Targadox,Doxycycline Hyclate
+2969,Tilia Fe,Norethindrone-E.Estradiol-Iron
+2970,Finzala,Norethindrone-E.Estradiol-Iron
+2971,Arixtra,Fondaparinux Sodium
+2972,Cholbam,Cholic Acid
+2973,Isordil,Isosorbide Dinitrate
+2974,Pepcid,Famotidine
+2975,Mepsevii,Vestronidase Alfa-Vjbk
+2976,Rimso-50,Dimethyl Sulfoxide
+2977,Levoleucovorin Calcium,Levoleucovorin Calcium
+2978,Jasmiel,Ethinyl Estradiol/Drospirenone
+2979,Azathioprine Sodium,Azathioprine Sodium
+2980,Cimerli,Ranibizumab-Eqrn
+2981,Kcl-D5w-0.9% Nacl,Potassium Chloride/D5-0.9%nacl
+2982,Pip Pen Needle,"Pen Needle, Diabetic"
+2983,Sulfamylon,Mafenide Acetate
+2984,Evekeo,Amphetamine Sulfate
+2985,Sensipar,Cinacalcet Hcl
+2986,Cleocin Phosphate,Clindamycin Phosphate
+2987,Oxycodone Hcl Er,Oxycodone Hcl
+2988,Ticovac,Tick-Borne Encephalitis Vaccin
+2989,Vitafol Gummies,Pnv 112/Iron/Folic/Om3/Dha/Epa
+2990,Ethacrynate Sodium,Ethacrynate Sodium
+2991,Accutane,Isotretinoin
+2992,Lomotil,Diphenoxylate Hcl/Atropine
+2993,Remifentanil Hcl,Remifentanil Hcl
+2994,Renal Caps,B Complex W-C No.20/Folic Acid
+2995,Mifepristone,Mifepristone
+2996,Adalimumab-Adbm(Cf)pen,Adalimumab-Adbm
+2997,Colestid,Colestipol Hcl
+2998,Taltz Autoinjector (3 Pack),Ixekizumab
+2999,Ala-Cort,Hydrocortisone
+3000,Methyltestosterone,Methyltestosterone
+3001,Clindamycin Phos-Tretinoin,Clindamycin/Tretinoin
+3002,Auvi-Q,Epinephrine
+3003,Tivicay Pd,Dolutegravir Sodium
+3004,Oracit,Citric Acid/Sodium Citrate
+3005,Vfend Iv,Voriconazole
+3006,Dantrium,Dantrolene Sodium
+3007,Cytotec,Misoprostol
+3008,Turalio,Pexidartinib Hydrochloride
+3009,Romidepsin,Romidepsin
+3010,Clindamycin-0.9% Nacl,Clindamycin In 0.9 % Sod Chlor
+3011,Dextrose In Water,Dextrose 10 % In Water
+3012,Diflucan,Fluconazole
+3013,Jesduvroq,Daprodustat
+3014,Livmarli,Maralixibat Chloride
+3015,Arthrotec 50,Diclofenac Sodium/Misoprostol
+3016,Akeega,Niraparib/Abiraterone
+3017,Fylnetra,Pegfilgrastim-Pbbk
+3018,Caldolor,Ibuprofen
+3019,Colcrys,Colchicine
+3020,Pheburane,Sodium Phenylbutyrate
+3021,Fosphenytoin Sodium,Fosphenytoin Sodium
+3022,Vegzelma,Bevacizumab-Adcd
+3023,Methitest,Methyltestosterone
+3024,Ery-Tab,Erythromycin Base
+3025,Yasmin 28,Ethinyl Estradiol/Drospirenone
+3026,Xatmep,Methotrexate
+3027,Sulfadiazine,Sulfadiazine
+3028,Capecitabine,Capecitabine
+3029,Akten,Lidocaine Hcl/Pf
+3030,Cyclomydril,Cyclopentolate/Phenylephrine
+3031,Tabloid,Thioguanine
+3032,Charlotte 24 Fe,Norethindrone-E.Estradiol-Iron
+3033,Lyumjev Tempo Pen U-100,Insulin Lispro-Aabc
+3034,Betadine,Povidone-Iodine
+3035,Kenalog-40,Triamcinolone Acetonide
+3036,Tetracaine Hcl,Tetracaine Hcl/Pf
+3037,B-D Single Use Alcohol Swab,Alcohol Antiseptic Pads
+3038,Vylibra,Norgestimate-Ethinyl Estradiol
+3039,Amphotericin B,Amphotericin B
+3040,Humira(Cf) Pen Crohn's-Uc-Hs,Adalimumab
+3041,Fareston,Toremifene Citrate
+3042,Fentora,Fentanyl Citrate
+3043,Lofexidine Hcl,Lofexidine Hcl
+3044,Kenalog-80,Triamcinolone Acetonide
+3045,Prevident 5000 Ortho Defense,Fluoride (Sodium)
+3046,Albumin (Human),Albumin Human
+3047,Bendeka,Bendamustine Hcl
+3048,Rocaltrol,Calcitriol
+3049,Recombivax Hb,Hepatitis B Virus Vaccine/Pf
+3050,Acyclovir Sodium,Acyclovir Sodium
+3051,Ulticare Insulin Syringe,"Syrge-Ndl,ins 0.3 Ml Half Mark"
+3052,Albutein,Albumin Human
+3053,Ulticare,"Syring-Needl,disp,insul,0.3 Ml"
+3054,Sure Comfort Insulin Syringe,"Syringe-Needle,insulin,0.5 Ml"
+3055,Tovet Emollient,Clobetasol Propionate/Emoll
+3056,Taron-C Dha,Mvn-Min75/Iron/Iron Ps/Om3/Dha
+3057,Colazal,Balsalazide Disodium
+3058,Chemet,Succimer
+3059,Mesna,Mesna
+3060,Epsolay,Benzoyl Peroxide
+3061,Caretouch Alcohol Prep Pad,Alcohol Antiseptic Pads
+3062,Dermotic,Fluocinolone Acetonide Oil
+3063,Wescap-Pn Dha,Multivit 47/Iron/Folate 1/Dha
+3064,Sorilux,Calcipotriene
+3065,Band-Aid Gauze Pads,Gauze Bandage
+3066,Zepbound,Tirzepatide
+3067,Vyfemla,Norethindrone-Ethin. Estradiol
+3068,Promethazine Vc,Phenylephrine Hcl/Prometh Hcl
+3069,Azasan,Azathioprine
+3070,Xylocaine,Lidocaine Hcl
+3071,Epifoam,Hydrocortisone/Pramoxine
+3072,Cequr Simplicity Inserter,"Diabetic Supplies,miscell"
+3073,Dextrose In Water,Dextrose 50 % In Water
+3074,Polivy,Polatuzumab Vedotin-Piiq
+3075,Sky Safety Pen Needle,"Pen Needle, Diabetic, Safety"
+3076,Qalsody,Tofersen
+3077,Vanishpoint,"Syringe And Needle,insulin,1ml"
+3078,Vanishpoint,"Syringe-Needle,insulin,0.5 Ml"
+3079,Dexamethasone Intensol,Dexamethasone
+3080,Urogesic-Blue,Methenam/Sod Phos/Mblue/Hyoscy
+3081,Eulexin,Flutamide
+3082,Adzynma,"Adamts13, Recombinant-Krhn"
+3083,Vistaril,Hydroxyzine Pamoate
+3084,Meclofenamate Sodium,Meclofenamate Sodium
+3085,Hetlioz Lq,Tasimelteon
+3086,Proglycem,Diazoxide
+3087,Roweepra,Levetiracetam
+3088,Phenobarbital Sodium,Phenobarbital Sodium
+3089,Synarel,Nafarelin Acetate
+3090,Potassium Acetate,Potassium Acetate
+3091,Abilify Mycite,Aripiprazole
+3092,Curity Alcohol Preps,Alcohol Antiseptic Pads
+3093,Norelgestromin-Eth Estradiol,Norelgestromin/Ethin.Estradiol
+3094,Nesina,Alogliptin Benzoate
+3095,Vestura,Ethinyl Estradiol/Drospirenone
+3096,Neo-Synalar,Neomycin Sulfate/Fluocinolone
+3097,Bryhali,Halobetasol Propionate
+3098,Xerese,Acyclovir/Hydrocortisone
+3099,Silvadene,Silver Sulfadiazine
+3100,Oralair,Gr Pol-Orc/Sw Ver/Rye/Kent/Tim
+3101,Uro-Mp,Meth/Meblue/Sod Phos/Psal/Hyos
+3102,Niacor,Niacin
+3103,Daurismo,Glasdegib Maleate
+3104,Verifine Plus Pen Needle,"Pen Needle, Diabetic"
+3105,Ziagen,Abacavir Sulfate
+3106,Salicylic Acid,Salicylic Acid
+3107,Elite-Ob,Multivit-Min69/Iron/Folic Acid
+3108,Baxdela,Delafloxacin Meglumine
+3109,Phexxi,Lactic Acid/Citric/Potassium
+3110,Zyvox,Linezolid In Dextrose 5%
+3111,Fml,Fluorometholone
+3112,Hyrimoz(Cf),Adalimumab-Adaz
+3113,Hulio(Cf),Adalimumab-Fkjp
+3114,E.E.S. 200,Erythromycin Ethylsuccinate
+3115,Relexxii,Methylphenidate Hcl
+3116,Imjudo,Tremelimumab-Actl
+3117,Activella,Estradiol/Norethindrone Acet
+3118,Coly-Mycin M Parenteral,Colistin (Colistimethate Na)
+3119,Acuvail,Ketorolac Tromethamine/Pf
+3120,Virt-C Dha,Mvn-Min75/Iron/Iron Ps/Om3/Dha
+3121,Osmolex Er,Amantadine Hcl
+3122,Complete Natal Dha,Pnv Cmb 52/Iron/Fa/Omega-3/Dha
+3123,Droperidol,Droperidol
+3124,E.E.S. 400,Erythromycin Ethylsuccinate
+3125,Orfadin,Nitisinone
+3126,Flexbumin,Albumin Human
+3127,Clickfine,"Pen Needle, Diabetic"
+3128,Exservan,Riluzole
+3129,Briumvi,Ublituximab-Xiiy
+3130,Necon,Norethindrone-Ethin. Estradiol
+3131,Westgel Dha,Prenatal 93/Iron/Folate 9/Dha
+3132,Enalaprilat,Enalaprilat Dihydrate
+3133,Olpruva,Sodium Phenylbutyrate
+3134,Penicillin G Sodium,Penicillin G Sodium
+3135,Tarina 24 Fe,Norethindrone-E.Estradiol-Iron
+3136,Mirena,Levonorgestrel
+3137,Nextstellis,Drospirenone/Estetrol
+3138,Emcyt,Estramustine Phosphate Sodium
+3139,Rezzayo,Rezafungin Acetate
+3140,Cancidas,Caspofungin Acetate
+3141,Ultracare Insulin Syringe,"Syringe-Needle,insulin,0.5 Ml"
+3142,Children's Multivitamin,Pediatric Multivitamin No.17
+3143,Potassium Chloride,Potassium Chloride In Water
+3144,Niva-Plus,Multivit-Mins60/Iron Fum/Folic
+3145,Balcoltra,Levonorgest/Eth.Estradiol/Iron
+3146,Excilon,Non-Adherent Bandage
+3147,Sure Comfort Insulin Syringe,"Syring-Needl,disp,insul,0.3 Ml"
+3148,Zomacton,Somatropin
+3149,Symbyax,Olanzapine/Fluoxetine Hcl
+3150,Symfi Lo,Efavirenz/Lamivu/Tenofov Disop
+3151,Relenza,Zanamivir
+3152,Blisovi 24 Fe,Norethindrone-E.Estradiol-Iron
+3153,Vaseretic,Enalapril/Hydrochlorothiazide
+3154,Regonol,Pyridostigmine Bromide
+3155,Tricitrates,Sod/Pot/K Cit/Sod Cit/Cit Acid
+3156,Austedo Xr Titration Kt(Wk1-4),Deutetrabenazine
+3157,Ermeza,Levothyroxine Sodium
+3158,Thrivite Rx,"Prenatal Vit,calc76/Iron/Folic"
+3159,Nitisinone,Nitisinone
