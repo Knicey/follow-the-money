@@ -1,5 +1,9 @@
--- Company dimension table
+DROP TABLE IF EXISTS prescription;
+DROP TABLE IF EXISTS doctor;
+DROP TABLE IF EXISTS drug;
 DROP TABLE IF EXISTS company;
+
+-- Company dimension table
 CREATE TABLE company (
     company_id VARCHAR(20) PRIMARY KEY,
     company_name VARCHAR(255) NOT NULL
@@ -7,7 +11,6 @@ CREATE TABLE company (
 
 
 -- Doctor dimension table
-DROP TABLE IF EXISTS doctor;
 CREATE TABLE doctor (
     npi BIGINT PRIMARY KEY,
     last_name VARCHAR(100) NOT NULL,
@@ -22,7 +25,6 @@ CREATE TABLE doctor (
 
 
 -- Drug dimension table
-DROP TABLE IF EXISTS drug;
 CREATE TABLE drug (
     drug_id INT PRIMARY KEY,
     brand_name VARCHAR(255) NOT NULL,
@@ -31,7 +33,6 @@ CREATE TABLE drug (
 
 
 -- Prescription fact table
-DROP TABLE IF EXISTS prescription;
 CREATE TABLE prescription (
     npi BIGINT NOT NULL,
     drug_id INT NOT NULL,
