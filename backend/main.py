@@ -7,6 +7,9 @@ from fastapi.responses import RedirectResponse
 from backend.database import create_database_pool
 from backend.routes.doctors import router as doctors_router
 from backend.routes.companies import router as companies_router
+from backend.routes.pay_presc import router as pay_presc_router
+from backend.routes.analytics import router as analytics_router
+
 
 
 @asynccontextmanager
@@ -23,6 +26,8 @@ async def lifespan(app: FastAPI) -> AsyncIterator[None]:
 app = FastAPI(title="Follow the Money API", lifespan=lifespan)
 app.include_router(doctors_router)
 app.include_router(companies_router)
+app.include_router(pay_presc_router)
+app.include_router(analytics_router)
 
 
 #### TEMPORARY --- FOR DISPLAYING SWAGGER DOCS EASIER

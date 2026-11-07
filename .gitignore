@@ -5,3 +5,4 @@ __pycache__/
 .vscode/
 dist/
 build/
+data_clean/
