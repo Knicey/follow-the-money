@@ -8,7 +8,7 @@ SELECT c.company_id, c.company_name,
 FROM company c
 LEFT JOIN payment p ON p.company_id = c.company_id
 GROUP BY c.company_id, c.company_name
-ORDER BY c.company_name, c.company_id;
+ORDER BY total_payments DESC, c.company_name, c.company_id;
 """
 
 
