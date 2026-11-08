@@ -6,6 +6,12 @@ import NavBar from './components/NavBar';
 import HomePage from './pages/HomePage';
 import DoctorHomePage from './pages/DoctorHomePage';
 import DoctorInfoPage from './pages/DoctorInfoPage';
+import CompanyHomePage from './pages/CompanyHomePage';
+import CompanyInfoPage from './pages/CompanyInfoPage';
+import DrugHomePage from './pages/DrugHomePage';
+import DrugInfoPage from './pages/DrugInfoPage';
+import ExplorerPage from './pages/ExplorerPage';
+import InfluencePage from './pages/InfluencePage';
 
 const headingFont = '"Poppins", "Helvetica", "Arial", sans-serif';
 const bodyFont = '"Helvetica", "Arial", sans-serif';
@@ -76,10 +82,12 @@ export default function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/doctor" element={<DoctorHomePage />} />
           <Route path="/doctor/:doctor_id" element={<DoctorInfoPage />} />
-          <Route path="/company" element={<HomePage />} />
-          <Route path="/drug" element={<HomePage />} />
-          <Route path="/explorer" element={<HomePage />} />
-          <Route path="/influence" element={<HomePage />} />
+          <Route path="/company" element={<CompanyHomePage />} />
+          <Route path="/company/:company_id" element={<CompanyInfoPage />} />
+          <Route path="/drug" element={<DrugHomePage />} />
+          <Route path="/drug/:drug_id" element={<DrugInfoPage />} />
+          <Route path="/explorer" element={<ExplorerPage />} />
+          <Route path="/influence" element={<InfluencePage />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
