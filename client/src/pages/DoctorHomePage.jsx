@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 import config from '../config.json';
 
-export default function AlbumsPage() {
+export default function DoctorHomePage() {
   const [albums, setAlbums] = useState([]);
 
   useEffect(() => {

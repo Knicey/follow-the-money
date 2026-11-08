@@ -12,7 +12,7 @@ function NavText({ href, text, isMain }) {
         marginRight: '30px',
         fontWeight: isMain ? 700 : 550,
         letterSpacing: isMain ? 'unset' : '0.05rem',
-textTransform: isMain ? 'unset' : 'uppercase',
+        textTransform: isMain ? 'unset' : 'uppercase',
       }}
     >
       <NavLink
@@ -47,8 +47,11 @@ export default function NavBar() {
             <img src="/logo.jpg" alt="Logo" width="80" />
           </NavLink>
           <NavText href='/' text='Follow the Money' isMain />
-          <NavText href='/albums' text='ALBUMS' />
-          <NavText href='/songs' text='SONGS' />
+          <NavText href='/doctor' text='Doctors' />
+          <NavText href='/company' text='Companies' />
+          <NavText href='/drug' text='Drugs' />
+          <NavText href='/explorer' text='Explorer' />
+          <NavText href='/influence' text='Influence' />
         </Toolbar>
       </Container>
     </AppBar>

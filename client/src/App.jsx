@@ -4,6 +4,8 @@ import { createTheme } from "@mui/material/styles";
 
 import NavBar from './components/NavBar';
 import HomePage from './pages/HomePage';
+import DoctorHomePage from './pages/DoctorHomePage';
+import DoctorInfoPage from './pages/DoctorInfoPage';
 
 const headingFont = '"Poppins", "Helvetica", "Arial", sans-serif';
 const bodyFont = '"Helvetica", "Arial", sans-serif';
@@ -30,7 +32,7 @@ export const theme = createTheme({
     h4: { fontFamily: headingFont, fontWeight: 500 },
     h5: { fontFamily: headingFont, fontWeight: 500 },
     h6: { fontFamily: headingFont, fontWeight: 500 },
-h7: { fontFamily: headingFont, fontWeight: 500 },
+    h7: { fontFamily: headingFont, fontWeight: 500 },
   },
 });
 
@@ -72,6 +74,12 @@ export default function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/doctor" element={<DoctorHomePage />} />
+          <Route path="/doctor/:doctor_id" element={<DoctorInfoPage />} />
+          <Route path="/company" element={<HomePage />} />
+          <Route path="/drug" element={<HomePage />} />
+          <Route path="/explorer" element={<HomePage />} />
+          <Route path="/influence" element={<HomePage />} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
