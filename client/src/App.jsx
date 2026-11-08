@@ -14,7 +14,7 @@ import ExplorerPage from './pages/ExplorerPage';
 import InfluencePage from './pages/InfluencePage';
 
 const headingFont = '"Poppins", "Helvetica", "Arial", sans-serif';
-const bodyFont = '"Helvetica", "Arial", sans-serif';
+const bodyFont = '"Inter", "Helvetica", "Arial", sans-serif';
 
 // createTheme enables you to customize the look and feel of your app past the default
 // in this case, we only change the color scheme
@@ -22,12 +22,18 @@ export const theme = createTheme({
   palette: {
     primary: {
       main: '#1f7d99', // teal
+      light: '#34b1ce',
+      dark: '#005b77',
     },
     secondary: {
       main: '#f99115', // orange pills
+      light: '#ffa836',
+      dark: '#f27e00',
     },
     success: {
       main: '#127a46', // green
+      light: '#5dcd8a',
+      dark: '#127a46'
     },
   },
   typography: {

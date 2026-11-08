@@ -82,6 +82,15 @@ export default function CompanyHomePage() {
         autoHeight
         initialState={{ sorting: { sortModel: [{ field: 'total_payments', sort: 'desc' }] } }}
         style={{ margin: '30px 0px' }}
+        sx={{
+          '& .MuiDataGrid-columnHeaders': {
+            backgroundColor: 'secondary.dark',
+            color: '#fff',
+          },
+          '& .MuiDataGrid-columnHeaderTitle': {
+            fontWeight: '600',
+          },
+        }}
       /> */}
     </Container>
   );
