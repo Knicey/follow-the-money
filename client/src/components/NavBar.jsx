@@ -10,8 +10,9 @@ function NavText({ href, text, isMain }) {
       noWrap
       style={{
         marginRight: '30px',
-        fontWeight: isMain ? 700 : 600,
+        fontWeight: isMain ? 700 : 550,
         letterSpacing: isMain ? 'unset' : '0.05rem',
+textTransform: isMain ? 'unset' : 'uppercase',
       }}
     >
       <NavLink

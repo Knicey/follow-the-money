@@ -30,6 +30,7 @@ export const theme = createTheme({
     h4: { fontFamily: headingFont, fontWeight: 500 },
     h5: { fontFamily: headingFont, fontWeight: 500 },
     h6: { fontFamily: headingFont, fontWeight: 500 },
+h7: { fontFamily: headingFont, fontWeight: 500 },
   },
 });
 
