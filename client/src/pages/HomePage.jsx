@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Container, Divider, Link } from '@mui/material';
+import { Container, Divider, Link, Typography } from '@mui/material';
 import { NavLink } from 'react-router-dom';
 
 import LazyTable from '../components/LazyTable';
@@ -85,6 +85,9 @@ export default function HomePage() {
       <LazyTable route={`http://${config.server_host}:${config.server_port}/top_albums`} columns={albumColumns} defaultPageSize={5} rowsPerPageOptions={[5, 10]} />
       <Divider /> */}
       {/* TODO (TASK 18): add a paragraph (<p></p>) that displays “Created by [name]” using the name state stored from TASK 13/TASK 14 */}
+      <Typography variant='h4' style={{ margin: '15px 0px' }}>
+        Follow the Money Home Page
+      </Typography>
       <p>Created by DAMN (Group 9)</p>
     </Container>
   );
