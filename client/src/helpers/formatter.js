@@ -1,3 +1,7 @@
+export function formatCurrency(value) {
+  return value == null ? '—' : new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(value);
+}
+
 export function formatDuration(sec) {
   const date = new Date(0);
   date.setSeconds(sec ?? 0);

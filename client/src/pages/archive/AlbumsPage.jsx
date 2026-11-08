@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Box, Container } from '@mui/material';
 import { NavLink } from 'react-router-dom';
 
-import config from '../config.json';
+import config from '../../config.json';
 
 export default function AlbumsPage() {
   const [albums, setAlbums] = useState([]);

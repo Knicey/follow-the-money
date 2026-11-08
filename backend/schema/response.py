@@ -7,9 +7,11 @@ class DoctorSummaryResponse(BaseModel):
     npi: int
     first_name: str
     last_name: str
-    specialty: str
-    state: str
+    specialty: str | None
+    city: str | None
+    state: str | None
     total_payments: float
+    total_drug_cost: float
 
 
 class DoctorPaymentResponse(BaseModel):

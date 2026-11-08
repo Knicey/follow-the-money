@@ -2,6 +2,7 @@ from contextlib import asynccontextmanager
 from typing import AsyncIterator
 
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import RedirectResponse
 
 from backend.database import create_database_pool
@@ -24,6 +25,11 @@ async def lifespan(app: FastAPI) -> AsyncIterator[None]:
 
 
 app = FastAPI(title="Follow the Money API", lifespan=lifespan)
+# let the react dev server call this API from the browser
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+)
 app.include_router(doctors_router)
 app.include_router(companies_router)
 app.include_router(pay_presc_router)
