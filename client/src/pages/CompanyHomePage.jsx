@@ -81,6 +81,7 @@ export default function CompanyHomePage() {
         loading={loading}
         autoHeight
         initialState={{ sorting: { sortModel: [{ field: 'total_payments', sort: 'desc' }] } }}
+        style={{ margin: '30px 0px' }}
       /> */}
     </Container>
   );
