@@ -15,7 +15,13 @@ router = APIRouter()
 TAG = "Doctors"
 
 
-@router.get("/doctors", tags=[TAG], response_model=list[DoctorSummaryResponse])
+@router.get(
+    "/doctors",
+    tags=[TAG],
+    response_model=list[DoctorSummaryResponse],
+    summary="List doctors",
+    description="Return each doctor with their location, specialty, total reported payments, and total prescription drug costs.",
+)
 def list_doctors(
     connection: Annotated[
         Connection[dict[str, Any]],
@@ -32,9 +38,22 @@ def list_doctors(
         ) from exc
 
 
-@router.get("/doctors/{npi}/payments", tags=[TAG], response_model=list[DoctorPaymentResponse])
+@router.get(
+    "/doctors/{npi}/payments",
+    tags=[TAG],
+    response_model=list[DoctorPaymentResponse],
+    summary="List a doctor's payments",
+    description="Return payment records associated with the specified doctor, ordered by payment amount.",
+)
 def list_doctor_payments(
-    npi: Annotated[int, Path(ge=1_000_000_000, le=9_999_999_999)],
+    npi: Annotated[
+        int,
+        Path(
+            ge=1_000_000_000,
+            le=9_999_999_999,
+            description="The doctor's 10-digit National Provider Identifier (NPI).",
+        ),
+    ],
     connection: Annotated[
         Connection[dict[str, Any]],
         Depends(get_connection),

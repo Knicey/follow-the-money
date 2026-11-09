@@ -2,7 +2,7 @@ import logging
 from typing import Annotated, Any
 
 import psycopg
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Path
 from psycopg import Connection
 
 from backend.database import get_connection
@@ -16,9 +16,18 @@ router = APIRouter()
 TAG = "Payments and Prescriptions"
 
 
-@router.get("/payment-by-drug/{record_id}", tags=[TAG], response_model=list[PaymentByDrugResponse])
+@router.get(
+    "/payment-by-drug/{record_id}",
+    tags=[TAG],
+    response_model=list[PaymentByDrugResponse],
+    summary="List drugs linked to a payment",
+    description="Return the drugs associated with the specified payment record.",
+)
 def get_payment_by_drug(
-        record_id: int, 
+        record_id: Annotated[
+            int,
+            Path(description="The unique identifier of the payment record."),
+        ],
         connection: Annotated[
                 Connection[dict[str, Any]],
                 Depends(get_connection),
@@ -34,9 +43,18 @@ def get_payment_by_drug(
         ) from exc
     
 
-@router.get("/prescription-by-doctor/{npi}", tags=[TAG], response_model=list[PrescriptionByDoctorResponse])
+@router.get(
+    "/prescription-by-doctor/{npi}",
+    tags=[TAG],
+    response_model=list[PrescriptionByDoctorResponse],
+    summary="List a doctor's prescriptions",
+    description="Return prescription totals by drug for the specified doctor, ordered by claim volume.",
+)
 def get_prescription_by_doctor(
-        npi: int,
+        npi: Annotated[
+            int,
+            Path(description="The doctor's National Provider Identifier (NPI)."),
+        ],
         connection: Annotated[
                 Connection[dict[str, Any]],
                 Depends(get_connection),

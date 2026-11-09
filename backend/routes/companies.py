@@ -2,7 +2,7 @@ import logging
 from typing import Annotated, Any
 
 import psycopg
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Path
 from psycopg import Connection
 
 from backend.database import get_connection
@@ -16,7 +16,13 @@ router = APIRouter()
 TAG = "Companies"
 
 
-@router.get("/companies", tags=[TAG], response_model=list[CompanySummaryResponse])
+@router.get(
+    "/companies",
+    tags=[TAG],
+    response_model=list[CompanySummaryResponse],
+    summary="List companies",
+    description="Return each company and the total amount of payments attributed to it.",
+)
 def list_companies(
     connection: Annotated[
         Connection[dict[str, Any]],
@@ -34,9 +40,18 @@ def list_companies(
         ) from exc
 
 
-@router.get("/companies/{company_id}/payments", tags=[TAG], response_model=list[CompanyPaymentDoctorResponse])
+@router.get(
+    "/companies/{company_id}/payments",
+    tags=[TAG],
+    response_model=list[CompanyPaymentDoctorResponse],
+    summary="List a company's payments to doctors",
+    description="Return payment records made by the specified company to doctors.",
+)
 def list_company_payments(
-    company_id: str,
+    company_id: Annotated[
+        str,
+        Path(description="The database identifier of the company."),
+    ],
     connection: Annotated[
         Connection[dict[str, Any]],
         Depends(get_connection),
@@ -53,9 +68,18 @@ def list_company_payments(
         ) from exc
 
 
-@router.get("/companies/{company_id}/drug-payments", tags=[TAG], response_model=list[CompanyPaymentDrugResponse])
+@router.get(
+    "/companies/{company_id}/drug-payments",
+    tags=[TAG],
+    response_model=list[CompanyPaymentDrugResponse],
+    summary="List a company's drug-related payments",
+    description="Return drugs associated with payments made by the specified company, with payment counts and totals for each drug.",
+)
 def list_company_drug_payments(
-    company_id: str,
+    company_id: Annotated[
+        str,
+        Path(description="The database identifier of the company."),
+    ],
     connection: Annotated[
         Connection[dict[str, Any]],
         Depends(get_connection),
