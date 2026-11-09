@@ -24,7 +24,34 @@ async def lifespan(app: FastAPI) -> AsyncIterator[None]:
         pool.close()
 
 
-app = FastAPI(title="Follow the Money API", lifespan=lifespan)
+app = FastAPI(
+    title="Follow the Money API",
+    description=(
+        "Explore reported payments from drug and device companies to healthcare "
+        "providers alongside Medicare prescription data. Use the endpoints below "
+        "to retrieve doctor and company summaries, payment and prescription "
+        "records, and analytics comparing payments with prescribing patterns."
+    ),
+    openapi_tags=[
+        {
+            "name": "Doctors",
+            "description": "Look up doctors, their reported payments, and prescription totals.",
+        },
+        {
+            "name": "Companies",
+            "description": "Browse companies and inspect their payments to doctors and drug-related payments.",
+        },
+        {
+            "name": "Payments and Prescriptions",
+            "description": "Retrieve drugs associated with a payment record or prescription data for a doctor.",
+        },
+        {
+            "name": "Analytics",
+            "description": "Explore aggregated payment and prescribing analyses across doctors, companies, and drugs.",
+        },
+    ],
+    lifespan=lifespan,
+)
 # let the react dev server call this API from the browser
 app.add_middleware(
     CORSMiddleware,
