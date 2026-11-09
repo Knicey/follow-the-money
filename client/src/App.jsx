@@ -32,7 +32,7 @@ export const theme = createTheme({
     },
     success: {
       main: '#4ba670', // green for companies
-      light: '#5dcd8a',
+      light: '#a1e6bc',
       dark: '#127a46'
     },
   },
@@ -50,8 +50,7 @@ export const theme = createTheme({
     MuiDataGrid: {
       styleOverrides: {
         columnHeaders: {
-          backgroundColor: '#888888',
-          color: '#fff',
+          backgroundColor: '#cccccc',
         },
         columnHeaderTitle: {
           fontWeight: 600,
@@ -63,13 +62,14 @@ export const theme = createTheme({
         style: ({ theme }) => ({
           '& .MuiDataGrid-columnHeaders': {
             backgroundColor: theme.palette.primary.dark,
+            color: '#fff',
           },
         }),
       }, {
         props: { variant: 'company' },
         style: ({ theme }) => ({
           '& .MuiDataGrid-columnHeaders': {
-            backgroundColor: theme.palette.success.dark,
+            backgroundColor: theme.palette.success.light,
           },
         }),
       }, {
@@ -77,6 +77,7 @@ export const theme = createTheme({
         style: ({ theme }) => ({
           '& .MuiDataGrid-columnHeaders': {
             backgroundColor: theme.palette.secondary.dark,
+            color: '#fff',
           },
         }),
       }],
