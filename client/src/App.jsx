@@ -125,7 +125,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/doctor" element={<DoctorHomePage />} />
-          <Route path="/doctor/:doctor_id" element={<DoctorInfoPage />} />
+          <Route path="/doctor/:npi" element={<DoctorInfoPage />} />
           <Route path="/company" element={<CompanyHomePage />} />
           <Route path="/company/:company_id" element={<CompanyInfoPage />} />
           <Route path="/drug" element={<DrugHomePage />} />

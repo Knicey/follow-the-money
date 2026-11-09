@@ -5,7 +5,7 @@ import { NavLink, useParams } from 'react-router-dom';
 import config from '../config.json';
 
 export default function DoctorInfoPage() {
-  const { doctor_id } = useParams();
+  const { npi } = useParams();
 
   // const [doctors, setDoctors] = useState([]);
   // const [loading, setLoading] = useState(true);
@@ -22,7 +22,7 @@ export default function DoctorInfoPage() {
 
   return (
     <Container>
-      {doctor_id}
+      {npi}
     </Container>
   );
 }
