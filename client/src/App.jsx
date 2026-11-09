@@ -21,17 +21,17 @@ const bodyFont = '"Inter", "Helvetica", "Arial", sans-serif';
 export const theme = createTheme({
   palette: {
     primary: {
-      main: '#1f7d99', // teal
+      main: '#1f7d99', // teal for doctors
       light: '#34b1ce',
       dark: '#005b77',
     },
     secondary: {
-      main: '#f99115', // orange pills
+      main: '#f99115', // orange for drugs
       light: '#ffa836',
       dark: '#f27e00',
     },
     success: {
-      main: '#127a46', // green
+      main: '#4ba670', // green for companies
       light: '#5dcd8a',
       dark: '#127a46'
     },
@@ -46,24 +46,60 @@ export const theme = createTheme({
     h6: { fontFamily: headingFont, fontWeight: 500 },
     h7: { fontFamily: headingFont, fontWeight: 500 },
   },
+  components: {
+    MuiDataGrid: {
+      styleOverrides: {
+        columnHeaders: {
+          backgroundColor: '#888888',
+          color: '#fff',
+        },
+        columnHeaderTitle: {
+          fontWeight: 600,
+          fontSize: '0.9rem',
+        },
+      },
+      variants: [{
+        props: { variant: 'doctor' },
+        style: ({ theme }) => ({
+          '& .MuiDataGrid-columnHeaders': {
+            backgroundColor: theme.palette.primary.dark,
+          },
+        }),
+      }, {
+        props: { variant: 'company' },
+        style: ({ theme }) => ({
+          '& .MuiDataGrid-columnHeaders': {
+            backgroundColor: theme.palette.success.dark,
+          },
+        }),
+      }, {
+        props: { variant: 'drug' },
+        style: ({ theme }) => ({
+          '& .MuiDataGrid-columnHeaders': {
+            backgroundColor: theme.palette.secondary.dark,
+          },
+        }),
+      }],
+    },
+  },
 });
 
 /*
  * Logo colors
  *
- * Teals
+ * Teals (doctors)
  *  #1f7d99
  *  #005b77
  *  #34b1ce
  *  #2199ad
  *
- * Greens (dollar bill)
+ * Greens (companies)
  *  #a1e6bc
  *  #5dcd8a
  *  #4ba670
  *  #127a46
  *
- * Oranges (pills)
+ * Oranges (drugs)
  *  #f99115
  *  #f27e00
  *  #ffa836
@@ -72,6 +108,7 @@ export const theme = createTheme({
  *  #eaeaea
  *  #cccccc
  *  #999999
+ *  #888888
  */
 
 // App is the root component of our application and as children contain all our pages

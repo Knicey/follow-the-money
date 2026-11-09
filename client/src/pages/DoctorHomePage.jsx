@@ -62,14 +62,14 @@ export default function DoctorHomePage() {
 
   return (
     <Container>
-      <Typography variant='h4' style={{ margin: '15px 0px' }}>
+      <Typography variant='h4' sx={{ my: 2 }}>
         Doctors
       </Typography>
-      <Typography style={{ margin: '15px 0px' }}>
+      <Typography sx={{ my: 2 }}>
         See the payments each doctor received and the cost of the drugs they prescribed. Select a doctor to see the details.
       </Typography>
 
-      {error && <Alert severity='error' style={{ margin: '15px 0px' }} >{error}</Alert>}
+      {error && <Alert severity='error' sx={{ my: 2 }} >{error}</Alert>}
 
       <DataGrid
         rows={doctors}
@@ -81,17 +81,8 @@ export default function DoctorHomePage() {
         loading={loading}
         autoHeight
         initialState={{ sorting: { sortModel: [{ field: 'total_payments', sort: 'desc' }] } }}
-        style={{ margin: '30px 0px' }}
-        sx={{
-          '& .MuiDataGrid-columnHeaders': {
-            backgroundColor: 'secondary.dark',
-            color: '#fff',
-          },
-          '& .MuiDataGrid-columnHeaderTitle': {
-            fontWeight: '600',
-          },
-        }}
-
+        sx={{ my: 4 }}
+        variant="doctor"
       />
     </Container>
   );
