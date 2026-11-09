@@ -69,7 +69,7 @@ export default function CompanyHomePage() {
       <Typography variant='h4' sx={{ my: 2 }}>
         Companies
       </Typography>
-      <Typography sx={{ my: 2 }}>
+      <Typography color='text.secondary' sx={{ my: 2 }}>
         TODO: insert description
       </Typography>
 

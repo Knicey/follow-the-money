@@ -87,7 +87,7 @@ export default function DoctorHomePage() {
       <Typography variant='h4' sx={{ my: 2 }}>
         Doctors
       </Typography>
-      <Typography sx={{ my: 2 }}>
+      <Typography color='text.secondary' sx={{ my: 2 }}>
         See the payments each doctor received and the cost of the drugs they prescribed. Select a doctor to see the details.
       </Typography>
 
