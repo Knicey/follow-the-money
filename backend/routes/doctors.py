@@ -7,7 +7,7 @@ from backend.schema.response import DoctorSummaryResponse, DoctorPaymentResponse
 from psycopg import Connection
 
 from backend.database import get_connection
-from backend.queries.doctor_queries import fetch_doctor_payments, fetch_doctors
+from backend.queries.doctor_queries import fetch_doctor_payments, fetch_doctors, fetch_doctor
 
 logger = logging.getLogger(__name__)
 router = APIRouter()
@@ -32,6 +32,38 @@ def list_doctors(
         return fetch_doctors(connection)
     except psycopg.Error as exc:
         logger.exception("Failed to query the PostgreSQL database.")
+        raise HTTPException(
+            status_code=503,
+            detail="Unable to query the PostgreSQL database.",
+        ) from exc
+
+
+@router.get(
+    "/doctors/{npi}/",
+    tags=[TAG],
+    response_model=DoctorSummaryResponse,
+    summary="One doctor's summary information.",
+    description="Return summary information associated with the specified doctor.",
+)
+def get_doctor(
+    npi: Annotated[
+        int,
+        Path(
+            ge=1_000_000_000,
+            le=9_999_999_999,
+            description="The doctor's 10-digit National Provider Identifier (NPI).",
+        ),
+    ],
+    connection: Annotated[
+        Connection[dict[str, Any]],
+        Depends(get_connection),
+    ],
+) -> DoctorSummaryResponse:
+    """Return summary information associated with one doctor."""
+    try:
+        return fetch_doctor(connection, npi)
+    except psycopg.Error as exc:
+        logger.exception("Failed to query summary info for doctor NPI %s.", npi)
         raise HTTPException(
             status_code=503,
             detail="Unable to query the PostgreSQL database.",

@@ -31,6 +31,14 @@ WHERE p.npi = %s
 ORDER BY p.amount DESC NULLS LAST, p.record_id;
 """
 
+DOCTOR_DETAIL_QUERY = """
+SELECT dr.npi, dr.first_name, dr.last_name, dr.specialty, dr.city, dr.state,
+       COALESCE((SELECT SUM(amount) FROM payment WHERE npi = dr.npi), 0) AS total_payments,
+       COALESCE((SELECT SUM(total_drug_cost) FROM prescription WHERE npi = dr.npi), 0) AS total_drug_cost
+FROM doctor dr
+WHERE dr.npi = %s;
+"""
+
 
 def fetch_doctors(connection: Connection[dict[str, Any]]) -> list[dict[str, Any]]:
     with connection.cursor() as cursor:
@@ -45,3 +53,11 @@ def fetch_doctor_payments(
     with connection.cursor() as cursor:
         cursor.execute(DOCTOR_PAYMENTS_QUERY, (npi,))
         return cursor.fetchall()
+
+def fetch_doctor(
+    connection: Connection[dict[str, Any]],
+    npi: int,
+) -> dict[str, Any] | None:
+    with connection.cursor() as cursor:
+        cursor.execute(DOCTOR_DETAIL_QUERY, (npi,))
+        return cursor.fetchone()
