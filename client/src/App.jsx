@@ -47,6 +47,35 @@ export const theme = createTheme({
     h7: { fontFamily: headingFont, fontWeight: 500 },
   },
   components: {
+    MuiChip: {
+      styleOverrides: {
+        root: {
+          borderRadius: '7px',
+          fontWeight: 'bold',
+        },
+      },
+      variants: [{
+        props: { variant: 'doctor' },
+        style: ({ theme }) => ({
+          backgroundColor: theme.palette.primary.main,
+          color: '#fff',
+          '&:hover': { backgroundColor: theme.palette.primary.dark },
+        }),
+      }, {
+        props: { variant: 'company' },
+        style: ({ theme }) => ({
+          backgroundColor: theme.palette.success.main,
+          color: '#fff',
+          '&:hover': { backgroundColor: theme.palette.success.dark },
+        }),
+      }, {
+        props: { variant: 'drug' },
+        style: ({ theme }) => ({
+          backgroundColor: theme.palette.secondary.main,
+          '&:hover': { backgroundColor: theme.palette.secondary.dark },
+        }),
+      }]
+    },
     MuiDataGrid: {
       styleOverrides: {
         columnHeaders: {
