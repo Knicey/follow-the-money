@@ -1,13 +1,16 @@
 import { useEffect, useState } from 'react';
-import { Container, Typography, Alert, Link } from '@mui/material';
+import { Container, Typography, Alert, Link, useTheme } from '@mui/material';
 import { DataGrid } from '@mui/x-data-grid';
 import { NavLink } from 'react-router-dom';
+import { ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, ResponsiveContainer, Tooltip, ZAxis } from 'recharts';
 
 import config from '../config.json';
 
 import { formatCurrency } from '../helpers/formatter';
 
 export default function DoctorHomePage() {
+  const muiTheme = useTheme();
+
   const [doctors, setDoctors] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -60,16 +63,70 @@ export default function DoctorHomePage() {
     },
   ];
 
+  const CustomTooltip = ({ active, payload, label }) => {
+    if (active && payload && payload[0]) {
+      const data = payload[0].payload;
+      
+      // Combine two columns for the name
+      const pointName = `${data.last_name}, ${data.first_name}`;
+
+      return (
+        <div style={{ backgroundColor: '#fff', border: '1px solid #ccc', padding: '10px' }}>
+          <b>{pointName}</b><br/>
+          {payload[0].name}: {formatCurrency(payload[0].value)}<br/>
+          {payload[1].name}: {formatCurrency(payload[1].value)}
+        </div>
+      );
+    }
+    return null;
+  };
+
+
   return (
     <Container>
-      <Typography variant='h4' style={{ margin: '15px 0px' }}>
+      <Typography variant='h4' sx={{ my: 2 }}>
         Doctors
       </Typography>
-      <Typography style={{ margin: '15px 0px' }}>
+      <Typography color='text.secondary' sx={{ my: 2 }}>
         See the payments each doctor received and the cost of the drugs they prescribed. Select a doctor to see the details.
       </Typography>
 
-      {error && <Alert severity='error' style={{ margin: '15px 0px' }} >{error}</Alert>}
+      {error && <Alert severity='error' sx={{ my: 2 }} >{error}</Alert>}
+
+      <Container sx={{ mt: 4 }} >
+        <ResponsiveContainer width="100%" height={300} >
+          <ScatterChart width="100%" height={400}>
+            <CartesianGrid />
+            <XAxis
+              type="number"
+              label="Prescription drug cost"
+              name="Prescription drug cost"
+              dataKey="total_drug_cost"
+              tickFormatter={formatCurrency}
+              height={80}
+            />
+            <YAxis
+              type="number"
+              label={{ 
+                value: 'Payments received',
+                // position: 'insideLeft',
+                dx: -50,
+                // dy: 20,
+                angle: -90
+              }}
+              name="Payments received"
+              dataKey="total_payments"
+              tickFormatter={formatCurrency}
+              width={150}
+            />
+            <Tooltip
+              // formatter={formatCurrency}
+              content={CustomTooltip}
+            />
+            <Scatter data={doctors} fill={muiTheme.palette.primary.light} />
+          </ScatterChart>
+        </ResponsiveContainer>
+      </Container>
 
       <DataGrid
         rows={doctors}
@@ -81,17 +138,8 @@ export default function DoctorHomePage() {
         loading={loading}
         autoHeight
         initialState={{ sorting: { sortModel: [{ field: 'total_payments', sort: 'desc' }] } }}
-        style={{ margin: '30px 0px' }}
-        sx={{
-          '& .MuiDataGrid-columnHeaders': {
-            backgroundColor: 'secondary.dark',
-            color: '#fff',
-          },
-          '& .MuiDataGrid-columnHeaderTitle': {
-            fontWeight: '600',
-          },
-        }}
-
+        sx={{ my: 2 }}
+        variant="doctor"
       />
     </Container>
   );

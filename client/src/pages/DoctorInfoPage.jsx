@@ -1,28 +1,270 @@
 import { useEffect, useState, } from 'react';
-import { Box, Container } from '@mui/material';
+import { Container, Link, Typography, Stack, Card, Alert, Chip } from '@mui/material';
+import { DataGrid } from '@mui/x-data-grid';
 import { NavLink, useParams } from 'react-router-dom';
 
 import config from '../config.json';
 
+import PaymentDrugCard from '../components/PaymentDrugCard';
+import { formatCurrency, formatNumber } from '../helpers/formatter';
+
+const API = `http://${config.server_host}:${config.server_port}`;
+
 export default function DoctorInfoPage() {
-  const { doctor_id } = useParams();
+  const { npi } = useParams();
 
-  // const [doctors, setDoctors] = useState([]);
-  // const [loading, setLoading] = useState(true);
-  // const [error, setError] = useState(null);
-  // const [pageSize, setPageSize] = useState(25);
+  const [doctor, setDoctor] = useState(null);
+  const [errorDoc, setErrorDoc] = useState(null);
 
-  // useEffect(() => {
-  //   fetch(`http://${config.server_host}:${config.server_port}/doctors`)
-  //     .then(res => res.json())
-  //     .then(resJson => setDoctors(resJson))
-  //     .catch(() => setError('Could not load doctors. Check that the backend is running.'))
-  //     .finally(() => setLoading(false));
-  // }, []);
+  const [payments, setPayments] = useState([]);
+  const [loadingPay, setLoadingPay] = useState(true);
+  const [errorPay, setErrorPay] = useState(null);
+  const [pageSizePay, setPageSizePay] = useState(10);
+  
+  const [prescriptions, setPrescriptions] = useState([]);
+  const [loadingPre, setLoadingPre] = useState(true);
+  const [errorPre, setErrorPre] = useState(null);
+  const [pageSizePre, setPageSizePre] = useState(10);
+  
+  const [paidDrugs, setPaidDrugs] = useState([]);
+  const [loadingPaidDrugs, setLoadingPaidDrugs] = useState(true);
+  const [errorPaidDrugs, setErrorPaidDrugs] = useState(null);
+  const [pageSizePaidDrugs, setPageSizePaidDrugs] = useState(10);
+
+  // drugs for the payment row the user clicked
+  const [selectedPayment, setSelectedPayment] = useState(null);
+
+  useEffect(() => {
+    fetch(`${API}/doctors/${npi}`)
+      .then(res => res.json())
+      .then(resJson => setDoctor(resJson))
+      .catch(() => setErrorDoc('Could not load doctor info. Check that the backend is running.'));
+
+    fetch(`${API}/doctors/${npi}/payments`)
+      .then(res => res.json())
+      .then(resJson => setPayments(resJson))
+      .catch(() => setErrorPay('Could not load doctor payments. Check that the backend is running.'))
+      .finally(() => setLoadingPay(false));
+    
+    fetch(`${API}/prescription-by-doctor/${npi}`)
+      .then(res => res.json())
+      .then(resJson => setPrescriptions(resJson))
+      .catch(() => setErrorPre('Could not load doctor prescriptions. Check that the backend is running.'))
+      .finally(() => setLoadingPre(false));
+
+    fetch(`${API}/doctors/${npi}/paid-prescribed-drugs`)
+      .then(res => res.json())
+      .then(resJson => setPaidDrugs(resJson))
+      .catch(() => setErrorPaidDrugs('Could not load drugs that were both paid for and prescribed. Check that the backend is running.'))
+      .finally(() => setLoadingPaidDrugs(false));
+  }, []);
+
+  const paymentColumns = [
+    {
+      field: 'company_name',
+      headerName: 'Company',
+      minWidth: 180,
+      flex: 1,
+      renderCell: (params) => (
+        <Link component={NavLink} to={`/company/${params.row.company_id}`} underline='hover'>
+          {params.value}
+        </Link>
+      ),
+    },
+    {
+      field: 'amount',
+      headerName: 'Amount',
+      type: 'number',
+      minWidth: 100,
+      flex: 0.7,
+      valueFormatter: ({ value }) => formatCurrency(value),
+    },
+    {
+      field: 'number_of_payments',
+      headerName: 'Payments',
+      type: 'number',
+      minWidth: 70,
+      valueFormatter: ({ value }) => formatNumber(value),
+    },
+    { field: 'nature_of_payments', headerName: 'Nature', minWidth: 180, flex: 1 },
+    { field: 'form_of_payments', headerName: 'Form', minWidth: 180, flex: 1 },
+  ];
+
+  const prescriptionColumns = [
+    {
+      field: 'brand_name',
+      headerName: 'Drug',
+      minWidth: 180,
+      flex: 1,
+      renderCell: (params) => (
+        <Link component={NavLink} to={`/drug/${params.row.drug_id}`} underline='hover'>
+          {params.value}
+        </Link>
+      ),
+    },
+    { field: 'generic_name', headerName: 'Generic name', minWidth: 180, flex: 1 },
+    {
+      field: 'total_claims',
+      headerName: 'Claims',
+      type: 'number',
+      minWidth: 100,
+      valueFormatter: ({ value }) => formatNumber(value),
+    },
+    {
+      field: 'total_beneficiaries',
+      headerName: 'Patients',
+      type: 'number',
+      minWidth: 100,
+      valueFormatter: ({ value }) => formatNumber(value),
+    },
+    {
+      field: 'total_drug_cost',
+      headerName: 'Drug cost',
+      type: 'number',
+      minWidth: 140,
+      flex: 1,
+      valueFormatter: ({ value }) => formatCurrency(value),
+    },
+  ];
+
+  const paidDrugColumns = [
+    {
+      field: 'brand_name',
+      headerName: 'Drug',
+      minWidth: 180,
+      flex: 1,
+      renderCell: (params) => (
+        <Link component={NavLink} to={`/drug/${params.row.drug_id}`} underline='hover'>
+          {params.value}
+        </Link>
+      ),
+    },
+    { field: 'generic_name', headerName: 'Generic name', minWidth: 180, flex: 1 },
+    {
+      field: 'total_related_payments',
+      headerName: 'Related payments',
+      type: 'number',
+      minWidth: 150,
+      flex: 1,
+      valueFormatter: ({ value }) => formatCurrency(value),
+    },
+    {
+      field: 'n_related_payments',
+      headerName: 'Payment records',
+      type: 'number',
+      minWidth: 100,
+      valueFormatter: ({ value }) => formatNumber(value),
+    },
+    {
+      field: 'total_drug_cost',
+      headerName: 'Prescription cost',
+      type: 'number',
+      minWidth: 150,
+      flex: 1,
+      valueFormatter: ({ value }) => formatCurrency(value),
+    },
+    {
+      field: 'total_beneficiaries',
+      headerName: 'Patients',
+      type: 'number',
+      minWidth: 100,
+      valueFormatter: ({ value }) => formatNumber(value),
+    },
+  ];
 
   return (
     <Container>
-      {doctor_id}
+      {selectedPayment && <PaymentDrugCard
+        payment={selectedPayment}
+        handleClose={() => setSelectedPayment(null)} 
+      />}
+
+      <Chip
+        label='Doctor'
+        size='small'
+        component={NavLink}
+        to='/doctor'
+        clickable
+        variant='doctor'
+        sx={{ mt: 3 }}
+      />
+
+      {errorDoc && <Alert severity='error' sx={{ my: 2 }}>{errorDoc}</Alert>}
+
+      <Typography variant='h4' sx={{ my: 1 }}>
+        {doctor ? `${doctor.first_name} ${doctor.last_name}` : (errorDoc ? 'Error' : 'Loading...')}
+      </Typography>
+
+      {doctor && (
+        <Typography color='text.secondary'>
+          {doctor.specialty}<br/>
+          {`${doctor.city}, ${doctor.state}`}<br/>
+          {`NPI: ${doctor.npi}`}
+        </Typography>
+      )}
+
+      {doctor && (
+        <Stack direction='row' spacing={2} sx={{ my: 3 }}>
+          <Card variant='outlined' sx={{ p: 2, flex: 1 }}>
+            <Typography variant='body2' color='text.secondary'>Payments received</Typography>
+            <Typography variant='h5' sx={{ color: 'success.dark' }}>{formatCurrency(doctor.total_payments)}</Typography>
+          </Card>
+          <Card variant='outlined' sx={{ p: 2, flex: 1 }}>
+            <Typography variant='body2' color='text.secondary'>Cost of drugs prescribed</Typography>
+            <Typography variant='h5' sx={{ color: 'secondary.dark' }}>{formatCurrency(doctor.total_drug_cost)}</Typography>
+          </Card>
+        </Stack>
+      )}
+
+      <Typography variant='h5' sx={{ mt: 4 }}>Paid for and prescribed</Typography>
+      <Typography variant='body2' color='text.secondary' sx={{ mb: 1 }}>
+        Drugs linked to this doctor's industry payments that they also prescribed.
+      </Typography>
+      {errorPaidDrugs && <Alert severity='error' sx={{ mb: 1 }}>{errorPaidDrugs}</Alert>}
+      <DataGrid
+        rows={paidDrugs}
+        columns={paidDrugColumns}
+        getRowId={(row) => row.drug_id}
+        loading={loadingPaidDrugs}
+        pageSize={pageSizePaidDrugs}
+        onPageSizeChange={setPageSizePaidDrugs}
+        rowsPerPageOptions={[10, 25, 50]}
+        autoHeight
+        variant='doctor'
+      />
+
+      <Typography variant='h5' sx={{ mt: 4 }}>Payments received</Typography>
+      <Typography variant='body2' color='text.secondary' sx={{ mb: 1 }}>
+        Click a payment row to see the drugs it was linked to.
+      </Typography>
+      {errorPay && <Alert severity='error' sx={{ mb: 1 }}>{errorPay}</Alert>}
+      <DataGrid
+        rows={payments}
+        columns={paymentColumns}
+        getRowId={(row) => row.record_id}
+        loading={loadingPay}
+        pageSize={pageSizePay}
+        onPageSizeChange={setPageSizePay}
+        rowsPerPageOptions={[10, 25, 50]}
+        onRowClick={(params) => setSelectedPayment(params.row)}
+        autoHeight
+        variant='company'
+      />
+
+      <Typography variant='h5' sx={{ mt: 4, mb: 1 }}>Drugs prescribed</Typography>
+      {errorPre && <Alert severity='error' sx={{ mb: 1 }}>{errorPre}</Alert>}
+      <DataGrid
+        rows={prescriptions}
+        columns={prescriptionColumns}
+        getRowId={(row) => row.drug_id}
+        loading={loadingPre}
+        pageSize={pageSizePre}
+        onPageSizeChange={setPageSizePre}
+        rowsPerPageOptions={[10, 25, 50]}
+        autoHeight
+        sx={{ mb: 4 }}
+        variant='drug'
+      />
     </Container>
   );
 }

@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react';
 import { Container, Divider, Link, Typography } from '@mui/material';
 import { NavLink } from 'react-router-dom';
 
-import LazyTable from '../components/LazyTable';
-import SongCard from '../components/SongCard';
+import LazyTable from '../components/archive/LazyTable';
+import SongCard from '../components/archive/SongCard';
 import config from '../config.json';
 
 export default function HomePage() {

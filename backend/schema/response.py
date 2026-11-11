@@ -12,15 +12,25 @@ class DoctorSummaryResponse(BaseModel):
     total_payments: float = Field(description="Total reported payment amount associated with the doctor.")
     total_drug_cost: float = Field(description="Total reported prescription drug cost for the doctor.")
 
-
 class DoctorPaymentResponse(BaseModel):
     """Response model for doctor payment."""
     record_id: int = Field(description="Unique identifier of the payment record.")
     company_id: str = Field(description="Identifier of the company that made the payment.")
     company_name: str = Field(description="Name of the company that made the payment.")
     amount: float = Field(description="Reported amount for the payment record.")
-    nature_of_payments: str = Field(description="Category or stated purpose of the payment.")
-    form_of_payments: str = Field(description="Form in which the payment or transfer was provided.")
+    number_of_payments: int | None = Field(description="The number of discrete payments being reported in the \"Total Amount of Payment\".")
+    nature_of_payments: str | None = Field(description="Category or stated purpose of the payment.")
+    form_of_payments: str | None = Field(description="Form in which the payment or transfer was provided.")
+
+class DoctorPaidPrescribedDrugResponse(BaseModel):
+    """Response model for a drug a doctor both received payments for and prescribed."""
+    drug_id: int = Field(description="Unique identifier of the drug.")
+    brand_name: str = Field(description="Brand name of the drug.")
+    generic_name: str | None = Field(description="Generic name of the drug.")
+    n_related_payments: int | None = Field(description="Total number of payments in the doctor's payment records associated with this drug, if reported.")
+    total_related_payments: float | None = Field(description="Sum of amounts from the doctor's payment records associated with this drug.")
+    total_drug_cost: float | None = Field(description="Total reported cost of the doctor's prescriptions for this drug.")
+    total_beneficiaries: int | None = Field(description="Number of beneficiaries the doctor prescribed this drug to, if reported.")
 
 class CompanySummaryResponse(BaseModel):
     """Response model for company summary."""
@@ -61,10 +71,10 @@ class PrescriptionByDoctorResponse(BaseModel):
     """Response model for prescription by doctor."""
     drug_id: int = Field(description="Unique identifier of the prescribed drug.")
     brand_name: str = Field(description="Brand name of the drug.")
-    generic_name: str = Field(description="Generic name of the drug.")
-    total_claims: int = Field(description="Total prescription claims for this drug.")
-    total_day_supply: float = Field(description="Total days of medication supplied.")
-    total_drug_cost: float = Field(description="Total reported cost of prescriptions for this drug.")
+    generic_name: str | None = Field(description="Generic name of the drug.")
+    total_claims: int | None = Field(description="Total prescription claims for this drug.")
+    total_day_supply: float | None = Field(description="Total days of medication supplied.")
+    total_drug_cost: float | None = Field(description="Total reported cost of prescriptions for this drug.")
     total_beneficiaries: int | None = Field(description="Number of beneficiaries, if reported.")
 
 
