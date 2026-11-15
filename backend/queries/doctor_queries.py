@@ -39,6 +39,32 @@ FROM doctor dr
 WHERE dr.npi = %s;
 """
 
+DOCTOR_PAID_PRESCRIBED_DRUGS_QUERY = """
+WITH paid AS (
+    SELECT pd.drug_id,
+           SUM(p.number_of_payments) AS n_related_payments,
+           SUM(p.amount) AS total_related_payments
+    FROM payment p
+    JOIN paymentbydrug pd ON pd.record_id = p.record_id
+    WHERE p.npi = %s
+    GROUP BY pd.drug_id
+), rx AS (
+    SELECT drug_id,
+           SUM(total_drug_cost) AS total_drug_cost,
+           SUM(total_beneficiaries) AS total_beneficiaries
+    FROM prescription
+    WHERE npi = %s
+    GROUP BY drug_id
+)
+SELECT d.drug_id, d.brand_name, d.generic_name,
+       paid.n_related_payments, paid.total_related_payments,
+       rx.total_drug_cost, rx.total_beneficiaries
+FROM paid
+JOIN rx ON rx.drug_id = paid.drug_id
+JOIN drug d ON d.drug_id = paid.drug_id
+ORDER BY paid.total_related_payments DESC NULLS LAST, d.brand_name;
+"""
+
 
 def fetch_doctors(connection: Connection[dict[str, Any]]) -> list[dict[str, Any]]:
     with connection.cursor() as cursor:
@@ -61,3 +87,11 @@ def fetch_doctor(
     with connection.cursor() as cursor:
         cursor.execute(DOCTOR_DETAIL_QUERY, (npi,))
         return cursor.fetchone()
+
+def fetch_doctor_paid_prescribed_drugs(
+    connection: Connection[dict[str, Any]],
+    npi: int,
+) -> list[dict[str, Any]]:
+    with connection.cursor() as cursor:
+        cursor.execute(DOCTOR_PAID_PRESCRIBED_DRUGS_QUERY, (npi, npi))
+        return cursor.fetchall()

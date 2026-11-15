@@ -22,6 +22,16 @@ class DoctorPaymentResponse(BaseModel):
     nature_of_payments: str | None = Field(description="Category or stated purpose of the payment.")
     form_of_payments: str | None = Field(description="Form in which the payment or transfer was provided.")
 
+class DoctorPaidPrescribedDrugResponse(BaseModel):
+    """Response model for a drug a doctor both received payments for and prescribed."""
+    drug_id: int = Field(description="Unique identifier of the drug.")
+    brand_name: str = Field(description="Brand name of the drug.")
+    generic_name: str | None = Field(description="Generic name of the drug.")
+    n_related_payments: int | None = Field(description="Total number of payments in the doctor's payment records associated with this drug, if reported.")
+    total_related_payments: float | None = Field(description="Sum of amounts from the doctor's payment records associated with this drug.")
+    total_drug_cost: float | None = Field(description="Total reported cost of the doctor's prescriptions for this drug.")
+    total_beneficiaries: int | None = Field(description="Number of beneficiaries the doctor prescribed this drug to, if reported.")
+
 class CompanySummaryResponse(BaseModel):
     """Response model for company summary."""
     company_id: str = Field(description="Unique identifier of the company.")

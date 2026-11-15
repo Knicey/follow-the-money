@@ -14,15 +14,22 @@ export default function DoctorInfoPage() {
   const { npi } = useParams();
 
   const [doctor, setDoctor] = useState(null);
-  const [payments, setPayments] = useState([]);
-  const [prescriptions, setPrescriptions] = useState([]);
   const [errorDoc, setErrorDoc] = useState(null);
+
+  const [payments, setPayments] = useState([]);
   const [loadingPay, setLoadingPay] = useState(true);
   const [errorPay, setErrorPay] = useState(null);
+  const [pageSizePay, setPageSizePay] = useState(10);
+  
+  const [prescriptions, setPrescriptions] = useState([]);
   const [loadingPre, setLoadingPre] = useState(true);
   const [errorPre, setErrorPre] = useState(null);
-  const [pageSizePay, setPageSizePay] = useState(10);
   const [pageSizePre, setPageSizePre] = useState(10);
+  
+  const [paidDrugs, setPaidDrugs] = useState([]);
+  const [loadingPaidDrugs, setLoadingPaidDrugs] = useState(true);
+  const [errorPaidDrugs, setErrorPaidDrugs] = useState(null);
+  const [pageSizePaidDrugs, setPageSizePaidDrugs] = useState(10);
 
   // drugs for the payment row the user clicked
   const [selectedPayment, setSelectedPayment] = useState(null);
@@ -44,6 +51,12 @@ export default function DoctorInfoPage() {
       .then(resJson => setPrescriptions(resJson))
       .catch(() => setErrorPre('Could not load doctor prescriptions. Check that the backend is running.'))
       .finally(() => setLoadingPre(false));
+
+    fetch(`${API}/doctors/${npi}/paid-prescribed-drugs`)
+      .then(res => res.json())
+      .then(resJson => setPaidDrugs(resJson))
+      .catch(() => setErrorPaidDrugs('Could not load drugs that were both paid for and prescribed. Check that the backend is running.'))
+      .finally(() => setLoadingPaidDrugs(false));
   }, []);
 
   const paymentColumns = [
@@ -114,6 +127,51 @@ export default function DoctorInfoPage() {
     },
   ];
 
+  const paidDrugColumns = [
+    {
+      field: 'brand_name',
+      headerName: 'Drug',
+      minWidth: 180,
+      flex: 1,
+      renderCell: (params) => (
+        <Link component={NavLink} to={`/drug/${params.row.drug_id}`} underline='hover'>
+          {params.value}
+        </Link>
+      ),
+    },
+    { field: 'generic_name', headerName: 'Generic name', minWidth: 180, flex: 1 },
+    {
+      field: 'total_related_payments',
+      headerName: 'Related payments',
+      type: 'number',
+      minWidth: 150,
+      flex: 1,
+      valueFormatter: ({ value }) => formatCurrency(value),
+    },
+    {
+      field: 'n_related_payments',
+      headerName: 'Payment records',
+      type: 'number',
+      minWidth: 100,
+      valueFormatter: ({ value }) => formatNumber(value),
+    },
+    {
+      field: 'total_drug_cost',
+      headerName: 'Prescription cost',
+      type: 'number',
+      minWidth: 150,
+      flex: 1,
+      valueFormatter: ({ value }) => formatCurrency(value),
+    },
+    {
+      field: 'total_beneficiaries',
+      headerName: 'Patients',
+      type: 'number',
+      minWidth: 100,
+      valueFormatter: ({ value }) => formatNumber(value),
+    },
+  ];
+
   return (
     <Container>
       {selectedPayment && <PaymentDrugCard
@@ -157,6 +215,23 @@ export default function DoctorInfoPage() {
           </Card>
         </Stack>
       )}
+
+      <Typography variant='h5' sx={{ mt: 4 }}>Paid for and prescribed</Typography>
+      <Typography variant='body2' color='text.secondary' sx={{ mb: 1 }}>
+        Drugs linked to this doctor's industry payments that they also prescribed.
+      </Typography>
+      {errorPaidDrugs && <Alert severity='error' sx={{ mb: 1 }}>{errorPaidDrugs}</Alert>}
+      <DataGrid
+        rows={paidDrugs}
+        columns={paidDrugColumns}
+        getRowId={(row) => row.drug_id}
+        loading={loadingPaidDrugs}
+        pageSize={pageSizePaidDrugs}
+        onPageSizeChange={setPageSizePaidDrugs}
+        rowsPerPageOptions={[10, 25, 50]}
+        autoHeight
+        variant='doctor'
+      />
 
       <Typography variant='h5' sx={{ mt: 4 }}>Payments received</Typography>
       <Typography variant='body2' color='text.secondary' sx={{ mb: 1 }}>
