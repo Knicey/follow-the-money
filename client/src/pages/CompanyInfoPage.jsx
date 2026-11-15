@@ -129,7 +129,7 @@ export default function CompanyInfoPage(props) {
       {errorCompany && <Alert severity='error' sx={{ my: 2 }}>{errorCompany}</Alert>}
 
       <Typography variant='h4' sx={{ my: 1 }}>
-        {company ? company.company_name : (errorCompany ? 'Error' : 'Loading...')}
+        {company ? `${company.company_name}` : (errorCompany ? 'Error' : 'Loading...')}
       </Typography>
 
       {company && (
@@ -142,7 +142,7 @@ export default function CompanyInfoPage(props) {
       {company && (
         <Stack direction='row' spacing={2} sx={{ my: 3 }}>
           <Card variant='outlined' sx={{ p: 2, flex: 1 }}>
-            <Typography variant='body2' color='text.secondary'>Total Payments</Typography>
+            <Typography variant='body2' color='text.secondary'>Total Payments Made</Typography>
             <Typography variant='h5' sx={{ color: 'success.dark' }}>{formatCurrency(company.total_payments)}</Typography>
           </Card>
           <Card variant='outlined' sx={{ p: 2, flex: 1 }}>
