@@ -138,3 +138,14 @@ class PrescriptionBetweenDoctorsAnalyticsResponse(BaseModel):
     avg_claims_per_prescriber: float = Field(description="Average number of claims per prescribing doctor in the group.")
     total_drug_cost: float = Field(description="Total reported prescription drug cost for this drug in the group.")
     cost_per_claim: float = Field(description="Average drug cost per claim for this drug in the group.")
+
+class CompanyResponse(BaseModel):
+    """Response model for company summary."""
+    company_id: str = Field(description="The database identifier of the company.")
+    company_name: str = Field(description="The name of the company.")
+    state: str = Field(description="Two-letter state code of the company.")
+    country: str = Field(description="Country of the company.")
+    total_payments: float = Field(description="Total reported payment amount associated with the company.")
+    number_of_payments: int = Field(description="Number of payment records associated with the company.")
+    number_of_doctors: int = Field(description="Number of distinct doctors associated with the company.")
+    number_of_drugs: int = Field(description="Number of distinct drugs associated with the company.")
