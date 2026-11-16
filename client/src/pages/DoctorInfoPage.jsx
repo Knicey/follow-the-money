@@ -66,7 +66,7 @@ export default function DoctorInfoPage() {
       minWidth: 180,
       flex: 1,
       renderCell: (params) => (
-        <Link component={NavLink} to={`/company/${params.row.company_id}`} underline='hover'>
+        <Link component={NavLink} to={`/companies/${params.row.company_id}`} underline='hover'>
           {params.value}
         </Link>
       ),
