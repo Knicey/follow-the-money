@@ -21,18 +21,18 @@ const bodyFont = '"Inter", "Helvetica", "Arial", sans-serif';
 export const theme = createTheme({
   palette: {
     primary: {
-      main: '#1f7d99', // teal
+      main: '#1f7d99', // teal for doctors
       light: '#34b1ce',
       dark: '#005b77',
     },
     secondary: {
-      main: '#f99115', // orange pills
+      main: '#f99115', // orange for drugs
       light: '#ffa836',
       dark: '#f27e00',
     },
     success: {
-      main: '#127a46', // green
-      light: '#5dcd8a',
+      main: '#4ba670', // green for companies
+      light: '#a1e6bc',
       dark: '#127a46'
     },
   },
@@ -46,24 +46,90 @@ export const theme = createTheme({
     h6: { fontFamily: headingFont, fontWeight: 500 },
     h7: { fontFamily: headingFont, fontWeight: 500 },
   },
+  components: {
+    MuiChip: {
+      styleOverrides: {
+        root: {
+          borderRadius: '7px',
+          fontWeight: 'bold',
+        },
+      },
+      variants: [{
+        props: { variant: 'doctor' },
+        style: ({ theme }) => ({
+          backgroundColor: theme.palette.primary.main,
+          color: '#fff',
+          '&:hover': { backgroundColor: theme.palette.primary.dark },
+        }),
+      }, {
+        props: { variant: 'company' },
+        style: ({ theme }) => ({
+          backgroundColor: theme.palette.success.main,
+          color: '#fff',
+          '&:hover': { backgroundColor: theme.palette.success.dark },
+        }),
+      }, {
+        props: { variant: 'drug' },
+        style: ({ theme }) => ({
+          backgroundColor: theme.palette.secondary.main,
+          '&:hover': { backgroundColor: theme.palette.secondary.dark },
+        }),
+      }]
+    },
+    MuiDataGrid: {
+      styleOverrides: {
+        columnHeaders: {
+          backgroundColor: '#cccccc',
+        },
+        columnHeaderTitle: {
+          fontWeight: 600,
+          fontSize: '0.9rem',
+        },
+      },
+      variants: [{
+        props: { variant: 'doctor' },
+        style: ({ theme }) => ({
+          '& .MuiDataGrid-columnHeaders': {
+            backgroundColor: theme.palette.primary.dark,
+            color: '#fff',
+          },
+        }),
+      }, {
+        props: { variant: 'company' },
+        style: ({ theme }) => ({
+          '& .MuiDataGrid-columnHeaders': {
+            backgroundColor: theme.palette.success.light,
+          },
+        }),
+      }, {
+        props: { variant: 'drug' },
+        style: ({ theme }) => ({
+          '& .MuiDataGrid-columnHeaders': {
+            backgroundColor: theme.palette.secondary.dark,
+            color: '#fff',
+          },
+        }),
+      }],
+    },
+  },
 });
 
 /*
  * Logo colors
  *
- * Teals
+ * Teals (doctors)
  *  #1f7d99
  *  #005b77
  *  #34b1ce
  *  #2199ad
  *
- * Greens (dollar bill)
+ * Greens (companies)
  *  #a1e6bc
  *  #5dcd8a
  *  #4ba670
  *  #127a46
  *
- * Oranges (pills)
+ * Oranges (drugs)
  *  #f99115
  *  #f27e00
  *  #ffa836
@@ -72,6 +138,7 @@ export const theme = createTheme({
  *  #eaeaea
  *  #cccccc
  *  #999999
+ *  #888888
  */
 
 // App is the root component of our application and as children contain all our pages
@@ -87,7 +154,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/doctor" element={<DoctorHomePage />} />
-          <Route path="/doctor/:doctor_id" element={<DoctorInfoPage />} />
+          <Route path="/doctor/:npi" element={<DoctorInfoPage />} />
           <Route path="/company" element={<CompanyHomePage />} />
           <Route path="/company/:company_id" element={<CompanyInfoPage />} />
           <Route path="/drug" element={<DrugHomePage />} />
