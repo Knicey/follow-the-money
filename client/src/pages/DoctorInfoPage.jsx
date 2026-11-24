@@ -57,7 +57,7 @@ export default function DoctorInfoPage() {
       .then(resJson => setPaidDrugs(resJson))
       .catch(() => setErrorPaidDrugs('Could not load drugs that were both paid for and prescribed. Check that the backend is running.'))
       .finally(() => setLoadingPaidDrugs(false));
-  }, []);
+  }, [npi]);
 
   const paymentColumns = [
     {

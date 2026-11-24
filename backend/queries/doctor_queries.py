@@ -57,12 +57,13 @@ WITH paid AS (
     GROUP BY drug_id
 )
 SELECT d.drug_id, d.brand_name, d.generic_name,
-       paid.n_related_payments, paid.total_related_payments,
+       COALESCE(paid.n_related_payments, 0) AS n_related_payments,
+       COALESCE(paid.total_related_payments, 0) AS total_related_payments,
        rx.total_drug_cost, rx.total_beneficiaries
-FROM paid
-JOIN rx ON rx.drug_id = paid.drug_id
-JOIN drug d ON d.drug_id = paid.drug_id
-ORDER BY paid.total_related_payments DESC NULLS LAST, d.brand_name;
+FROM rx
+JOIN drug d ON d.drug_id = rx.drug_id
+LEFT JOIN paid ON paid.drug_id = rx.drug_id
+ORDER BY total_related_payments DESC, d.brand_name;
 """
 
 

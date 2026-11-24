@@ -40,10 +40,12 @@ SELECT c.company_id, c.company_name, c.state, c.country,
     COALESCE(SUM(p.amount), 0) AS total_payments,
     COUNT(p.record_id) AS number_of_payments,
     COUNT(DISTINCT p.npi) AS number_of_doctors,
-    COUNT(DISTINCT pd.drug_id) AS number_of_drugs
+    (SELECT COUNT(DISTINCT pd.drug_id)
+      FROM payment p_drug
+      JOIN paymentbydrug pd ON pd.record_id = p_drug.record_id
+      WHERE p_drug.company_id = c.company_id) AS number_of_drugs
 FROM company c
 LEFT JOIN payment p ON p.company_id = c.company_id
-LEFT JOIN paymentbydrug pd ON pd.record_id = p.record_id
 WHERE c.company_id = %s
 GROUP BY c.company_id, c.company_name, c.state, c.country
 ORDER BY total_payments DESC, c.company_name, c.company_id;

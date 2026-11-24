@@ -114,7 +114,10 @@ def get_company(
 ) -> CompanyResponse:
     """Return a specific company and its total payments."""
     try:
-        return fetch_company(connection, company_id)
+        company = fetch_company(connection, company_id)
+        if company is None:
+            raise HTTPException(status_code=404, detail="Company not found.")
+        return company
     except psycopg.Error as exc:
         logger.exception("Failed to query companies.")
         raise HTTPException(

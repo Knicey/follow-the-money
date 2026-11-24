@@ -12,7 +12,7 @@ export default function CompanyInfoPage(props) {
   const { company_id } = useParams();
 
   // const [company, setCompany] = useState(null);
-  const [company, setCompany] = useState({});
+  const [company, setCompany] = useState(null);
   const [payments, setPayments] = useState([]);
   const [drugPayments, setDrugPayments] = useState([]);
   const [loadingCompany, setLoadingCompany] = useState(true);
@@ -45,7 +45,7 @@ export default function CompanyInfoPage(props) {
       .finally(() => setLoadingDrug(false));
    
 
-  }, []);
+  }, [company_id]);
 
 
   const paymentColumns = [
@@ -165,7 +165,6 @@ export default function CompanyInfoPage(props) {
         pageSize={pageSizePay}
         onPageSizeChange={setPageSizePay}
         rowsPerPageOptions={[10, 25, 50]}
-        onRowClick={(params) => setSelectedPayment(params.row)}
         autoHeight
         variant='doctor'
       />
