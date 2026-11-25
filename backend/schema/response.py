@@ -128,8 +128,8 @@ class DoctorHighPaymentsAnalyticsResponse(BaseModel):
 
 class PrescriptionBetweenDoctorsAnalyticsResponse(BaseModel):
     """Response model for prescription between doctors analytics."""
-    specialty: str
-    state: str
+    specialty: str | None
+    state: str | None
     drug_id: int
     brand_name: str
     generic_name: str
