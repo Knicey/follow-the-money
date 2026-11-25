@@ -16,7 +16,13 @@ router = APIRouter()
 TAG = "Analytics"
 
 
-@router.get("/doctor-payments", tags=[TAG], response_model=list[DoctorPaymentsAnalyticsResponse])
+@router.get(
+    "/doctor-payments",
+    tags=[TAG],
+    response_model=list[DoctorPaymentsAnalyticsResponse],
+    summary="Get doctor payment and prescribing analytics",
+    description="Return payment totals and prescribing statistics for each doctor.",
+)
 def list_doctor_payments(
     connection: Annotated[
         Connection[dict[str, Any]],
@@ -35,7 +41,13 @@ def list_doctor_payments(
 
 
 
-@router.get("/company-payments", tags=[TAG], response_model=list[CompanyPaymentsAnalyticsResponse])
+@router.get(
+    "/company-payments",
+    tags=[TAG],
+    response_model=list[CompanyPaymentsAnalyticsResponse],
+    summary="Get company payment analytics",
+    description="Return payment totals and counts for each company, with payment-category breakdowns and associated drugs.",
+)
 def list_company_payments(
     connection: Annotated[
         Connection[dict[str, Any]],
@@ -54,7 +66,13 @@ def list_company_payments(
 
 
 
-@router.get("/doctor-high-payments", tags=[TAG], response_model=list[DoctorHighPaymentsAnalyticsResponse])
+@router.get(
+    "/doctor-high-payments",
+    tags=[TAG],
+    response_model=list[DoctorHighPaymentsAnalyticsResponse],
+    summary="Find doctors with high payments",
+    description="Return doctors whose total payments exceed the 95th percentile for their specialty, with specialty benchmarks.",
+)
 def list_doctor_high_payments(
     connection: Annotated[
         Connection[dict[str, Any]],
@@ -72,7 +90,13 @@ def list_doctor_high_payments(
         ) from exc
 
 
-@router.get("/prescription-between-doctors", tags=[TAG], response_model=list[PrescriptionBetweenDoctorsAnalyticsResponse])
+@router.get(
+    "/prescription-between-doctors",
+    tags=[TAG],
+    response_model=list[PrescriptionBetweenDoctorsAnalyticsResponse],
+    summary="Compare prescribing by payment status",
+    description="Compare prescription volume and drug costs by specialty, state, and whether doctors received payments.",
+)
 def list_prescription_between_doctors(
     connection: Annotated[
         Connection[dict[str, Any]],

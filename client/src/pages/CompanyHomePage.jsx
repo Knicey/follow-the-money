@@ -8,10 +8,14 @@ import config from '../config.json';
 import { formatCurrency } from '../helpers/formatter';
 
 export default function CompanyHomePage() {
-  // const [doctors, setDoctors] = useState([]);
-  // const [loading, setLoading] = useState(true);
-  // const [error, setError] = useState(null);
-  // const [pageSize, setPageSize] = useState(25);
+  const [companies, setCompanies] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+  const [pageSize, setPageSize] = useState(25);
+
+  // TODO: replace this useEffect and columns with actual
+  useEffect(() => setLoading(false))
+  const columns = []
 
   // useEffect(() => {
   //   fetch(`http://${config.server_host}:${config.server_port}/doctors`)
@@ -62,17 +66,17 @@ export default function CompanyHomePage() {
 
   return (
     <Container>
-      <Typography variant='h4' style={{ margin: '15px 0px' }}>
+      <Typography variant='h4' sx={{ my: 2 }}>
         Companies
       </Typography>
-      {/* <Typography style={{ margin: '15px 0px' }}>
-        See the payments each doctor received and the cost of the drugs they prescribed. Select a doctor to see the details.
+      <Typography color='text.secondary' sx={{ my: 2 }}>
+        TODO: insert description
       </Typography>
 
-      {error && <Alert severity='error' style={{ margin: '15px 0px' }} >{error}</Alert>}
+      {error && <Alert severity='error' sx={{ my: 2 }} >{error}</Alert>}
 
       <DataGrid
-        rows={doctors}
+        rows={companies}
         columns={columns}
         pageSize={pageSize}
         onPageSizeChange={setPageSize}
@@ -81,17 +85,9 @@ export default function CompanyHomePage() {
         loading={loading}
         autoHeight
         initialState={{ sorting: { sortModel: [{ field: 'total_payments', sort: 'desc' }] } }}
-        style={{ margin: '30px 0px' }}
-        sx={{
-          '& .MuiDataGrid-columnHeaders': {
-            backgroundColor: 'secondary.dark',
-            color: '#fff',
-          },
-          '& .MuiDataGrid-columnHeaderTitle': {
-            fontWeight: '600',
-          },
-        }}
-      /> */}
+        sx={{ my: 4 }}
+        variant="company"
+      />
     </Container>
   );
 }
