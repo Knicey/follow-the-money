@@ -137,8 +137,8 @@ class DoctorHighPaymentsAnalyticsResponse(BaseModel):
 
 class PrescriptionBetweenDoctorsAnalyticsResponse(BaseModel):
     """Response model for prescription between doctors analytics."""
-    specialty: str = Field(description="Medical specialty of the doctors in this group.")
-    state: str = Field(description="Two-letter state code for the doctors in this group.")
+    specialty: str | None = Field(description="Medical specialty of the doctors in this group, if available.")
+    state: str | None = Field(description="Two-letter state code for the doctors in this group, if available.")
     drug_id: int = Field(description="Unique identifier of the drug.")
     brand_name: str = Field(description="Brand name of the drug.")
     generic_name: str = Field(description="Generic name of the drug.")

@@ -187,17 +187,21 @@ ORDER BY dt.total_payments DESC;
 
 
 PRESC_BETWEEN_DOCTORS_ANALYTICS_QUERY = """
-WITH DoctorPaymentStatus AS (
+WITH DoctorPaymentSummary AS (
+    SELECT
+        npi,
+        COALESCE(SUM(amount), 0) AS total_payments
+    FROM payment
+    GROUP BY npi
+),
+DoctorPaymentStatus AS (
     SELECT
         d.npi,
         d.specialty,
         d.state,
-        EXISTS (
-            SELECT 1
-            FROM payment p
-            WHERE p.npi = d.npi
-        ) AS received_payment
+        COALESCE(dps.total_payments, 0) > 0 AS received_payment
     FROM doctor d
+    LEFT JOIN DoctorPaymentSummary dps ON dps.npi = d.npi
 ),
 PrescribingSummary AS (
     SELECT
