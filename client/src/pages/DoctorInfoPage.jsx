@@ -150,7 +150,7 @@ export default function DoctorInfoPage() {
     },
     {
       field: 'n_related_payments',
-      headerName: 'Payment records',
+      headerName: 'Payments',
       type: 'number',
       minWidth: 100,
       valueFormatter: ({ value }) => formatNumber(value),
@@ -197,7 +197,7 @@ export default function DoctorInfoPage() {
 
       {doctor && (
         <Typography color='text.secondary'>
-          {doctor.specialty}<br/>
+          {doctor.specialty.replace(/\|/g, " | ")}<br/>
           {`${doctor.city}, ${doctor.state}`}<br/>
           {`NPI: ${doctor.npi}`}
         </Typography>

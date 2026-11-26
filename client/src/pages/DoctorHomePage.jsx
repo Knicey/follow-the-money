@@ -42,6 +42,7 @@ export default function DoctorHomePage() {
       headerName: 'Specialty',
       minWidth: 180,
       flex: 1.2,
+      valueFormatter: ({ value }) => value.replace(/\|/g, " | "),
     },
     { field: 'city', headerName: 'City', minWidth: 150 },
     { field: 'state', headerName: 'State', minWidth: 80 },
