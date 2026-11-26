@@ -6,9 +6,9 @@ from fastapi import APIRouter, Depends, HTTPException, Path
 from psycopg import Connection
 
 from backend.database import get_connection
-from backend.queries.company_queries import fetch_companies, fetch_company_payments
+from backend.queries.company_queries import fetch_companies, fetch_company_payments, fetch_company_drug_payments, fetch_company
 
-from backend.schema.response import CompanySummaryResponse, CompanyPaymentDoctorResponse, CompanyPaymentDrugResponse
+from backend.schema.response import CompanySummaryResponse, CompanyPaymentDoctorResponse, CompanyPaymentDrugResponse, CompanyResponse
 
 logger = logging.getLogger(__name__)
 router = APIRouter()
@@ -87,10 +87,39 @@ def list_company_drug_payments(
 ) -> list[CompanyPaymentDrugResponse]:
     """Return all drug-related payments for a specific company."""
     try:
-        from backend.queries.company_queries import fetch_company_drug_payments
         return fetch_company_drug_payments(connection, company_id)
     except psycopg.Error as exc:
         logger.exception("Failed to query company drug payments.")
+        raise HTTPException(
+            status_code=503,
+            detail="Unable to query the PostgreSQL database.",
+        ) from exc
+
+@router.get(
+    "/company/{company_id}",
+    tags=[TAG],
+    response_model=CompanyResponse,
+    summary="Get a company",
+    description="Return the specified company and the total amount of payments attributed to it.",
+)
+def get_company(
+    company_id: Annotated[
+        str,
+        Path(description="The database identifier of the company."),
+    ],
+    connection: Annotated[
+        Connection[dict[str, Any]],
+        Depends(get_connection),
+    ],
+) -> CompanyResponse:
+    """Return a specific company and its total payments."""
+    try:
+        company = fetch_company(connection, company_id)
+        if company is None:
+            raise HTTPException(status_code=404, detail="Company not found.")
+        return company
+    except psycopg.Error as exc:
+        logger.exception("Failed to query companies.")
         raise HTTPException(
             status_code=503,
             detail="Unable to query the PostgreSQL database.",

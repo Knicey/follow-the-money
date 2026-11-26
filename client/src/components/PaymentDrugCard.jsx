@@ -37,7 +37,7 @@ export default function PaymentDrugCard({ payment, handleClose }) {
             key={payment.company_id}
             label={payment.company_name}
             component={NavLink}
-            to={`/company/${payment.company_id}`}
+            to={`/companies/${payment.company_id}`}
             clickable
             variant='company'
             sx={{ mb: 2 }}

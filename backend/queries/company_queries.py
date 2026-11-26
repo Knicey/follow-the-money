@@ -35,6 +35,22 @@ GROUP BY d.drug_id, d.brand_name
 ORDER BY total_related_payments DESC NULLS LAST;
 """
 
+COMPANY_SUMMARY_BY_ID_QUERY = """
+SELECT c.company_id, c.company_name, c.state, c.country,
+    COALESCE(SUM(p.amount), 0) AS total_payments,
+    COUNT(p.record_id) AS number_of_payments,
+    COUNT(DISTINCT p.npi) AS number_of_doctors,
+    (SELECT COUNT(DISTINCT pd.drug_id)
+      FROM payment p_drug
+      JOIN paymentbydrug pd ON pd.record_id = p_drug.record_id
+      WHERE p_drug.company_id = c.company_id) AS number_of_drugs
+FROM company c
+LEFT JOIN payment p ON p.company_id = c.company_id
+WHERE c.company_id = %s
+GROUP BY c.company_id, c.company_name, c.state, c.country
+ORDER BY total_payments DESC, c.company_name, c.company_id;
+"""
+
 
 def fetch_companies(
     connection: Connection[dict[str, Any]],
@@ -58,3 +74,11 @@ def fetch_company_drug_payments(
     with connection.cursor() as cursor:
         cursor.execute(COMPANY_PAYMENTS_DRUG_QUERY, (company_id,))
         return cursor.fetchall()
+
+def fetch_company(
+    connection: Connection[dict[str, Any]],
+    company_id: str,
+) -> dict[str, Any] | None:
+    with connection.cursor() as cursor:
+        cursor.execute(COMPANY_SUMMARY_BY_ID_QUERY, (company_id,))
+        return cursor.fetchone()

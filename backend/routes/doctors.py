@@ -61,7 +61,10 @@ def get_doctor(
 ) -> DoctorSummaryResponse:
     """Return summary information associated with one doctor."""
     try:
-        return fetch_doctor(connection, npi)
+        doctor = fetch_doctor(connection, npi)
+        if doctor is None:
+            raise HTTPException(status_code=404, detail="Doctor not found.")
+        return doctor
     except psycopg.Error as exc:
         logger.exception("Failed to query summary info for doctor NPI %s.", npi)
         raise HTTPException(

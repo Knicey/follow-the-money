@@ -3,9 +3,10 @@ import { Container, Typography, Alert, Link } from '@mui/material';
 import { DataGrid } from '@mui/x-data-grid';
 import { NavLink } from 'react-router-dom';
 
+
 import config from '../config.json';
 
-import { formatCurrency } from '../helpers/formatter';
+import { formatCurrency, formatNumber } from '../helpers/formatter';
 
 export default function CompanyHomePage() {
   const [companies, setCompanies] = useState([]);
@@ -14,49 +15,36 @@ export default function CompanyHomePage() {
   const [pageSize, setPageSize] = useState(25);
 
   // TODO: replace this useEffect and columns with actual
-  useEffect(() => setLoading(false))
-  const columns = []
-
   // useEffect(() => {
-  //   fetch(`http://${config.server_host}:${config.server_port}/doctors`)
+  //   fetch(`http://${config.server_host}:${config.server_port}/companies`)
   //     .then(res => res.json())
-  //     .then(resJson => setDoctors(resJson))
-  //     .catch(() => setError('Could not load doctors. Check that the backend is running.'))
+  //     .then(resJson => setCompanies(resJson))
+  //     .catch(() => setError('Could not load companies. Check that the backend is running.'))
   //     .finally(() => setLoading(false));
   // }, []);
 
+
   // const columns = [
   //   {
-  //     field: 'name',
-  //     headerName: 'Doctor',
-  //     minWidth: 180,
+  //     field: 'company_name',
+  //     headerName: 'Company Name',
+  //     minWidth: 200,
   //     flex: 1,
-  //     valueGetter: (params) => `${params.row.last_name}, ${params.row.first_name}`,
   //     renderCell: (params) => (
-  //       <Link component={NavLink} to={`/doctor/${params.row.npi}`} underline='hover'>
+  //       <Link component={NavLink} to={`/companies/${params.row.company_id}`} underline='hover'>
   //         {params.value}
   //       </Link>
   //     ),
   //   },
   //   {
-  //     field: 'specialty',
-  //     headerName: 'Specialty',
+  //     field: 'company_id',
+  //     headerName: 'Company ID',
   //     minWidth: 180,
   //     flex: 1.2,
   //   },
-  //   { field: 'city', headerName: 'City', minWidth: 150 },
-  //   { field: 'state', headerName: 'State', minWidth: 80 },
   //   {
   //     field: 'total_payments',
-  //     headerName: 'Payments received',
-  //     type: 'number',
-  //     minWidth: 180,
-  //     flex: 1,
-  //     valueFormatter: ({ value }) => formatCurrency(value),
-  //   },
-  //   {
-  //     field: 'total_drug_cost',
-  //     headerName: 'Prescription drug cost',
+  //     headerName: 'Total Payments',
   //     type: 'number',
   //     minWidth: 180,
   //     flex: 1,
@@ -64,13 +52,66 @@ export default function CompanyHomePage() {
   //   },
   // ];
 
+    // TODO: replace this useEffect and columns with actual
+  useEffect(() => {
+    fetch(`http://${config.server_host}:${config.server_port}/company-payments`)
+      .then(res => res.json())
+      .then(resJson => setCompanies(resJson))
+      .catch(() => setError('Could not load companies. Check that the backend is running.'))
+      .finally(() => setLoading(false));
+  }, []);
+
+  const columns = [
+    {
+      field: 'company_name',
+      headerName: 'Company Name',
+      minWidth: 200,
+      flex: 1.2,
+      renderCell: (params) => (
+        <Link component={NavLink} to={`/companies/${params.row.company_id}`} underline='hover'>
+          {params.value}
+        </Link>
+      ),
+    },
+    {
+      field: 'company_id',
+      headerName: 'Company ID',
+      minWidth: 100,
+      flex: 0.7,
+    },
+    {
+      field: 'doctors_paid',
+      headerName: 'Doctors Paid',
+      type: 'number',
+      minWidth: 100,
+      flex: 0.7,
+      valueFormatter: ({ value }) => formatNumber(value),
+    },
+     {
+      field: 'payment_records',
+      headerName: 'Payments',
+      type: 'number',
+      minWidth: 100,
+      flex: 0.7,
+      valueFormatter: ({ value }) => formatNumber(value),
+    },
+    {
+      field: 'total_amount',
+      headerName: 'Total Amount',
+      type: 'number',
+      minWidth: 180,
+      flex: 1,
+      valueFormatter: ({ value }) => formatCurrency(value),
+    },
+  ];
+
   return (
     <Container>
       <Typography variant='h4' sx={{ my: 2 }}>
         Companies
       </Typography>
       <Typography color='text.secondary' sx={{ my: 2 }}>
-        TODO: insert description
+        See the total payments each company made. Select a company to see the details.
       </Typography>
 
       {error && <Alert severity='error' sx={{ my: 2 }} >{error}</Alert>}
@@ -81,10 +122,10 @@ export default function CompanyHomePage() {
         pageSize={pageSize}
         onPageSizeChange={setPageSize}
         rowsPerPageOptions={[25, 50, 100]}
-        getRowId={(row) => row.npi}
+        getRowId={(row) => row.company_id}
         loading={loading}
         autoHeight
-        initialState={{ sorting: { sortModel: [{ field: 'total_payments', sort: 'desc' }] } }}
+        initialState={{ sorting: { sortModel: [{ field: 'total_amount', sort: 'desc' }] } }}
         sx={{ my: 4 }}
         variant="company"
       />

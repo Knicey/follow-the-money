@@ -57,7 +57,7 @@ export default function DoctorInfoPage() {
       .then(resJson => setPaidDrugs(resJson))
       .catch(() => setErrorPaidDrugs('Could not load drugs that were both paid for and prescribed. Check that the backend is running.'))
       .finally(() => setLoadingPaidDrugs(false));
-  }, []);
+  }, [npi]);
 
   const paymentColumns = [
     {
@@ -66,7 +66,7 @@ export default function DoctorInfoPage() {
       minWidth: 180,
       flex: 1,
       renderCell: (params) => (
-        <Link component={NavLink} to={`/company/${params.row.company_id}`} underline='hover'>
+        <Link component={NavLink} to={`/companies/${params.row.company_id}`} underline='hover'>
           {params.value}
         </Link>
       ),
